@@ -31,7 +31,7 @@ const accrodionData = [
     },
     { 
     id: 6, 
-    title: "İlgili Kişi Olarak Haklarınız Nelerdir?a", 
+    title: "İlgili Kişi Olarak Haklarınız Nelerdir?", 
     text: "Kişisel verilerinize ilişkin; Kişisel verilerinizin işlenip işlenmediğini öğrenme, Kişisel verileriniz işlenmişse buna ilişkin bilgi talep etme, Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, Yurt içinde veya yurt dışında kişisel verilerinizin aktarıldığı üçüncü kişileri bilme, Kişisel verilerinizin eksik veya yanlış işlenmiş olması halinde bunların düzeltilmesini isteme, KVKK mevzuatında öngörülen şartlar çerçevesinde kişisel verilerinizin silinmesini veya yok edilmesini isteme, Eksik veya yanlış verilerin düzeltilmesi ile kişisel verilerinizin silinmesi veya yok edilmesini talep ettiğinizde, bu durumun kişisel verilerinizi aktardığımız üçüncü kişilere bildirilmesini isteme ve Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğramanız halinde bu zararın giderilmesini talep etme, haklarına sahipsiniz. Kişisel verilerinize ilişkin başvuru ve taleplerinizi, koksalozdamaravukatlik@hs02.kep.tr adresine KEP üzerinden, başvurunuzu mail ile yapmışsanız ve aynı e-posta adresini kullanarak ik@koksalpartners.com adresine mail göndererek ya da ilgili mevzuatta öngörülen diğer yöntemlerle başvurabilirsiniz. Başvurunuzun yanıtlanması veya olumlu sonuçlandırılması için ek bir bilgi veya belge gerekiyorsa lütfen bunları da başvurunuza eklemeyi unutmayınız." 
     },
   ];
