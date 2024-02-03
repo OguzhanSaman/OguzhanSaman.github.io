@@ -2,6 +2,8 @@ import Header from "@/components/Header/Header";
 import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/Reuseable/PageHeader";
 import React, { useState } from "react";
+import Link from "next/link";
+
 
 const Career = () => {
   const [buttonClicked, setButtonClicked] = useState(null);
@@ -22,9 +24,9 @@ const Career = () => {
                 <h3 className="career-page__title">Ekibimize Katılın!</h3>
                 <h4 className="career-page__title2">
                   Önce bizi biraz tanımak istersen{" "}
-                  <a href="/hakkimizda" style={{ color: "darkblue" }}>
+                  <Link legacyBehavior href="/hakkimizda" style={{ color: "darkblue" }}>
                     hakkımızda
-                  </a>{" "}
+                  </Link>
                   sayfasına göz atabilirsin.
                 </h4>
                 <h4 className="career-page__title2">Başvurmadan Önce:</h4>
@@ -61,16 +63,16 @@ const Career = () => {
                   </div>
                   <div className="application-forms">
                     {buttonClicked === 1 && (
-                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLSedxTKt40c1kf5Vj-_SESCRh3FplA59tcmYLIifrqx8sY0cgQ/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLSedxTKt40c1kf5Vj-_SESCRh3FplA59tcmYLIifrqx8sY0cgQ/viewform?embedded=true" width="640" height="422" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     )}
                     {buttonClicked === 2 && (
-                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeWtZA1YIwt6ySA4PfeCvC5DpGE1yDAuKn_WusOytw5GQHZWw/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLSeWtZA1YIwt6ySA4PfeCvC5DpGE1yDAuKn_WusOytw5GQHZWw/viewform?embedded=true" width="640" height="422" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     )}
                     {buttonClicked === 3 && (
-                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLScJI0aoVz89WCA2avtZcUY26RXOqVjp4bpxtPKgfEUOTxbPbA/viewform?embedded=true" width="640" height="422" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                      <iframe className="application-form" src="https://docs.google.com/forms/d/e/1FAIpQLScJI0aoVz89WCA2avtZcUY26RXOqVjp4bpxtPKgfEUOTxbPbA/viewform?embedded=true" width="640" height="422" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     )}
                     {buttonClicked === 4 && (
-                      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcTyOO6uHgrVCn-kSe9QN3uAnoxQnI8ndQyRMiNWr-jEZ0wQ/viewform?embedded=true" width="640" height="1494" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfcTyOO6uHgrVCn-kSe9QN3uAnoxQnI8ndQyRMiNWr-jEZ0wQ/viewform?embedded=true" width="640" height="1494" frameBorder="0" marginHeight="0" marginWidth="0">Loading…</iframe>
                     )}
                   </div>
               </div>

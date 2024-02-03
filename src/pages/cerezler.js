@@ -3,6 +3,8 @@ import Layout from "@/components/Layout/Layout";
 import PageHeader from "@/components/Reuseable/PageHeader";
 import React, { useState } from "react";
 import Faqs from "/src/components/FAQsPage/Faqs.js";
+import Link from "next/link";
+
 const accrodionData = [
     { 
     id: 1, 
@@ -151,7 +153,7 @@ const AydinlatmaMetni = () => {
                     Çerezleri yönetmek amacıyla ekranınızın sol alt köşesinde logosu bulunan çerez yönetim panelindeki butonları kullanabilirsiniz. Ayarlarınızı etkin hâle getirmek için sayfayı yenileyiniz. İnternet sitemizi kullanabilmek için çerez kullanımı zorunlu değildir, fakat tarayıcınızı çerezleri kabul etmemeye ayarlamanız halinde kullanıcı deneyiminizin kalitesi düşebilir ve sitelerimizin çeşitli işlevleri bozulabilir. Özellikle teknik çerezler, Site’nin temel işlevlerini yerine getirebilmesini sağlamaktadır. Teknik çerezler Site’nin teknik olarak çalışmasını tesis ettiğinden bunları kapatmanız halinde Site’de bazı fonksiyonların gereği gibi çalışmaması söz konusu olabilir. Tarayıcınızı; çerezleri tüm siteler veya belirli siteler için engelleyecek şekilde, çerez oluşturulduğunda uyarı verecek şekilde, üçüncü taraf çerezleri engelleyecek şekilde veya tüm çerezleri oturum çerezi gibi sayacak şekilde yapılandırabilirsiniz.
                 <strong>8. İlgili Kişilerin Talepleri</strong>
                     <br />
-                    6698 sayılı Kişisel Verileri Koruma Kanunu’nun on birinci maddesi kapsamındaki haklarınız ve ayrıntılı bilgi için <a href="/aydinlatma-metni">KVKK Aydınlatma Metni</a>’ni inceleyebilirsiniz. Köksal&Partners çerezlerle ilgili kullanım şartlarını ve Çerez Aydınlatma Metni’ni değiştirme hakkını saklı tutar.
+                    6698 sayılı Kişisel Verileri Koruma Kanunu’nun on birinci maddesi kapsamındaki haklarınız ve ayrıntılı bilgi için <Link legacyBehavior href="/aydinlatma-metni">KVKK Aydınlatma Metni</Link>’ni inceleyebilirsiniz. Köksal&Partners çerezlerle ilgili kullanım şartlarını ve Çerez Aydınlatma Metni’ni değiştirme hakkını saklı tutar.
                 </p>
               </div>
             </div>
