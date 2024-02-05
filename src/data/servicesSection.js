@@ -58,7 +58,7 @@ export const servicesOne = {
 };
 
 export const servicesTwo = {
-  title: "Çalışma Alanlarımız",
+  title: "",
   tagline: "Çalışma Alanlarımız",
   services: [
     {

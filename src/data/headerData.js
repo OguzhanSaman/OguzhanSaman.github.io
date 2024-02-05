@@ -21,11 +21,6 @@ export const servicesSubNavItems = [
 export const navItems = [
   home,
   {
-    id: 2,
-    name: "Çalışma Alanlarımız",
-    href: "/hizmetler",
-  },
-  {
     id: 3,
     name: "Hakkımızda",
     href: "/hakkimizda",
@@ -34,15 +29,22 @@ export const navItems = [
     ],
   },
   {
-    id: 5,
-    name: "Haberler ve Yayınlar",
-    href: "/haberler-ve-yayinlar",
-  },
-  {
     id: 6,
     name: "Ekibimiz",
     href: "/ekip",
   },
+  {
+    id: 2,
+    name: "Çalışma Alanlarımız",
+    href: "/hizmetler",
+  },
+
+  {
+    id: 5,
+    name: "Haberler ve Yayınlar",
+    href: "/haberler-ve-yayinlar",
+  },
+
   {
     id: 7,
     name: "İletişim",
