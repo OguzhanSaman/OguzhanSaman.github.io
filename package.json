@@ -5,9 +5,9 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start",
+    "start": "next start -p $PORT -H 0.0.0.0",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d .next",
+    "deploy": "NEXT_PUBLIC_BASE_PATH=/oguzhansaman.github.io next build && gh-pages -d .next",
     "postdeploy": "rm -rf out"
   },
   "dependencies": {

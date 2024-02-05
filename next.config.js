@@ -2,8 +2,13 @@
 
 const nextConfig = {
   reactStrictMode: true,
-  basePath: '/oguzhansaman.github.io',
-  assetPrefix: '/oguzhansaman.github.io',
+  basePath: process.env.NEXT_PUBLIC_BASE_PATH || '/oguzhansaman.github.io',
+  assetPrefix: process.env.NEXT_PUBLIC_BASE_PATH || '/oguzhansaman.github.io',
+  exportPathMap: function () {
+    return {
+      '/': { page: '/' },
+    };
+  },
 };
 
 module.exports = nextConfig;
