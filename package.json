@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "next build && gh-pages -d .next/server",
+    "deploy": "next build && gh-pages -d .next/server/pages",
     "postdeploy": "rm -rf out"
   },
   "dependencies": {

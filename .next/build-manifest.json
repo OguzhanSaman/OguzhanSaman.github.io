@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/MmtdalbBQntDgJ1fqzsov/_buildManifest.js",
-    "static/MmtdalbBQntDgJ1fqzsov/_ssgManifest.js"
+    "static/YtUpm4xdH3Qlla5CGO2vg/_buildManifest.js",
+    "static/YtUpm4xdH3Qlla5CGO2vg/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -19,7 +19,7 @@
       "static/chunks/599-acb57c971071ca56.js",
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
-      "static/chunks/pages/index-738ad81c1f0c1968.js"
+      "static/chunks/pages/index-1ae111f4f18bcae7.js"
     ],
     "/404": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -58,7 +58,7 @@
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
       "static/chunks/894-d5616d6967ba9026.js",
-      "static/chunks/pages/bilisim-hukuku-a2d36d930988072f.js"
+      "static/chunks/pages/bilisim-hukuku-cbda85cee6c08e50.js"
     ],
     "/blog": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -137,7 +137,7 @@
       "static/chunks/266-57c7d43c0498162c.js",
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/466-7122fa261669035b.js",
-      "static/chunks/pages/ekip-95673a07db7a3ad3.js"
+      "static/chunks/pages/ekip-a9c70cffbb608bde.js"
     ],
     "/faq": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -155,7 +155,7 @@
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
       "static/chunks/894-d5616d6967ba9026.js",
-      "static/chunks/pages/gayrimenkul-ve-insaat-hukuku-0ee03449d2145518.js"
+      "static/chunks/pages/gayrimenkul-ve-insaat-hukuku-1487e0a43c408aae.js"
     ],
     "/haberler-ve-yayinlar": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -192,7 +192,7 @@
       "static/chunks/main-36d25cbcdbf1f49a.js",
       "static/chunks/266-57c7d43c0498162c.js",
       "static/chunks/587-c715a930c43356de.js",
-      "static/chunks/pages/iletisim-2d69854419c30046.js"
+      "static/chunks/pages/iletisim-8ba93d7f3ca36c27.js"
     ],
     "/is-hukuku": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -202,7 +202,7 @@
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
       "static/chunks/894-d5616d6967ba9026.js",
-      "static/chunks/pages/is-hukuku-149b5946b795afe5.js"
+      "static/chunks/pages/is-hukuku-5746be119a971eb6.js"
     ],
     "/kariyer": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -249,7 +249,7 @@
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
       "static/chunks/894-d5616d6967ba9026.js",
-      "static/chunks/pages/sirketler-ve-sozlesmeler-hukuku-bd7bce7afbe8d075.js"
+      "static/chunks/pages/sirketler-ve-sozlesmeler-hukuku-e1a35208238e9b46.js"
     ],
     "/team-2": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -259,7 +259,7 @@
       "static/chunks/719-11c76de6e0c574de.js",
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/466-7122fa261669035b.js",
-      "static/chunks/pages/team-2-e9c2afa62faba24e.js"
+      "static/chunks/pages/team-2-3b3c0a3a84a09bcc.js"
     ],
     "/telekominikasyon-hukuku": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -269,7 +269,7 @@
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
       "static/chunks/894-d5616d6967ba9026.js",
-      "static/chunks/pages/telekominikasyon-hukuku-ea62a1585ab04412.js"
+      "static/chunks/pages/telekominikasyon-hukuku-31de778e89a4b53b.js"
     ],
     "/testimonials": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -277,7 +277,7 @@
       "static/chunks/main-36d25cbcdbf1f49a.js",
       "static/chunks/266-57c7d43c0498162c.js",
       "static/chunks/587-c715a930c43356de.js",
-      "static/chunks/pages/testimonials-f35d8131b2ad62c5.js"
+      "static/chunks/pages/testimonials-62173be8b3cbdafd.js"
     ]
   },
   "ampFirstPages": []
