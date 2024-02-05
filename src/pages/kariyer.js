@@ -24,7 +24,7 @@ const Career = () => {
                 <h3 className="career-page__title">Ekibimize Katılın!</h3>
                 <h4 className="career-page__title2">
                   Önce bizi biraz tanımak istersen{" "}
-                  <Link legacyBehavior href="/hakkimizda" style={{ color: "darkblue" }}>
+                  <Link href="/hakkimizda" style={{ color: "darkblue" }}>
                     hakkımızda
                   </Link>
                   sayfasına göz atabilirsin.

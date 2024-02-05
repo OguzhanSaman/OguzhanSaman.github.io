@@ -3,7 +3,7 @@ import headerData from "@/data/headerData";
 import useScroll from "@/hooks/useScroll";
 import React from "react";
 import { Image } from "react-bootstrap";
-import Link from "../Reuseable/Link";
+import Link from "next/link";
 import MenuList from "./MenuList";
 
 const { logo, navItems: items, callText, phone, phoneHref } = headerData;
@@ -39,9 +39,11 @@ const Header = ({ mainMenuClass = "", navItems = items, onePage = false }) => {
         >
           <div className="main-menu-wrapper__left">
             <div className="main-menu-wrapper__logo">
-              <Link href="/">
+            <Link href="/">
+              <a>
                 <Image src={logo.src} alt="Köksal Partners Logo" />
-              </Link>
+              </a>
+            </Link>
             </div>
             <div className="main-menu-wrapper__main-menu">
               <a onClick={handleToggleMenu} className="mobile-nav__toggler">
