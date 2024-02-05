@@ -5,8 +5,8 @@
   "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/t5o9pT0mcuRyjzZ5umA2v/_buildManifest.js",
-    "static/t5o9pT0mcuRyjzZ5umA2v/_ssgManifest.js"
+    "static/MmtdalbBQntDgJ1fqzsov/_buildManifest.js",
+    "static/MmtdalbBQntDgJ1fqzsov/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
@@ -19,7 +19,7 @@
       "static/chunks/599-acb57c971071ca56.js",
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/738-e0937b6c74ef13c4.js",
-      "static/chunks/pages/index-30032a1edfd8253d.js"
+      "static/chunks/pages/index-738ad81c1f0c1968.js"
     ],
     "/404": [
       "static/chunks/webpack-cced458da0df2b58.js",
@@ -175,7 +175,7 @@
       "static/chunks/655-702c86686c7ce44c.js",
       "static/chunks/587-c715a930c43356de.js",
       "static/chunks/466-7122fa261669035b.js",
-      "static/chunks/pages/hakkimizda-7c050295526f454b.js"
+      "static/chunks/pages/hakkimizda-de4e8347c0d8f044.js"
     ],
     "/hizmetler": [
       "static/chunks/webpack-cced458da0df2b58.js",
