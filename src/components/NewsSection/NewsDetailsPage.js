@@ -1,16 +1,19 @@
-import { newsSidebarSide, newsDetails } from "@/data/newsSection";
+// NewsDetailsPage.js
 import React from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import NewsDetailsLeft from "./NewsDetailsLeft";
+import { newsSidebar } from "@/data/newsSection"; // Import the newsSidebar object
 
+const NewsDetailsPage = ({ slug }) => {
+  // Find the news item that matches the provided slug
+  const newsItem = newsSidebar.newses.find(item => item.slug === slug);
 
-const NewsDetailsPage = () => {
   return (
     <section className="news-details">
       <Container>
         <Row>
           <Col xl={10} lg={7}>
-            <NewsDetailsLeft news={newsDetails} />
+            {newsItem && <NewsDetailsLeft news={newsItem} />}
           </Col>
         </Row>
       </Container>

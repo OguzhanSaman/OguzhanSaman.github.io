@@ -41,7 +41,7 @@ const footerData = {
     {
       id: 3,
       text: "Yayınlarımız",
-      href: "/blog",
+      href: "/haberler-ve-yayinlar",
     },
     {
       id: 5,
