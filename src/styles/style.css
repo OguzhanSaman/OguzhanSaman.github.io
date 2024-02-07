@@ -141,6 +141,18 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-left: 15px;
   padding-right: 15px;
 }
+/* Add this CSS to your stylesheets */
+.main-slider-container {
+  position: relative;
+  z-index: -10; /* Lower z-index than the header */
+}
+.empty-section {
+  width: 100%; /* Adjust width as needed */
+  height: 790px; /* Adjust height as needed */
+  background-color: rgb(255, 255, 255);
+}
+
+
 
 @media (min-width: 1200px) {
   .container {
@@ -483,6 +495,7 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
   float: left;
   margin-top: 20px;
+  color: #000;
 
 }
 
@@ -515,20 +528,20 @@ input[type="search"]::-webkit-search-results-decoration {
   float: left;
   width: 100%;
   margin-top: 20px;
-  
-
-
+  color: #000;
 }
 
 .stricky-header.main-menu {
   padding: 0 60px;
   background-color: var(--oslim-black);
+  color: #000;
 }
 
 .main-menu .main-menu__list {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  color: black !important;
 }
 
 .main-menu .main-menu__list,
@@ -540,6 +553,7 @@ input[type="search"]::-webkit-search-results-decoration {
   list-style-type: none;
   align-items: center;
   display: none;
+  color: black !important;
 }
 
 @media (min-width: 1200px) {
@@ -548,12 +562,15 @@ input[type="search"]::-webkit-search-results-decoration {
   .stricky-header .main-menu__list,
   .stricky-header .main-menu__list ul {
     display: flex;
+    color: black !important;
   }
 }
 
 .main-menu .main-menu__list > li {
   flex: 1;
   box-sizing: border-box;
+  color: black !important;
+
 }
 
 .main-menu .main-menu__list > li,
@@ -562,12 +579,13 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-bottom: 36px;
   display: flex;
   margin-right: 3%;
+  color: black !important;
+
 }
 
 
 
-.main-menu .main-menu__list > li > a,
-.stricky-header .main-menu__list > li > a {
+.main-menu .main-menu__list > li > a {
   font-size: 1.5rem;
   display: flex;
   flex-wrap: nowrap;
@@ -578,6 +596,10 @@ input[type="search"]::-webkit-search-results-decoration {
   transition: all 500ms ease;
   font-weight: 600;
   letter-spacing: 0.1em;
+  color: black !important;
+}
+.stricky-header .main-menu__list > li > a {
+  color: var(--oslim-white) !important;
 }
 
 .main-menu .main-menu__list > li > a::before,
@@ -594,6 +616,8 @@ input[type="search"]::-webkit-search-results-decoration {
   transform: scale(0, 1);
   transform-origin: left center;
   z-index: 1;
+  color: white !important;
+
 }
 
 .main-menu .main-menu__list > li.dropdown > a {

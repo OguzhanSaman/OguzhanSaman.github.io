@@ -12,11 +12,14 @@ import ServicesTwo from "@/components/ServicesSection/ServicesTwo";
 import TestimonialThree from "@/components/TestimonialSection/TestimonialThree";
 import React from "react";
 
+// Home3 component
 const Home3 = () => {
   return (
     <Layout pageTitle="Ana Sayfa" footerClassName="site-footer-three">
       <Header mainMenuClass="main-menu-three" />
-      <MainSliderThree />
+      <div className="main-slider-wrapper"> {/* Add a wrapper for positioning */}
+        <MainSliderThree />
+      </div>
       <FindSolution />
       <ServicesTwo />
       <OurMissionTwo className="our-mission-three" shape={1} />
@@ -26,8 +29,6 @@ const Home3 = () => {
         showShape
         innerClassName="brand-two__inner"
       /> */}
-
-
     </Layout>
   );
 };
