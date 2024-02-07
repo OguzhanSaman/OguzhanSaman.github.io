@@ -39,17 +39,16 @@ const Header = ({ mainMenuClass = "", navItems = items, onePage = false }) => {
         >
           <div className="main-menu-wrapper__left">
             <div className="main-menu-wrapper__logo">
-            <Link href="/">
-
-              <Image src={logo.src} alt="Köksal Partners Logo" />
-
-            </Link>
+              <Link href="/">
+                <Image src={logo.src} alt="Köksal Partners Logo" />
+              </Link>
             </div>
             <div className="main-menu-wrapper__main-menu">
               <a onClick={handleToggleMenu} className="mobile-nav__toggler">
                 <i className="fa fa-bars"></i>
               </a>
-              <MenuList navItems={navItems} />
+              {/* Pass isMainHeader prop to MenuList */}
+              <MenuList navItems={navItems} isMainHeader={false} />
             </div>
           </div>
         </div>

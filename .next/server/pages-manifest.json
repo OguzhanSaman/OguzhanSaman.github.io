@@ -2,7 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/kariyer": "pages/kariyer.js",
-  "/faq": "pages/faq.js",
-  "/": "pages/index.js"
+  "/": "pages/index.js",
+  "/hakkimizda": "pages/hakkimizda.js",
+  "/404": "pages/404.js",
+  "/ekip": "pages/ekip.js"
 }

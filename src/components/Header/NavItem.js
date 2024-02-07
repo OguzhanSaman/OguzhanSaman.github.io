@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import React from "react";
 import Link from "../Reuseable/Link";
 
-const SubItem = ({ subItem = {}, mobile = false, handleToggleMenu }) => {
+const SubItem = ({ subItem = {}, mobile = false, handleToggleMenu, isMainHeader }) => {
   const [active, toggleActive] = useToggle(false);
   const { subItems, href, name } = subItem;
   const { pathname } = useRouter();
@@ -23,7 +23,7 @@ const SubItem = ({ subItem = {}, mobile = false, handleToggleMenu }) => {
       <Link
         onClick={handleToggleMenu}
         href={href}
-        className={mobile && active ? "expanded" : ""}
+        className={`${mobile && active ? "expanded" : ""} ${isMainHeader ? "main-header-menu-link" : "header-menu-link"}`}
       >
         {name}{" "}
         {mobile && subItems?.length > 0 && (
@@ -49,7 +49,7 @@ const SubItem = ({ subItem = {}, mobile = false, handleToggleMenu }) => {
   );
 };
 
-const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
+const NavItem = ({ navItem = {}, mobile = false, onePage = false, isMainHeader }) => {
   const [active, toggleActive] = useToggle(false);
   const { pathname } = useRouter();
   const { currentActive, toggleMenu } = useRootContext();
@@ -87,7 +87,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
       <Link
         onClick={handleToggleMenu}
         href={href}
-        className={mobile && active ? "expanded" : ""}
+        className={`${mobile && active ? "expanded" : ""} ${isMainHeader ? "main-header-menu-link" : "header-menu-link"}`}
       >
         {name}{" "}
         {mobile && subNavItems.length > 0 && (
@@ -107,6 +107,7 @@ const NavItem = ({ navItem = {}, mobile = false, onePage = false }) => {
             subItem={subItem}
             mobile={mobile}
             handleToggleMenu={handleToggleMenu}
+            isMainHeader={isMainHeader}
           />
         ))}
       </ul>

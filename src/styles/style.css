@@ -517,7 +517,7 @@ input[type="search"]::-webkit-search-results-decoration {
   bottom: 26px;
   right: -75px;
   content: "";
-  background-color: rgba(var(--oslim-white-rgb), 0.15);
+  background-color: var(--oslim-gray);
   width: 1px;
 
 }
@@ -541,7 +541,6 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  color: black !important;
 }
 
 .main-menu .main-menu__list,
@@ -553,7 +552,7 @@ input[type="search"]::-webkit-search-results-decoration {
   list-style-type: none;
   align-items: center;
   display: none;
-  color: black !important;
+
 }
 
 @media (min-width: 1200px) {
@@ -562,7 +561,7 @@ input[type="search"]::-webkit-search-results-decoration {
   .stricky-header .main-menu__list,
   .stricky-header .main-menu__list ul {
     display: flex;
-    color: black !important;
+
   }
 }
 
@@ -579,25 +578,53 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-bottom: 36px;
   display: flex;
   margin-right: 3%;
-  color: black !important;
+
 
 }
-
-
-
-.main-menu .main-menu__list > li > a {
+/* For menu items in MainHeader */
+.main-menu__list.main-header-menu > li > a{
   font-size: 1.5rem;
   display: flex;
   flex-wrap: nowrap;
   text-wrap: nowrap;
   align-items: left;
-  color: var(--oslim-white);
   position: relative;
   transition: all 500ms ease;
   font-weight: 600;
   letter-spacing: 0.1em;
-  color: black !important;
+  color: rgb(0, 0, 0) !important;
 }
+.main-menu__list.header-menu > li > a {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  align-items: left;
+  position: relative;
+  transition: all 500ms ease;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: rgb(255, 255, 255); /* Set font color to black */
+}
+
+
+
+/* For menu items in Header */
+.header-menu .main-menu__list > li > a {
+  font-size: 1.5rem;
+  display: flex;
+  flex-wrap: nowrap;
+  text-wrap: nowrap;
+  align-items: left;
+  position: relative;
+  transition: all 500ms ease;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  color: white;
+}
+
+
+
 .stricky-header .main-menu__list > li > a {
   color: var(--oslim-white) !important;
 }
@@ -607,7 +634,7 @@ input[type="search"]::-webkit-search-results-decoration {
   content: "";
   height: 1px;
   border-radius: 0px;
-  background-color: var(--oslim-base);
+  background-color: var(--oslim-base)!important;
   position: absolute;
   bottom: 3px;
   left: 0;
@@ -817,7 +844,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu .mobile-nav__toggler {
   font-size: 20px;
-  color: var(--oslim-white);
+  color: var(--oslim-black);
   cursor: pointer;
   transition: 500ms;
 }

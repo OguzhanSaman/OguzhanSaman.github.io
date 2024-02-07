@@ -1,4 +1,5 @@
 import logo from "@/images/resources/koksalpartnerslogowh.png";
+import logoblck from "@/images/resources/koksalpartnerslogobl.png";
 
 const home = {
   id: 1,
@@ -82,6 +83,7 @@ const socials = [
 
 const headerData = {
   logo,
+  logoblck,
   navItems,
   socials,
 };

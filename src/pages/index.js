@@ -3,7 +3,7 @@ import CaseOne from "@/components/CaseSection/CaseOne";
 
 import FindSolution from "@/components/FindSolution/FindSolution";
 
-import Header from "@/components/Header/Header";
+import MainHeader from "@/components/Header/MainHeader";
 
 import Layout from "@/components/Layout/Layout";
 import MainSliderThree from "@/components/MainSlider/MainSliderThree";
@@ -12,11 +12,11 @@ import ServicesTwo from "@/components/ServicesSection/ServicesTwo";
 import TestimonialThree from "@/components/TestimonialSection/TestimonialThree";
 import React from "react";
 
-// Home3 component
+
 const Home3 = () => {
   return (
     <Layout pageTitle="Ana Sayfa" footerClassName="site-footer-three">
-      <Header mainMenuClass="main-menu-three" />
+      <MainHeader mainMenuClass="main-menu-three" />
       <div className="main-slider-wrapper"> {/* Add a wrapper for positioning */}
         <MainSliderThree />
       </div>
