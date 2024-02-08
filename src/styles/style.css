@@ -146,12 +146,74 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   z-index: -10; /* Lower z-index than the header */
 }
-.empty-section {
-  width: 100%; /* Adjust width as needed */
-  height: 790px; /* Adjust height as needed */
-  background-color: rgb(255, 255, 255);
+/* Illusions */
+.empty-space {
+  height: 200px;
+  padding-top: 250px;
+}
+.block-effect {
+  font-size: calc(6vw);
+  margin-bottom: 200px;
+}
+.illusion-text {
+  margin-left: 20%;
 }
 
+.block-reveal {
+  --t: calc(var(--td) + var(--d));
+  color: transparent;
+  padding: 4px;
+  position: relative;
+  overflow: hidden;
+  animation: revealBlock 0s var(--t) forwards;
+}
+
+.block-reveal::after {
+  content: '';
+  width: 0%;
+  height: 100%;
+  padding-bottom: 4px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: var(--bc);
+  animation: revealingIn var(--td) var(--d) forwards, revealingOut var(--td) var(--t) forwards;
+}
+
+@keyframes revealBlock {
+  100% {
+    color: #0f0f0f;
+  }
+}
+
+@keyframes revealingIn {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes revealingOut {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+.abs-site-link {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  color: hsla(0, 0%, 0%, .6);
+  font-size: 16px;
+}
+
+
+/* Illusions */
 
 
 @media (min-width: 1200px) {
@@ -5536,7 +5598,7 @@ input[type="search"]::-webkit-search-results-decoration {
   position: relative;
   display: block;
   background-color: rgb(255, 255, 255);
-  box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.05);
+  box-shadow: 0px 10px 60px 0px rgb(0, 0, 0, 0.3);
   padding: 50px 40px 20px;
   text-align: center;
   border-radius: var(--oslim-bdr-radius);

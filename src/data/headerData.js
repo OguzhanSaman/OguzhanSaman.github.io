@@ -52,7 +52,7 @@ export const navItems = [
     href: "/iletisim",
     subNavItems: [
       // { id: 3, name: "Testimonials", href: "/testimonials" },
-      { id: 1, name: "SSS", href: "/faq" },
+      // { id: 1, name: "SSS", href: "/faq" },
       { id: 2, name: "Kariyer", href: "/kariyer" },
     ],
   },

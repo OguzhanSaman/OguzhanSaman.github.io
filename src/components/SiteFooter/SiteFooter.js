@@ -89,7 +89,6 @@ const SiteFooter = ({ footerClassName = "" }) => {
                     { src: footerData.kpoLogo.src, alt: "KPO Logo", href: "https://kpo.one" },
                     { src: footerData.irnLogo.src, alt: "IRN Logo", href: "https://www.incidentresponsenetwork.com" },
                     { src: footerData.kpdataLogo.src, alt: "Kpdata Logo", href: "https://www.kpveri.com" }
-                    
                   ]}
                 />
               </div>

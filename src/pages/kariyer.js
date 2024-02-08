@@ -24,16 +24,16 @@ const Career = () => {
                 <h3 className="career-page__title">Ekibimize Katılın!</h3>
                 <h4 className="career-page__title2">
                   Önce bizi biraz tanımak istersen{" "}
-                  <Link href="/hakkimizda" style={{ color: "darkblue" }}>
-                    hakkımızda
+                  <Link href="/hakkimizda" style={{ color: "black" }}>
+                    hakkımızda{" "}
                   </Link>
                   sayfasına göz atabilirsin.
                 </h4>
                 <h4 className="career-page__title2">Başvurmadan Önce:</h4>
                 <p className="career-page__text">
                   Köksal&Partners'a başvurduğunda seninle ilgili işlenecek
-                  kişisel veriler ile ilgili bilgi almak için Çalışan Adayı
-                  Aydınlatma Metni'ni incele.
+                  kişisel veriler ile ilgili bilgi almak için <Link style={{color:"black"}} href={"/aydinlatma-metni"}> Çalışan Adayı
+                  Aydınlatma Metni</Link>'ni incele.
                 </p>
                 <div className="carreer-btn-form">
                     <button
