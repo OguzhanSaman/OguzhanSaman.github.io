@@ -479,7 +479,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 .main-menu {
   position: relative;
-  padding: 0 60px;
+  padding: 0 2%;
   z-index: 91;
 
 }
@@ -532,9 +532,18 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .stricky-header.main-menu {
-  padding: 0 60px;
+  padding: 0 2%;
   background-color: var(--oslim-black);
   color: #000;
+}
+@media screen and (min-width: 1500px) {
+  .stricky-header.main-menu {
+    padding: 0 10%;
+  }
+  .main-menu {
+    padding: 0 10%;
+  }
+
 }
 
 .main-menu .main-menu__list {
@@ -577,7 +586,7 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-top: 27px;
   padding-bottom: 36px;
   display: flex;
-  margin-right: 6%;
+  margin-right: 4%;
 
 
 }
