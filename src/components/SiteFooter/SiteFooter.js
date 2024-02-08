@@ -83,7 +83,15 @@ const SiteFooter = ({ footerClassName = "" }) => {
               <div className="footer-widget__column footer-widget__explore clearfix">
                 <h3 className="footer-widget__title">İş Ortaklarımız</h3>
                 {/* Use the ImageGrid component here */}
-                <ImageGrid images={[themosLogo.src, kpoLogo.src, irnLogo.src, kpdataLogo.src]} />
+                <ImageGrid
+                  logos={[
+                    { src: footerData.themosLogo.src, alt: "Themos Logo", href: "https://www.themos.com.tr" },
+                    { src: footerData.kpoLogo.src, alt: "KPO Logo", href: "https://kpo.one" },
+                    { src: footerData.irnLogo.src, alt: "IRN Logo", href: "https://www.incidentresponsenetwork.com" },
+                    { src: footerData.kpdataLogo.src, alt: "Kpdata Logo", href: "https://www.kpveri.com" }
+                    
+                  ]}
+                />
               </div>
             </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">

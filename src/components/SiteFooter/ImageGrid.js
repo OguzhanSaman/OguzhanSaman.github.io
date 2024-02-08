@@ -1,12 +1,14 @@
-// Create a new component for the image grid
 import React from "react";
 import { Image } from "react-bootstrap";
 
-const ImageGrid = ({ images }) => {
+
+const ImageGrid = ({ logos }) => {
   return (
     <div className="image-grid">
-      {images.map((src, index) => (
-        <Image key={index} src={src} className="grid-image" />
+      {logos.map((logo, index) => (
+        <a key={index} href={logo.href} target="_blank" rel="noopener noreferrer">
+          <Image src={logo.src} alt={logo.alt} className="grid-image" />
+        </a>
       ))}
     </div>
   );
