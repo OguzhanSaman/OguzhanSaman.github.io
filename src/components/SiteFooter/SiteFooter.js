@@ -2,6 +2,10 @@ import footerData from "@/data/siteFooter";
 import React from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import Link from "../Reuseable/Link";
+import ImageGrid from "./ImageGrid"; // Import the ImageGrid componen
+
+
+
 
 const {
   bg,
@@ -16,6 +20,10 @@ const {
   phone,
   phoneHref,
   email,
+  kpoLogo,
+  kpdataLogo,
+  themosLogo,
+  irnLogo,
 } = footerData;
 
 const SiteFooter = ({ footerClassName = "" }) => {
@@ -35,7 +43,7 @@ const SiteFooter = ({ footerClassName = "" }) => {
         <Container>
           <Row>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
-              <div className="footer-widget__column footer-widget__about">
+            <div className="footer-widget__column footer-widget__about">
                 <div id="footer-logo" className="footer-widget__logo">
                   <Link href="/">
                     <Image src={logo.src} alt="Köksal & Partners Logo" />
@@ -51,10 +59,9 @@ const SiteFooter = ({ footerClassName = "" }) => {
                     </a>
                   ))}
                 </div>
-              </div>
-            </Col>
+              </div>            </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
-              <div className="footer-widget__column footer-widget__explore clearfix">
+            <div className="footer-widget__column footer-widget__explore clearfix">
                 <h3 className="footer-widget__title">Menü</h3>
                 <ul className="footer-widget__explore-list list-unstyled clearfix">
                   {links.slice(0, 5).map(({ id, href, text }) => (
@@ -73,39 +80,14 @@ const SiteFooter = ({ footerClassName = "" }) => {
               </div>
             </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
-              <div className="footer-widget__column footer-widget__newsletter-box clearfix">
-                <h3 className="footer-widget__title">Bülten</h3>
-                <p className="footer-widget__newsletter-text">
-                  {newsletterText}
-                </p>
-                <form
-                  onSubmit={handleSubmit}
-                  className="footer-widget__newsletter-form"
-                >
-                  <div className="footer-widget__newsletter-input-box">
-                    <input
-                      type="email"
-                      placeholder="İş Email Adresiniz"
-                      name="email"
-                      required
-                    />
-                    <button
-                      type="submit"
-                      className="footer-widget__newsletter-btn"
-                    >
-                      <i className="far fa-paper-plane"></i>
-                    </button>
-                  </div>
-                </form>
-              </div>
-              <div>
-                <p id="newletter-policy"> 
-                  <a href="https://www.koksalpartners.com/privacy-policy" style={{ fontSize: '10px' }}>Aydınlatma Metni</a>
-                </p>
+              <div className="footer-widget__column footer-widget__explore clearfix">
+                <h3 className="footer-widget__title">İş Ortaklarımız</h3>
+                {/* Use the ImageGrid component here */}
+                <ImageGrid images={[themosLogo.src, kpoLogo.src, irnLogo.src, kpdataLogo.src]} />
               </div>
             </Col>
             <Col xl={3} lg={6} md={6} className="animated fadeInUp">
-              <div className="footer-widget__column footer-widget__contact clearfix">
+            <div className="footer-widget__column footer-widget__contact clearfix">
                 <h3 className="footer-widget__title">İletişim</h3>
                 <p className="footer-widget__contact-text">{address}</p>
                 <h4 className="footer-widget__contact-info">
@@ -145,3 +127,5 @@ const SiteFooter = ({ footerClassName = "" }) => {
 };
 
 export default SiteFooter;
+
+

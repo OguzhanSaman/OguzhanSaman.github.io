@@ -1,4 +1,8 @@
 import logo from "@/images/resources/logo-1.png";
+import kpoLogo from "@/images/resources/kpo.jpg";
+import kpdataLogo from "@/images/resources/kpdata.jpg";
+import themosLogo from "@/images/resources/themos.jpg";
+import irnLogo from "@/images/resources/irn.jpg";
 import bg from "@/images/shapes/site-footer-shape-1.png";
 
 const footerData = {
@@ -76,6 +80,10 @@ const footerData = {
   email: "info@koksalpartners.com",
   author: "Köksal & Partners",
   year: new Date().getFullYear(),
+  kpoLogo,
+  kpdataLogo,
+  themosLogo,
+  irnLogo,
 };
 
 export default footerData;

@@ -2,9 +2,6 @@ import React from "react";
 import { Image } from "react-bootstrap";
 import Link from "../Reuseable/Link";
 
-
-
-
 const NewsDetailsLeft = ({ news = {} }) => {
   const {
     image,
@@ -12,7 +9,12 @@ const NewsDetailsLeft = ({ news = {} }) => {
     date,
     title,
     text,
-    text2,
+    wholeText1,
+    wholeText2,
+    wholeText3,
+    list,
+    list2,
+    author,
     tags,
   } = news;
 
@@ -32,11 +34,26 @@ const NewsDetailsLeft = ({ news = {} }) => {
           <li>
             <span>/</span>
           </li>
-
         </ul>
         <h3 className="news-details__title">{title}</h3>
         <p className="news-details__text-1">{text}</p>
-        <p className="news-details__text-2">{text2}</p>
+        <p className="news-details__text-2">{wholeText1}</p>
+        {wholeText2 && <p className="news-details__text-3">{wholeText2}</p>}
+        {wholeText3 && <p className="news-details__text-4">{wholeText3}</p>}
+        {list && (
+          <ul>
+            {list.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        )}
+        {list2 && (
+          <ul>
+            {list2.map((item, index) => (
+              <li key={index}>{item}</li>
+            ))}
+          </ul>
+        )}
       </div>
       <div className="news-details__bottom">
         <p className="news-details__tags">

@@ -3925,7 +3925,18 @@ input[type="search"]::-webkit-search-results-decoration {
   padding-top: 30px;
   margin-top: 19px;
 }
-
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-image {
+  position: relative;
+  display: block;
+  overflow: hidden;
+  border-radius: var(--oslim-bdr-radius);
+  margin-bottom: 30px;
+  max-width: 80px;
+}
 .site-footer__social a {
   position: relative;
   height: 45px;

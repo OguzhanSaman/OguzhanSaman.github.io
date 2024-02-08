@@ -1,4 +1,8 @@
-import image from "@/images/blog/news-details-img-1.jpg";
+import image1 from "@/images/blog/yayin-1.jpg";
+import image2 from "@/images/blog/yayin-2.jpg";
+import image3 from "@/images/blog/yayin-3.jpg";
+import image4 from "@/images/blog/yayin-4.jpg";
+import image5 from "@/images/blog/yayin-5.jpg";
 import { inputs } from "./contact";
 import { socials } from "./teamSection";
 
@@ -14,29 +18,39 @@ export const newsSidebar = {
   newses: [
     {
       id: 1,
-      image: "news-sidebar-img-1.jpg",
+      image: image1,
       subtitle: "Makale",
       date: "2023",
       slug: "tasimacilik-faaliyetlerinde-arac-ici-kameralar-araciligiyla-calisanlarin-izlenmesi",
       title: "Taşımacılık Faaliyetlerinde Araç İçi Kameralar Aracılığıyla Çalışanların İzlenmesi",
       text: "Günümüzde elektronik ticaretin yaygınlaşmasıyla birlikte posta hizmeti sunan şirketlerin yoğunluğu ve önemi de aynı oranda artmıştır. Peki taşımacılık faaliyetlerinin yerine getirilmesi sırasında kargo şirketlerinin Kişisel Verilerin Korunması Kanunu kapsamında yükümlülükleri nelerdir? Araç içi kameralar aracılığıyla yürütülen kişisel veri işleme faaliyetlerin ölçülülük ilkesine uygun olması için alınması gereken aksiyonlar nelerdir? Bu sorular ve daha fazlasının cevabı bu ayki blog yazımızda!",
-      wholeText: "",
+      wholeText1: '',
+      wholeText2:'',
+      wholeText3:'',
+      list:'',
+      list2:'',
+      author:'',
       tags: ["Consulting", "marketing"],
     },
     {
       id: 2,
-      image: "news-sidebar-img-2.jpg",
+      image: image2,
       subtitle: "Makale",
       date: "2023",
       slug: "hashlenmis-veri-anonim-veri-midir",
       title: "‘Hash’lenmiş Veri Anonim Veri Midir?",
       text: "Hashlenmiş verinin anonim veri niteliğinde olup olmadığının tespit edilebilmesi için öncelikle ‘hash’leme kavramını irdelemekte fayda vardır. Hashleme herhangi bir uzunluktaki girdiyi alarak onu bir dizi algoritma ile şifreli çıktı haline dönüştürme işlemine verilen isimdir. Uzmanlar hashleme kavramını genellikle tek taraflı bir şifreleme yöntemi olarak tanımlamaktadır. Bu işlem sonrasında elde edilen değere ise ‘’hash değeri’’ denir.",
-      wholeText: "",
+      wholeText1: '',
+      wholeText2:'',
+      wholeText3:'',
+      list:'',
+      list2:'',
+      author:'',
       tags: ["Consulting", "marketing"],
     },
     {
       id: 3,
-      image: "news-sidebar-img-3.jpg",
+      image: image3,
       subtitle: "Makale",
       date: "2023",
       slug: "odeme-ve-elektronik-para-kuruluslarinin-masak-mevzuati-kapsaminda-yukumlulukleri",
@@ -47,7 +61,7 @@ export const newsSidebar = {
     },
     {
       id: 4,
-      image: "news-sidebar-img-4.jpg",
+      image: image4,
       subtitle: "Makale",
       date: "2023",
       slug: "chatgpt-nin-guncel-gelismeleri-gdpr-ve-kvkk-kapsaminda-degerlendirilmesi",
@@ -58,7 +72,7 @@ export const newsSidebar = {
     },
     {
       id: 5,
-      image: "news-sidebar-img-4.jpg",
+      image: image5,
       subtitle: "Makale",
       date: "2023",
       slug: "is-sozlesmesi-devam-ederken-isciye-yapilan-kidem-tazminati-odemeleri",
@@ -69,18 +83,4 @@ export const newsSidebar = {
     },
   ],
 };
-
-export const newsSidebarSide = {
-  posts: [
-
-  ],
-  categories: [
-
-  ],
-  tags: [
-
-  ],
-
-};
-
 
