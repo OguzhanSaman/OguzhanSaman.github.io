@@ -3,6 +3,8 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/ekip": "pages/ekip.js",
-  "/hakkimizda": "pages/hakkimizda.js"
+  "/kariyer": "pages/kariyer.js",
+  "/hizmetler": "pages/hizmetler.js",
+  "/iletisim": "pages/iletisim.js",
+  "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js"
 }
