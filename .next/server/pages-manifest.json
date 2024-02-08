@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/aydinlatma-metni": "pages/aydinlatma-metni.js",
   "/": "pages/index.js",
-  "/hakkimizda": "pages/hakkimizda.js",
   "/ekip": "pages/ekip.js",
-  "/kariyer": "pages/kariyer.js"
+  "/hakkimizda": "pages/hakkimizda.js"
 }

@@ -149,11 +149,11 @@ input[type="search"]::-webkit-search-results-decoration {
 /* Illusions */
 .empty-space {
   height: 200px;
-  padding-top: 250px;
+  padding-top: 270px;
 }
 .block-effect {
-  font-size: calc(6vw);
-  margin-bottom: 200px;
+  font-size: calc(4vw);
+  margin-bottom: 130px;
 }
 .illusion-text {
   margin-left: 20%;
@@ -204,13 +204,6 @@ input[type="search"]::-webkit-search-results-decoration {
   }
 }
 
-.abs-site-link {
-  position: fixed;
-  bottom: 20px;
-  left: 20px;
-  color: hsla(0, 0%, 0%, .6);
-  font-size: 16px;
-}
 
 
 /* Illusions */
@@ -676,6 +669,7 @@ input[type="search"]::-webkit-search-results-decoration {
   font-weight: 600;
   letter-spacing: 0.1em;
   color: rgb(255, 255, 255); /* Set font color to black */
+  
 }
 
 
