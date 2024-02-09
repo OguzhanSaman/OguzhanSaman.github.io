@@ -42,7 +42,7 @@ const SiteFooter = ({ footerClassName = "" }) => {
         ></div>
         <Container>
           <Row>
-            <Col xl={3} lg={6} md={6} className="animated fadeInUp">
+            <Col xl={4} lg={6} md={6} className="animated fadeInUp">
             <div className="footer-widget__column footer-widget__about">
                 <div id="footer-logo" className="footer-widget__logo">
                   <Link href="/">
@@ -60,7 +60,7 @@ const SiteFooter = ({ footerClassName = "" }) => {
                   ))}
                 </div>
               </div>            </Col>
-            <Col xl={3} lg={6} md={6} className="animated fadeInUp">
+            <Col xl={4} lg={6} md={6} className="animated fadeInUp">
             <div className="footer-widget__column footer-widget__explore clearfix">
                 <h3 className="footer-widget__title">Menü</h3>
                 <ul className="footer-widget__explore-list list-unstyled clearfix">
@@ -79,21 +79,7 @@ const SiteFooter = ({ footerClassName = "" }) => {
                 </ul>
               </div>
             </Col>
-            <Col xl={3} lg={6} md={6} className="animated fadeInUp">
-              <div className="footer-widget__column footer-widget__explore clearfix">
-                <h3 className="footer-widget__title">İş Ortaklarımız</h3>
-                {/* Use the ImageGrid component here */}
-                <ImageGrid
-                  logos={[
-                    { src: footerData.themosLogo.src, alt: "Themos Logo", href: "https://www.themos.com.tr" },
-                    { src: footerData.kpoLogo.src, alt: "KPO Logo", href: "https://kpo.one" },
-                    { src: footerData.irnLogo.src, alt: "IRN Logo", href: "https://www.incidentresponsenetwork.com" },
-                    { src: footerData.kpdataLogo.src, alt: "Kpdata Logo", href: "https://www.kpveri.com" }
-                  ]}
-                />
-              </div>
-            </Col>
-            <Col xl={3} lg={6} md={6} className="animated fadeInUp">
+            <Col xl={4} lg={6} md={6} className="animated fadeInUp">
             <div className="footer-widget__column footer-widget__contact clearfix">
                 <h3 className="footer-widget__title">İletişim</h3>
                 <p className="footer-widget__contact-text">{address}</p>

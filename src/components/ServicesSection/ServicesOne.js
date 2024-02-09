@@ -19,7 +19,7 @@ const ServicesOne = ({ id = "", hideTitle = false, serviceCount }) => {
         <Row>
           {services.slice(0, serviceCount).map((service) => (
             <Col
-              xl={4}
+              xl={3}
               lg={4}
               md={hideTitle ? 6 : undefined}
               key={service.id}

@@ -20,7 +20,6 @@ const About = () => {
       <div className="placeholder"></div>
       <WorkTogetherTwo />
       <HowWeWorks />
-      <OurMissionTwo className="our-mission-three" shape={1} />
       <TeamOne />
     </Layout>
   );

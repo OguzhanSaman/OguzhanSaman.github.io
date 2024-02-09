@@ -19,7 +19,7 @@ const SingleServiceOne = ({ service = {} }) => {
             </Link>
           </h3>
         </div>
-        <p className="services-one__text">{text}</p>
+
         <div className="services-one__bottom">
           <Link href={href} className="services-one__read-more">
             Daha Fazla Bilgi

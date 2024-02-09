@@ -3,8 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/": "pages/index.js",
-  "/kariyer": "pages/kariyer.js",
   "/hizmetler": "pages/hizmetler.js",
-  "/iletisim": "pages/iletisim.js",
-  "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js"
+  "/sirketler-ve-sozlesmeler-hukuku": "pages/sirketler-ve-sozlesmeler-hukuku.js"
 }

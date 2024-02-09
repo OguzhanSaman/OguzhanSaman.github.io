@@ -3,6 +3,7 @@ import image2 from "@/images/blog/yayin-2.jpg";
 import image3 from "@/images/blog/yayin-3.jpg";
 import image4 from "@/images/blog/yayin-4.jpg";
 import image5 from "@/images/blog/yayin-5.jpg";
+
 import { inputs } from "./contact";
 import { socials } from "./teamSection";
 

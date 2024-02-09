@@ -22,7 +22,6 @@ const Home3 = () => {
       </div>
       <FindSolution />
       <ServicesTwo />
-      <OurMissionTwo className="our-mission-three" shape={1} />
       {/* <TestimonialThree /> */}
       {/* <BrandOne
         className="brand-two"

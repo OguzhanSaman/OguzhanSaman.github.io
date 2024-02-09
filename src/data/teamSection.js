@@ -31,6 +31,13 @@ export const teamOne = {
       image: "sezinburcuozdamar.jpg",
       socials,
     },
+    {
+      id: 4,
+      name: "Başak Varol",
+      title: "Ortak",
+      image: "basakvarol.jpg",
+      socials,
+    },
   ],
 };
 
@@ -56,25 +63,25 @@ export const teamPage = [
     image: "yavuzselimdicle.jpg",
     socials,
   },
+  {
+    id: 4,
+    name: "Başak Varol",
+    title: "Ortak",
+    image: "basakvarol.jpg",
+    socials,
+  },
  ];
 
  export const teamPage2 = [
   {
     id: 1,
-    name: "Başak Varol",
-    title: "Kıdemli Avukat",
-    image: "basakvarol.jpg",
-    socials,
-  },
-  {
-    id: 2,
     name: "Basiret Çiğil",
     title: "Kıdemli Avukat",
     image: "basiretcigil.jpg",
     socials,
   },
   {
-    id: 3,
+    id: 2,
     name: "Mahide Tuba Sayım",
     title: "Kıdemli Avukat",
     image: "mahidetubasayim.jpg",
