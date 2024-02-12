@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/hizmetler": "pages/hizmetler.js",
-  "/sirketler-ve-sozlesmeler-hukuku": "pages/sirketler-ve-sozlesmeler-hukuku.js"
+  "/": "pages/index.js"
 }
