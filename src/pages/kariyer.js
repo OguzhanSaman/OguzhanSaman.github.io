@@ -31,9 +31,7 @@ const Career = () => {
                 </h4>
                 <h4 className="career-page__title2">Başvurmadan Önce:</h4>
                 <p className="career-page__text">
-                  Köksal&Partners'a başvurduğunda seninle ilgili işlenecek
-                  kişisel veriler ile ilgili bilgi almak için <Link style={{color:"black"}} href={"/aydinlatma-metni"}> Çalışan Adayı
-                  Aydınlatma Metni</Link>'ni incele.
+                Köksal & Partners olarak, iş/staj başvurularınız vasıtasıyla paylaştığınız kişisel verilerinizi, 6698 sayılı Kişisel Verilerin Korunması Kanunu kapsamında Aydınlatma Metni'nde sayılan amaçlarla sınırlı olarak işlemekte ve saklama ve arşiv faaliyetlerinin yürütülmesi amacıyla sınırlı olarak Google’a aktarmaktayız. Form üzerindeki ilgili alanların tarafınızca doldurulması ve gönderilmesi halinde süreç kapsamında işlenen kişisel verilerinizin sunucuları yurt dışında bulunan Google’a aktarılmasına açık rıza verdiğiniz kabul edilecektir. Köksal & Partners tarafından işlenen kişisel verilerinize ilişkin detaylı bilgi için <Link style={{color:"blue"}} href={"/kvkk"}>Aydınlatma Metni</Link>’nde yer alan Çalışan ve Stajyer Adaylarımız başlığını inceleyebilirsiniz. Tarafımızla sağlık bilgisi, ceza mahkumiyeti ve güvenlik tedbirleri gibi özel nitelikli kişisel verilerin paylaşılmamasını önemle rica ederiz.
                 </p>
                 <div className="carreer-btn-form">
                     <button

@@ -36,11 +36,6 @@
       "static/chunks/webpack.js",
       "static/chunks/main.js",
       "static/chunks/pages/hakkimizda.js"
-    ],
-    "/hizmetler": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/hizmetler.js"
     ]
   },
   "ampFirstPages": []

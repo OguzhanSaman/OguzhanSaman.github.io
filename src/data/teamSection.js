@@ -1,7 +1,7 @@
 export const socials = [
   {
     id: 1,
-    href: "#",
+    href: "www.linkedin.com",
     icon: "fab fa-linkedin",
   },
 ];
@@ -16,6 +16,7 @@ export const teamOne = {
       title: "Ortak",
       image: "yavuzselimdicle.jpg",
       socials,
+      url: "yavuz-selim-dicle",
     },
     {
       id: 2,
@@ -23,6 +24,7 @@ export const teamOne = {
       title: "Kurucu & Yönetici Ortak",
       image: "mehmetalikoksal.jpg",
       socials,
+      url: "mehmet-ali-koksal",
     },
     {
       id: 3,
@@ -30,6 +32,7 @@ export const teamOne = {
       title: "Kıdemli Ortak",
       image: "sezinburcuozdamar.jpg",
       socials,
+      url: "sezin-burcu-ozdamar",
     },
     {
       id: 4,
@@ -37,6 +40,7 @@ export const teamOne = {
       title: "Ortak",
       image: "basakvarol.jpg",
       socials,
+      url: "basak-varol",
     },
   ],
 };
@@ -48,6 +52,7 @@ export const teamPage = [
     title: "Kurucu & Yönetici Ortak",
     image: "mehmetalikoksal.jpg",
     socials,
+    url: "mehmet-ali-koksal",
   },
   {
     id: 2,
@@ -55,6 +60,9 @@ export const teamPage = [
     title: "Kıdemli Ortak",
     image: "sezinburcuozdamar.jpg",
     socials,
+    url: "sezin-burcu-ozdamar",
+    educationAndExpertise: ["Education information 1", "Education information 2", "Expertise area 1", "Expertise area 2"],
+    languagesAndMemberships: ["Language 1", "Language 2", "Membership 1", "Membership 2"],
   },
   {
     id: 3,
@@ -62,6 +70,7 @@ export const teamPage = [
     title: "Ortak",
     image: "yavuzselimdicle.jpg",
     socials,
+    url: "yavuz-selim-dicle",
   },
   {
     id: 4,
@@ -69,6 +78,7 @@ export const teamPage = [
     title: "Ortak",
     image: "basakvarol.jpg",
     socials,
+    url: "basak-varol",
   },
  ];
 
@@ -79,6 +89,7 @@ export const teamPage = [
     title: "Kıdemli Avukat",
     image: "basiretcigil.jpg",
     socials,
+    url: "basiret-cigil",
   },
   {
     id: 2,
@@ -86,6 +97,7 @@ export const teamPage = [
     title: "Kıdemli Avukat",
     image: "mahidetubasayim.jpg",
     socials,
+    url: "mahide-tuba-sayim",
   },
  ];
 
@@ -96,6 +108,7 @@ export const teamPage = [
     title: "Avukat",
     image: "canercelik.jpg",
     socials,
+    url: "caner-celik",
   },
   {
     id: 2,
@@ -103,6 +116,7 @@ export const teamPage = [
     title: "Avukat",
     image: "isilayakdeniz.jpg",
     socials,
+    url: "isilay-akdeniz",
   },
   {
     id: 3,
@@ -110,6 +124,7 @@ export const teamPage = [
     title: "Avukat",
     image: "halilsahna.jpg",
     socials,
+    url: "halil-sahna",
   },
   {
     id: 4,
@@ -117,6 +132,7 @@ export const teamPage = [
     title: "Avukat",
     image: "enderdemirel.jpg",
     socials,
+    url: "ender-demirel",
   },
   {
     id: 5,
@@ -124,6 +140,7 @@ export const teamPage = [
     title: "Avukat",
     image: "ardabilgic.jpg",
     socials,
+    url: "arda-bilgic",
   },
   {
     id: 6,
@@ -131,6 +148,7 @@ export const teamPage = [
     title: "Avukat",
     image: "yagmurerdem.jpg",
     socials,
+    url: "yagmur-erdem",
   },
   {
     id: 7,
@@ -138,6 +156,7 @@ export const teamPage = [
     title: "Avukat",
     image: "selenboyar.jpg",
     socials,
+    url: "selen-boyar",
   },
   {
     id: 8,
@@ -145,6 +164,7 @@ export const teamPage = [
     title: "Avukat",
     image: "silaevrimatar.jpg",
     socials,
+    url: "sila-evrim-atar",
   },
   {
     id: 9,
@@ -152,6 +172,7 @@ export const teamPage = [
     title: "Avukat",
     image: "bilgeezgipeker.jpg",
     socials,
+    url: "bilge-ezgi-peker",
   },
   {
     id: 10,
@@ -159,6 +180,7 @@ export const teamPage = [
     title: "Avukat",
     image: "koraykilicel.jpg",
     socials,
+    url: "koray-kilicel",
   },
   {
     id: 11,
@@ -166,6 +188,7 @@ export const teamPage = [
     title: "Avukat",
     image: "aynursolak.jpg",
     socials,
+    url: "aynur-solak",
   },
   {
     id: 12,
@@ -173,6 +196,7 @@ export const teamPage = [
     title: "Avukat",
     image: "hazalyildirim.jpg",
     socials,
+    url: "hazal-yildirim",
   },
   {
     id: 13,
@@ -180,6 +204,7 @@ export const teamPage = [
     title: "Avukat",
     image: "dogusdurmus.jpg",
     socials,
+    url: "dogus-durmus",
   },
   {
     id: 14,
@@ -187,6 +212,7 @@ export const teamPage = [
     title: "Avukat",
     image: "edaenvarli.jpg",
     socials,
+    url: "eda-envarli",
   },
   {
     id: 15,
@@ -194,6 +220,7 @@ export const teamPage = [
     title: "Avukat",
     image: "mirayerdemir.jpg",
     socials,
+    url: "miray-erdemir",
   },
   
  ];
@@ -204,6 +231,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "burakdemir.jpg",
     socials,
+    url: "burak-demir",
   },
   {
     id: 2,
@@ -211,6 +239,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "sedanurzengin.jpg",
     socials,
+    url: "sedanur-zengin",
   },
   {
     id: 3,
@@ -218,6 +247,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "iremozyetkin.jpg",
     socials,
+    url: "irem-ozyetkin",
   },
   {
     id: 4,
@@ -225,6 +255,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "faikaselmagurses.jpg",
     socials,
+    url: "faika-selma-gurses",
   },
   {
     id: 5,
@@ -232,6 +263,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "zeynepaybakan.jpg",
     socials,
+    url: "zeynep-aybakan",
   },
   {
     id: 6,
@@ -239,6 +271,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "serifeatik.jpg",
     socials,
+    url: "serife-atik",
   },
   {
     id: 7,
@@ -246,6 +279,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "hayriyesulumer.jpg",
     socials,
+    url: "hayriye-sulumer",
   },
   {
     id: 8,
@@ -253,6 +287,7 @@ export const teamPage = [
     title: "Stajyer Avukat",
     image: "dilarakaryauzal.jpg",
     socials,
+    url: "dilara-karya-uzal",
   },
  ];
  export const teamPage5 = [
@@ -262,6 +297,7 @@ export const teamPage = [
     title: "Danışman",
     image: "halimealbayrak.jpg",
     socials,
+    url: "halime-albayrak",
   },
   {
     id: 2,
@@ -269,6 +305,7 @@ export const teamPage = [
     title: "Danışman",
     image: "kemalkoksal.jpg",
     socials,
+    url: "kemal-koksal",
   },
   {
     id: 3,
@@ -276,6 +313,7 @@ export const teamPage = [
     title: "Danışman",
     image: "zelihahacimuratlar.jpg",
     socials,
+    url: "zeliha-hacimuratlar-sevinc",
   },
   {
     id: 4,
@@ -283,6 +321,7 @@ export const teamPage = [
     title: "Danışman",
     image: "sükrükapucu.jpg",
     socials,
+    url: "sukru-tarik-kapucu",
   },
   {
     id: 5,
@@ -290,6 +329,7 @@ export const teamPage = [
     title: "Danışman",
     image: "nedrettinhizel.jpg",
     socials,
+    url: "nedret-hizel",
   },
   {
     id: 6,
@@ -297,6 +337,7 @@ export const teamPage = [
     title: "Danışman",
     image: "serdarkaraman.jpg",
     socials,
+    url: "serdar-karaman",
   },
   {
     id: 7,
@@ -304,6 +345,7 @@ export const teamPage = [
     title: "Kurumsal İletişim Direktörü",
     image: "sırmabatuhanözkankoksal.jpg",
     socials,
+    url: "sirma-batuhan-ozkan-koksal",
   },
  ];
  export const teamPage6 = [
@@ -313,6 +355,7 @@ export const teamPage = [
     title: "İdari ve Mali İşler Direktörü",
     image: "deryayilmaz.jpg",
     socials,
+    url: "derya-yilmaz",
   },
   {
     id: 2,
@@ -320,6 +363,7 @@ export const teamPage = [
     title: "BT Danışmanı",
     image: "oguzhansaman.jpg",
     socials,
+    url: "oguzhan-saman",
   },
   {
     id: 3,
@@ -327,5 +371,6 @@ export const teamPage = [
     title: "Katip",
     image: "birsendemirbas.jpg",
     socials,
+    url: "birsen-demirbas",
   },
  ];

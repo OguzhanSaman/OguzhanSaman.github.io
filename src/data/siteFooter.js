@@ -59,13 +59,8 @@ const footerData = {
     },
     {
       id: 7,
-      text: "Aydınlatma Metni",
-      href: "/aydinlatma-metni",
-    },
-    {
-      id: 8,
-      text: "Çerezler",
-      href: "/cerezler",
+      text: "Kişisel Verilerin Korunması",
+      href: "/kvkk",
     },
     {
       id: 9,
