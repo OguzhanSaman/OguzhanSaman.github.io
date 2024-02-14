@@ -2,7 +2,7 @@ import React from "react";
 import { Modal } from "react-bootstrap";
 
 const TeamPopup = ({ isOpen, onClose, team }) => {
-  const { name, title, cv, educationAndExpertise, languagesAndMemberships, image, socials } = team;
+  const { name, title, cv, educationAndExpertise, languagesAndMemberships, image, linkedin } = team;
 
   const handleClose = () => {
     onClose();
@@ -19,17 +19,16 @@ const TeamPopup = ({ isOpen, onClose, team }) => {
         </div>
         <div className="placeholder"></div>
         <h5>{title}</h5>
+        <div className="placeholder"></div>
         <ul className="list-unstyled team-one__social">
-            {socials.map(({ id, href, icon }) => (
-              <li key={id}>
-                <a href={href}>
-                  <i className={icon}></i>
+            <li>
+                <a href={linkedin} target="_blank" rel="noreferrer">
+                    <i className="fab fa-linkedin"></i>
                 </a>
-              </li>
-            ))}
-          </ul>
+            </li>
+        </ul>
         <div>
-          <h6>Education and Expertise Areas:</h6>
+          <h6>Eğitim ve Uzmanlık Alanları</h6>
           {educationAndExpertise && educationAndExpertise.length > 0 ? (
             <ul>
               {educationAndExpertise.map((item, index) => (
@@ -41,7 +40,7 @@ const TeamPopup = ({ isOpen, onClose, team }) => {
           )}
         </div>
         <div>
-          <h6>Foreign Languages and Memberships:</h6>
+          <h6>Yabancı Diller & Üyelikler</h6>
           {languagesAndMemberships && languagesAndMemberships.length > 0 ? (
             <ul>
               {languagesAndMemberships.map((item, index) => (

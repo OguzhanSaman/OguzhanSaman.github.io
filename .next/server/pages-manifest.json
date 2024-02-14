@@ -2,7 +2,5 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/ekip": "pages/ekip.js",
-  "/": "pages/index.js",
-  "/hakkimizda": "pages/hakkimizda.js"
+  "/ekip": "pages/ekip.js"
 }

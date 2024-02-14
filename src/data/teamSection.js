@@ -15,7 +15,7 @@ export const teamOne = {
       name: "Yavuz Selim Dicle",
       title: "Ortak",
       image: "yavuzselimdicle.jpg",
-      socials,
+      linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
       url: "yavuz-selim-dicle",
     },
     {
@@ -23,7 +23,7 @@ export const teamOne = {
       name: "Mehmet Ali Köksal",
       title: "Kurucu & Yönetici Ortak",
       image: "mehmetalikoksal.jpg",
-      socials,
+      linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
       url: "mehmet-ali-koksal",
     },
     {
@@ -31,7 +31,7 @@ export const teamOne = {
       name: "Sezin Burcu Özdamar",
       title: "Kıdemli Ortak",
       image: "sezinburcuozdamar.jpg",
-      socials,
+      linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
       url: "sezin-burcu-ozdamar",
     },
     {
@@ -39,7 +39,7 @@ export const teamOne = {
       name: "Başak Varol",
       title: "Ortak",
       image: "basakvarol.jpg",
-      socials,
+      linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
       url: "basak-varol",
     },
   ],
@@ -51,7 +51,7 @@ export const teamPage = [
     name: "Mehmet Ali Köksal",
     title: "Kurucu & Yönetici Ortak",
     image: "mehmetalikoksal.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "mehmet-ali-koksal",
   },
   {
@@ -59,7 +59,7 @@ export const teamPage = [
     name: "Sezin Burcu Özdamar",
     title: "Kıdemli Ortak",
     image: "sezinburcuozdamar.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "sezin-burcu-ozdamar",
     educationAndExpertise: ["Education information 1", "Education information 2", "Expertise area 1", "Expertise area 2"],
     languagesAndMemberships: ["Language 1", "Language 2", "Membership 1", "Membership 2"],
@@ -69,7 +69,8 @@ export const teamPage = [
     name: "Yavuz Selim Dicle",
     title: "Ortak",
     image: "yavuzselimdicle.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "yavuz-selim-dicle",
   },
   {
@@ -77,7 +78,8 @@ export const teamPage = [
     name: "Başak Varol",
     title: "Ortak",
     image: "basakvarol.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "basak-varol",
   },
  ];
@@ -88,7 +90,8 @@ export const teamPage = [
     name: "Basiret Çiğil",
     title: "Kıdemli Avukat",
     image: "basiretcigil.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "basiret-cigil",
   },
   {
@@ -96,7 +99,8 @@ export const teamPage = [
     name: "Mahide Tuba Sayım",
     title: "Kıdemli Avukat",
     image: "mahidetubasayim.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "mahide-tuba-sayim",
   },
  ];
@@ -107,7 +111,8 @@ export const teamPage = [
     name: "Caner Çelik",
     title: "Avukat",
     image: "canercelik.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "caner-celik",
   },
   {
@@ -115,7 +120,8 @@ export const teamPage = [
     name: "Işılay Akdeniz",
     title: "Avukat",
     image: "isilayakdeniz.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "isilay-akdeniz",
   },
   {
@@ -123,7 +129,8 @@ export const teamPage = [
     name: "Halil Şahna",
     title: "Avukat",
     image: "halilsahna.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "halil-sahna",
   },
   {
@@ -131,7 +138,8 @@ export const teamPage = [
     name: "Ender Demirel",
     title: "Avukat",
     image: "enderdemirel.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "ender-demirel",
   },
   {
@@ -139,7 +147,8 @@ export const teamPage = [
     name: "Arda Bilgiç",
     title: "Avukat",
     image: "ardabilgic.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "arda-bilgic",
   },
   {
@@ -147,7 +156,8 @@ export const teamPage = [
     name: "Yağmur Erdem",
     title: "Avukat",
     image: "yagmurerdem.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "yagmur-erdem",
   },
   {
@@ -155,7 +165,8 @@ export const teamPage = [
     name: "Selen Boyar",
     title: "Avukat",
     image: "selenboyar.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "selen-boyar",
   },
   {
@@ -163,7 +174,8 @@ export const teamPage = [
     name: "Sıla Evrim atar",
     title: "Avukat",
     image: "silaevrimatar.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "sila-evrim-atar",
   },
   {
@@ -171,7 +183,8 @@ export const teamPage = [
     name: "Bilge Ezgi Peker",
     title: "Avukat",
     image: "bilgeezgipeker.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "bilge-ezgi-peker",
   },
   {
@@ -179,7 +192,8 @@ export const teamPage = [
     name: "Koray Kılıçel",
     title: "Avukat",
     image: "koraykilicel.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "koray-kilicel",
   },
   {
@@ -187,7 +201,8 @@ export const teamPage = [
     name: "Aynur Solak",
     title: "Avukat",
     image: "aynursolak.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "aynur-solak",
   },
   {
@@ -195,7 +210,8 @@ export const teamPage = [
     name: "Hazal Yıldırım",
     title: "Avukat",
     image: "hazalyildirim.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "hazal-yildirim",
   },
   {
@@ -203,7 +219,8 @@ export const teamPage = [
     name: "Doğuş Durmuş",
     title: "Avukat",
     image: "dogusdurmus.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "dogus-durmus",
   },
   {
@@ -211,7 +228,8 @@ export const teamPage = [
     name: "Eda Envarlı",
     title: "Avukat",
     image: "edaenvarli.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "eda-envarli",
   },
   {
@@ -219,7 +237,8 @@ export const teamPage = [
     name: "Miray Erdemir",
     title: "Avukat",
     image: "mirayerdemir.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "miray-erdemir",
   },
   
@@ -230,7 +249,8 @@ export const teamPage = [
     name: "Burak Demir",
     title: "Stajyer Avukat",
     image: "burakdemir.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "burak-demir",
   },
   {
@@ -238,7 +258,8 @@ export const teamPage = [
     name: "Sedanur Zengin",
     title: "Stajyer Avukat",
     image: "sedanurzengin.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "sedanur-zengin",
   },
   {
@@ -246,7 +267,8 @@ export const teamPage = [
     name: "İrem Özyetkin",
     title: "Stajyer Avukat",
     image: "iremozyetkin.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "irem-ozyetkin",
   },
   {
@@ -254,7 +276,8 @@ export const teamPage = [
     name: "Faika Selma Gürses",
     title: "Stajyer Avukat",
     image: "faikaselmagurses.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "faika-selma-gurses",
   },
   {
@@ -262,7 +285,8 @@ export const teamPage = [
     name: "Zeynep Aybakan",
     title: "Stajyer Avukat",
     image: "zeynepaybakan.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "zeynep-aybakan",
   },
   {
@@ -270,7 +294,8 @@ export const teamPage = [
     name: "Şerife Atik",
     title: "Stajyer Avukat",
     image: "serifeatik.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "serife-atik",
   },
   {
@@ -278,7 +303,8 @@ export const teamPage = [
     name: "Hayriye Sülümer",
     title: "Stajyer Avukat",
     image: "hayriyesulumer.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "hayriye-sulumer",
   },
   {
@@ -286,7 +312,8 @@ export const teamPage = [
     name: "Dilara Karya Uzal",
     title: "Stajyer Avukat",
     image: "dilarakaryauzal.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "dilara-karya-uzal",
   },
  ];
@@ -296,7 +323,8 @@ export const teamPage = [
     name: "Halime Albayrak",
     title: "Danışman",
     image: "halimealbayrak.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "halime-albayrak",
   },
   {
@@ -304,7 +332,8 @@ export const teamPage = [
     name: "Doç. Dr. Kemal Köksal",
     title: "Danışman",
     image: "kemalkoksal.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "kemal-koksal",
   },
   {
@@ -312,7 +341,8 @@ export const teamPage = [
     name: "Dr. Zeliha Hacımuratlar Sevinç",
     title: "Danışman",
     image: "zelihahacimuratlar.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "zeliha-hacimuratlar-sevinc",
   },
   {
@@ -320,7 +350,8 @@ export const teamPage = [
     name: "Şükrü Tarık Kapucu",
     title: "Danışman",
     image: "sükrükapucu.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "sukru-tarik-kapucu",
   },
   {
@@ -328,7 +359,8 @@ export const teamPage = [
     name: "Prof. Dr. Nedret Hızel",
     title: "Danışman",
     image: "nedrettinhizel.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "nedret-hizel",
   },
   {
@@ -336,7 +368,8 @@ export const teamPage = [
     name: "Serdar Karaman",
     title: "Danışman",
     image: "serdarkaraman.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "serdar-karaman",
   },
   {
@@ -344,7 +377,8 @@ export const teamPage = [
     name: "Sırma Batuhan Özkan Köksal",
     title: "Kurumsal İletişim Direktörü",
     image: "sırmabatuhanözkankoksal.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "sirma-batuhan-ozkan-koksal",
   },
  ];
@@ -354,7 +388,8 @@ export const teamPage = [
     name: "Derya Yılmaz",
     title: "İdari ve Mali İşler Direktörü",
     image: "deryayilmaz.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "derya-yilmaz",
   },
   {
@@ -362,7 +397,8 @@ export const teamPage = [
     name: "Oğuzhan Saman",
     title: "BT Danışmanı",
     image: "oguzhansaman.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "oguzhan-saman",
   },
   {
@@ -370,7 +406,8 @@ export const teamPage = [
     name: "Birsen Demirbaş",
     title: "Katip",
     image: "birsendemirbas.jpg",
-    socials,
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+
     url: "birsen-demirbas",
   },
  ];
