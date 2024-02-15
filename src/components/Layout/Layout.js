@@ -1,6 +1,7 @@
 import Preloader from "@/components/Preloader/Preloader";
 import useScroll from "@/hooks/useScroll";
 import Head from "next/head";
+import Script from "next/script"; // Import next/script
 import React, { useEffect, useState } from "react";
 import { Link as ScrollLink } from "react-scroll";
 import MobileMenu from "../Header/MobileMenu";
@@ -28,13 +29,18 @@ const Layout = ({
   return (
     <>
       <Head>
-        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2df1113f-45fa-4a29-85ce-96d16a60ebc1" data-blockingmode="auto" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           Koksal & Partners | {pageTitle} 
         </title>
-
       </Head>
+      <Script
+        id="Cookiebot"
+        src="https://consent.cookiebot.com/uc.js"
+        data-cbid="2df1113f-45fa-4a29-85ce-96d16a60ebc1"
+        data-blockingmode="auto"
+        strategy="lazyOnload" // Add the lazyOnload strategy
+      />
       <Preloader loading={loading} />
       <main
         id="wrapper"
