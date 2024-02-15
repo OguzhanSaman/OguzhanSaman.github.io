@@ -9,7 +9,7 @@ const TeamPopup = ({ isOpen, onClose, team }) => {
   };
 
   return (
-    <Modal show={isOpen} onHide={handleClose} centered>
+    <Modal dialogClassName="my-modal" show={isOpen} onHide={handleClose} centered>
       <Modal.Header closeButton>
         <Modal.Title>{name}</Modal.Title>
       </Modal.Header>

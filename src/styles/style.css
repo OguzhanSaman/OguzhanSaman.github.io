@@ -2629,12 +2629,24 @@ input[type="search"]::-webkit-search-results-decoration {
 /*--------------------------------------------------------------
 # Team One
 --------------------------------------------------------------*/
+
+.my-modal {
+  max-width: 900px !important;
+}
+
+.modal-body > div > ul > li {
+  margin: 0;
+  font-weight: 200;
+  color: black;
+  font-size: 14px;
+  padding: 0;
+}
+
 .team-one {
   position: relative;
   display: block;
   padding: 120px 0 0px;
 }
-
 .team-one__container {
   position: relative;
   display: block;
