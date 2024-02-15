@@ -1,6 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/ekip": "pages/ekip.js"
-}
+{"/_app":"pages/_app.js","/_error":"pages/_error.js","/_document":"pages/_document.js","/404":"pages/404.html","/[slug]":"pages/[slug].html","/blog-details":"pages/blog-details.html","/blog":"pages/blog.html","/cases-2":"pages/cases-2.html","/bilisim-hukuku":"pages/bilisim-hukuku.html","/cerezler":"pages/cerezler.html","/faq":"pages/faq.html","/ekip":"pages/ekip.html","/gayrimenkul-ve-insaat-hukuku":"pages/gayrimenkul-ve-insaat-hukuku.html","/haberler-ve-yayinlar":"pages/haberler-ve-yayinlar.html","/hakkimizda":"pages/hakkimizda.html","/hizmetler":"pages/hizmetler.html","/case-details":"pages/case-details.html","/":"pages/index.html","/iletisim":"pages/iletisim.html","/is-hukuku":"pages/is-hukuku.html","/kariyer":"pages/kariyer.html","/kisisel-verilerin-korunmasi":"pages/kisisel-verilerin-korunmasi.html","/kvkk":"pages/kvkk.html","/sirketler-ve-sozlesmeler-hukuku":"pages/sirketler-ve-sozlesmeler-hukuku.html","/testimonials":"pages/testimonials.html","/telekominikasyon-hukuku":"pages/telekominikasyon-hukuku.html"}

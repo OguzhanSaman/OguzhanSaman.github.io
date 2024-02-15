@@ -28,10 +28,12 @@ const Layout = ({
   return (
     <>
       <Head>
+        <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="2df1113f-45fa-4a29-85ce-96d16a60ebc1" data-blockingmode="auto" type="text/javascript"></script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>
           Koksal & Partners | {pageTitle} 
         </title>
+
       </Head>
       <Preloader loading={loading} />
       <main
