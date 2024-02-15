@@ -1,31 +1,238 @@
 {
   "polyfillFiles": [
-    "static/chunks/polyfills.js"
+    "static/chunks/polyfills-c67a75d1b6f99dc8.js"
   ],
-  "devFiles": [
-    "static/chunks/react-refresh.js"
-  ],
+  "devFiles": [],
   "ampDevFiles": [],
   "lowPriorityFiles": [
-    "static/development/_buildManifest.js",
-    "static/development/_ssgManifest.js"
+    "static/nG5eGrTQrPPAHwvBRwPUw/_buildManifest.js",
+    "static/nG5eGrTQrPPAHwvBRwPUw/_ssgManifest.js"
   ],
   "rootMainFiles": [],
   "pages": {
     "/": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/719-a02bbb7cb8c3d229.js",
+      "static/chunks/599-acb57c971071ca56.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/pages/index-d4365c81c897b86d.js"
+    ],
+    "/404": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/404-57583b754772d363.js"
+    ],
+    "/[slug]": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/534-a7fb96ad21b828dc.js",
+      "static/chunks/pages/[slug]-1e059dd04b37bb0b.js"
     ],
     "/_app": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_app.js"
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/css/2f916e84b5ab875b.css",
+      "static/chunks/pages/_app-3d65168960541af8.js"
     ],
     "/_error": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/_error.js"
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/pages/_error-5a00309fd5f4b49e.js"
+    ],
+    "/bilisim-hukuku": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/bilisim-hukuku-8e55570f9b0abf66.js"
+    ],
+    "/blog": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/534-a7fb96ad21b828dc.js",
+      "static/chunks/pages/blog-5e9489d73b457ff4.js"
+    ],
+    "/blog-details": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/534-a7fb96ad21b828dc.js",
+      "static/chunks/pages/blog-details-1e9c0ee540a9cb39.js"
+    ],
+    "/case-details": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/case-details-09c81a16c2618ac7.js"
+    ],
+    "/cases-2": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/719-a02bbb7cb8c3d229.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/cases-2-213571d0fe7934de.js"
+    ],
+    "/cerezler": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/cerezler-674bdf91017d6f1e.js"
+    ],
+    "/ekip": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/359-5095c51fe9cb907d.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/554-c4163a72858cc14e.js",
+      "static/chunks/pages/ekip-ddd2b3eff2a24c13.js"
+    ],
+    "/faq": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/faq-beb3de0ac79845b9.js"
+    ],
+    "/gayrimenkul-ve-insaat-hukuku": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/gayrimenkul-ve-insaat-hukuku-95eda9cb5e809787.js"
+    ],
+    "/haberler-ve-yayinlar": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/534-a7fb96ad21b828dc.js",
+      "static/chunks/pages/haberler-ve-yayinlar-11429933e8216bcd.js"
+    ],
+    "/hakkimizda": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/359-5095c51fe9cb907d.js",
+      "static/chunks/599-acb57c971071ca56.js",
+      "static/chunks/655-702c86686c7ce44c.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/554-c4163a72858cc14e.js",
+      "static/chunks/pages/hakkimizda-a7099cb75e3881fc.js"
+    ],
+    "/hizmetler": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/pages/hizmetler-071948477c5480ff.js"
+    ],
+    "/iletisim": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/iletisim-de8dae5e63cefc09.js"
+    ],
+    "/is-hukuku": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/is-hukuku-7030ef00d57adce9.js"
+    ],
+    "/kariyer": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/kariyer-db759fd05e34f231.js"
+    ],
+    "/kisisel-verilerin-korunmasi": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/kisisel-verilerin-korunmasi-1303bcc45fd1b1eb.js"
+    ],
+    "/kvkk": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/kvkk-948f11bfafa7f4f3.js"
+    ],
+    "/sirketler-ve-sozlesmeler-hukuku": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/sirketler-ve-sozlesmeler-hukuku-765a449981c6d412.js"
+    ],
+    "/telekominikasyon-hukuku": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/738-ee8a3c6084d0f755.js",
+      "static/chunks/565-f9b435358e7a97bb.js",
+      "static/chunks/pages/telekominikasyon-hukuku-292a3d95fa5f9b4d.js"
+    ],
+    "/testimonials": [
+      "static/chunks/webpack-4dd5b551efd9984f.js",
+      "static/chunks/framework-1c1ea121319f039d.js",
+      "static/chunks/main-930135e47dff83e9.js",
+      "static/chunks/901-50547b0cd7384ad8.js",
+      "static/chunks/222-a88049ca89540672.js",
+      "static/chunks/pages/testimonials-da343b83303608d5.js"
     ]
   },
   "ampFirstPages": []

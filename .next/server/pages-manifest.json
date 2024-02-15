@@ -1,6 +1,1 @@
-{
-  "/_app": "pages/_app.js",
-  "/_error": "pages/_error.js",
-  "/_document": "pages/_document.js",
-  "/": "pages/index.js"
-}
+{"/_app":"pages/_app.js","/404":"pages/404.html","/[slug]":"pages/[slug].html","/bilisim-hukuku":"pages/bilisim-hukuku.html","/_document":"pages/_document.js","/blog-details":"pages/blog-details.html","/blog":"pages/blog.html","/ekip":"pages/ekip.html","/cases-2":"pages/cases-2.html","/case-details":"pages/case-details.html","/faq":"pages/faq.html","/gayrimenkul-ve-insaat-hukuku":"pages/gayrimenkul-ve-insaat-hukuku.html","/haberler-ve-yayinlar":"pages/haberler-ve-yayinlar.html","/hakkimizda":"pages/hakkimizda.html","/cerezler":"pages/cerezler.html","/iletisim":"pages/iletisim.html","/hizmetler":"pages/hizmetler.html","/is-hukuku":"pages/is-hukuku.html","/":"pages/index.html","/kariyer":"pages/kariyer.html","/kisisel-verilerin-korunmasi":"pages/kisisel-verilerin-korunmasi.html","/sirketler-ve-sozlesmeler-hukuku":"pages/sirketler-ve-sozlesmeler-hukuku.html","/telekominikasyon-hukuku":"pages/telekominikasyon-hukuku.html","/testimonials":"pages/testimonials.html","/kvkk":"pages/kvkk.html","/_error":"pages/_error.js"}
