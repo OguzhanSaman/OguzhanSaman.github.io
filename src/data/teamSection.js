@@ -693,18 +693,30 @@ export const teamPage = [
     image: "deryayilmaz.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "derya-yilmaz",
-    educationAndExpertise: [],
-    languagesAndMemberships: []
+    educationAndExpertise: [
+      "Namık Kemal Üniversitesi İktisadi Ve İdari Bilimler Fakültesi İşletme Bölümünden 2017 yılında mezun oldu.",
+      "Mali ve İdari İşler Sorumlusu olarak çalışmaktadır."
+    ],
+    languagesAndMemberships: [
+      "Orta seviye İngilizce bilmektedir."
+    ]
   },
   {
     id: 2,
     name: "Oğuzhan Saman",
-    title: "BT Danışmanı",
+    title: "Bilişim ve Teknoloji Danışmanı",
     image: "oguzhansaman.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "oguzhan-saman",
-    educationAndExpertise: [],
-    languagesAndMemberships: []
+    educationAndExpertise: [
+      "Orta Doğu Teknik Üniversitesi, Moleküler Biyoloji & Genetik bölümünden 2021 yılında mezun oldu.",
+      "Hukuk yazılımları geliştirme ve hukuk bürosu bilişim altyapıları konusunda danışmanlık vermektedir.",
+      "ISO 27001 sertifikasına sahiptir."
+    ],
+    languagesAndMemberships: [
+      "C2 seviyesinde İngilizce bilmektedir.",
+      "B1 seviyesinde Almanca bilmektedir.", 
+    ]
   },
   {
     id: 3,
@@ -713,7 +725,12 @@ export const teamPage = [
     image: "birsendemirbas.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "birsen-demirbas",
-    educationAndExpertise: [],
-    languagesAndMemberships: []
+    educationAndExpertise: [
+      "Hitit Üniversitesi İşletme Yönetimi bölümünden mezun olmuştur.",
+      "İstanbul Üniversitesi Hukuk Fakültesi, Adalet Meslek Yüksek Okulu Adalet Bölümünü tamamlamıştır."
+    ],
+    languagesAndMemberships: [
+      "İngilizce bilmektedir."
+    ]
   },
  ];
