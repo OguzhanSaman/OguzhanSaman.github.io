@@ -32,20 +32,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/girisimcilik-ve-startup-hukuku": [
+    "/haberler-ve-yayinlar": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/girisimcilik-ve-startup-hukuku.js"
-    ],
-    "/kisisel-verilerin-korunmasi": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/kisisel-verilerin-korunmasi.js"
-    ],
-    "/saglik-hukuku": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/saglik-hukuku.js"
+      "static/chunks/pages/haberler-ve-yayinlar.js"
     ]
   },
   "ampFirstPages": []

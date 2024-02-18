@@ -2,9 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/[slug]": "pages/[slug].js",
-  "/kisisel-verilerin-korunmasi": "pages/kisisel-verilerin-korunmasi.js",
   "/404": "pages/404.js",
-  "/girisimcilik-ve-startup-hukuku": "pages/girisimcilik-ve-startup-hukuku.js",
-  "/saglik-hukuku": "pages/saglik-hukuku.js"
+  "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js",
+  "/[slug]": "pages/[slug].js"
 }
