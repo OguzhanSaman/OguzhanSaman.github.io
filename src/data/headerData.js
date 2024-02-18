@@ -16,7 +16,15 @@ export const servicesSubNavItems = [
   { id: 6, name: "İş Hukuku", href: "/is-hukuku" },
   { id: 7, name: "Şirketler ve Sözleşmeler Hukuku", href: "/sirketler-ve-sozlesmeler-hukuku" },
   { id: 8, name: "Gayrimenkul ve İnşaat Hukuku", href: "gayrimenkul-ve-insaat-hukuku" },
-  { id: 9, name: "Telekominikasyon Hukuku", href: "/telekominikasyon-hukuku" },
+  { id: 9, name: "Telekomünikasyon, Medya ve Eğlence Hukuku", href: "/telekominikasyon-hukuku" },
+  { id: 10, name: "Sağlık Hukuku", href: "/saglik-hukuku" },
+  { id: 11, name: "Girişimcilik ve Start-up Hukuku", href: "/girisimcilik-ve-startup-hukuku" },
+  { id: 12, name: "İcra ve İflas hukuku", href: "/icra-ve-iflas-hukuku" },
+  { id: 13, name: "E-Ticaret, Fintek ve Ödeme Hizmetleri", href: "/e-ticaret-fintek-ve-odeme-hizmetleri" },
+  { id: 14, name: "Blockchain ve Kripto Para", href: "/blockchain-ve-kripto-para" },
+  { id: 15, name: "Yabancılar ve Vatandaşlık Hukuku", href: "/yabancilar-ve-vatandaslik-hukuku" },
+  { id: 16, name: "Reklam Hukuku", href: "/reklam-hukuku" },
+  { id: 14, name: "Fikri ve Sınai Mülkiyet Hukuku", href: "/fikri-ve-sinai-mulkiyet-hukuku" }
 ];
 
 export const navItems = [

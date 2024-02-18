@@ -684,6 +684,30 @@ export const teamPage = [
       "İngilizce"
     ]
   },
+  {
+    id: 7,
+    name: "Emrah Elmas",
+    title: "Danışman",
+    image: "emrahelmas.jpg",
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+    url: "emrah-elmas",
+    educationAndExpertise: [
+      "İstanbul Üniversitesi Endüstri Mühendisliği bölümünden mezun oldu.",
+      "New York, Baruch Kolejinde yüksek lisans yaptı.",
+      "Marmara Üniversitesinde doktorasını tamamladı.",
+      "BT Siber Güvenlik Uzmanı",
+      "PCI QSA - Ödeme Kartı Endüstrisi Nitelikli Güvenlik Değerlendiricisi",
+      "Kapsamlı Telekomünikasyon Bilgisi: GSM Sistemleri ve Şebekesi, Sabit Altyapı, Bağlanabilirlik, Mobil",
+      "Dijital Dönüşüm (Veri Merkezi Dönüşümü, Büyük Veri, İş Süreçlerinin Yeniden Yapılandırılması)",
+      "Veritabanı: Oracle, SQL, MS Access",
+      "ERP: SAP Malzeme Yönetimi / Depo Yönetimi / Varlık Yönetimi (uygulamalı proje yönetimi ve danışmanlık deneyimi)",
+      "Geliştirme: C++, HTML, Dreamweaver, Flash (uygulamalı geliştirme deneyimi)",
+      "Ağ Mimarisi uzmanı"
+    ],
+    languagesAndMemberships: [
+      "İyi derecede İngilizce ve orta düzeyde İtalyanca bilmektedir."
+    ]
+  },
  ];
  export const teamPage6 = [
   {

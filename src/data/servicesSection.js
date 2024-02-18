@@ -4,6 +4,15 @@ import image6 from "@/images/services/service-details-img-3.jpg";
 import image4 from "@/images/services/service-details-img-4.jpg";
 import image2 from "@/images/services/service-details-img-5.jpg";
 import image5 from "@/images/services/service-details-img-6.jpg";
+import image7 from "@/images/services/service-details-img-7.jpg";
+import image8 from "@/images/services/service-details-img-8.jpg";
+import image9 from "@/images/services/service-details-img-9.jpg";
+import image10 from "@/images/services/service-details-img-10.jpg";
+import image11 from "@/images/services/service-details-img-11.jpg";
+import image12 from "@/images/services/service-details-img-12.jpg";
+import image13 from "@/images/services/service-details-img-13.jpg";
+import image14 from "@/images/services/service-details-img-14.jpg";
+
 import { kvkkfaqs,faqs } from "./fAQsPage";
 
 import { servicesSubNavItems } from "./headerData";
@@ -28,7 +37,7 @@ export const servicesOne = {
     },
     {
       id: 3,
-      title: "İş Hukuku\n\n",
+      title: "İş Hukuku ve Sosyal Güvenlik Hukuku",
       image: "services-1-3.jpg",
       href: "/is-hukuku",
       text: "İş ve Sosyal Güvenlik Hukuku konusunda deneyimli Köksal&Partners, iş ilişkileri, sözleşme hazırlama, hak koruma, iş sağlığı uyumu ve davalara çözüm odaklı hizmet sunar.",
@@ -42,17 +51,65 @@ export const servicesOne = {
     },
     {
       id: 5,
-      title: "Gayrimenkul ve İnşaat Hukuku",
+      title: "Gayrimenkul ve İnşaat Hukuku\n\n",
       image: "services-1-5.jpg",
       href: "/gayrimenkul-ve-insaat-hukuku",
       text: "Köksal&Partners, yerli ve yabancı müvekkillerine kat karşılığı inşaat, gayrimenkul alım-satım, kira sözleşmeleri danışmanlığı ve devir işlemleri konusunda hizmet verir; ayrıca taşınmaz uyuşmazlıklarında arabuluculuk sağlar.",
     },
     {
       id: 6,
-      title: "Telekominikasyon Hukuku",
+      title: "Telekomünikasyon, Medya ve Eğlence Hukuku",
       image: "services-1-6.jpg",
       href: "/telekominikasyon-hukuku",
       text: "Köksal&Partners, Telekomünikasyon Hukuku'nda öncü ulusal ve uluslararası şirketlere, sektördeki gelişmelerin hukuki değerlendirmesi, regülasyon uyumluluğu, sözleşmeler ve lisans başvuruları gibi geniş hizmetler sunar.",
+    },
+    {
+      id: 7,
+      title: "Sağlık Hukuku\n\n\n",
+      image: "services-1-7.jpg",
+      href: "/saglik-hukuku",
+    },
+    {
+      id: 8,
+      title: "Girişimcilik ve Start-up Hukuku\n\n",
+      image: "services-1-8.jpg",
+      href: "/girisimcilik-ve-startup-hukuku",
+    },
+    {
+      id: 9,
+      title: "İcra ve İflas Hukuku\n\n",
+      image: "services-1-9.jpg",
+      href: "/icra-ve-iflas-hukuku",
+    },
+    {
+      id: 10,
+      title: "E-Ticaret, Fintek ve Ödeme Hizmetleri",
+      image: "services-1-10.jpg",
+      href: "/e-ticaret-fintek-ve-odeme-hizmetleri",
+    },
+    {
+      id: 11,
+      title: "Blockchain ve Kripto Para",
+      image: "services-1-11.jpg",
+      href: "/blockchain-ve-kripto-para",
+    },
+    {
+      id: 12,
+      title: "Yabancılar ve Vatandaşlık Hukuku",
+      image: "services-1-12.jpg",
+      href: "/yabancilar-ve-vatandaslik-hukuku",
+    },
+    {
+      id: 13,
+      title: "Reklam Hukuku\n\n",
+      image: "services-1-13.jpg",
+      href: "/reklam-hukuku",
+    },
+    {
+      id: 14,
+      title: "Fikri ve Sınai Mülkiyet Hukuku",
+      image: "services-1-14.jpg",
+      href: "/fikri-ve-sinai-mulkiyet-hukuku",
     },
   ],
 };
@@ -209,6 +266,103 @@ const telecomServiceDerails = {
 
   ],
 };
+const saglikServiceDerails = {
+  text: "Sağlık sektöründe faaliyet gösteren kurum ve bireylere kapsamlı hukuki destek sunmakta olup sağlık kurumlarının tedarikçileri, çalışanları ve hastaları ile girdikleri sözleşmesel ilişkiler ile ilaç hammaddelerine ilişkin alım-satım, dağıtım ve üretim sözleşmelerinin hazırlanması gibi sağlık hukukuna ilişkin her türlü sözleşmenin hazırlanması, bu süreçte hukuki danışmanlığın sağlanması gibi hizmetler sunmaktayız.",
+  text2: "Sözleşmesel ilişkilerin yanı sıra sigorta uyuşmazlıklarının giderilmesi, hastaneler ve diğer özel sağlık kurumlarının ilgili oldukları mevzuat kapsamında sorumluluklarının belirlenmesi ve hukuki danışmanlığın sağlanması, ruhsatlandırma sürecine ilişkin idari prosedürün yürütülmesi ve kamu kurum ve kuruluşları nezdinde müvekkillerin temsili de çalışma alanlarımız kapsamında bulunmaktadır.",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const girisimcilikServiceDerails = {
+  text: "Köksal & Partners, yenilikçi girişimcilere ve büyümekte olan start-up'lara özgün ve kapsamlı hukuki çözümler sunan öncü bir hukuk bürosudur. Köksal & Partners olarak başlangıç aşamasından itibaren girişimcilerin yanında yer alarak şirket kuruluşu, yatırım anlaşmaları, şirket faaliyetleri için gereken her türlü sözleşmelerin hazırlanması, fikri ve sınai mülkiyet haklarının tescili ve korunması  gibi konularda en efektif desteği vererek müvekkillerimizin büyüme hedeflerine ulaşmalarını sağlamak için gereken her hukuki yardımı sunarız.",
+  text2: "",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const icraServiceDerails = {
+  text: "İcra ve iflas daireleri karşısında alacak tahsilatı ve takibi, haciz, rehin, ipotek süreçlerini yürütmek, itirazın iptali ve itirazın kaldırılması, yedieminliği suistimal, menfi tespit, istirdat davalarının açılması ve takip edilmesi, iflas talep edilmesi ve takibi, iflasın ertelenmesi davalarının takibi gibi hem borçlu hem de alacaklı konumunda yer alan müvekkillerimiz için icra ve iflas hukukundan kaynaklanan her bir uyuşmazlığı azami dikkat ve özeni göstererek yürütmekteyiz.",
+  text2: "",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const eticaretServiceDerails = {
+  text: "Köksal & Partners olarak dijital ekonomi ve finansal teknoloji sektörlerinin dinamik doğasını anlayarak müvekkillerimize kapsamlı hukuki destek sunuyoruz. Giderek daha da dijitalleşen bu çağda, e-ticaret, fintek ve ödeme hizmetleri sektörlerinde faaliyet gösteren şirketler ve girişimciler için e-ticaret platformlarının kurulması ve işletilmesiyle ilgili hukuki danışmanlık, fintek şirketlerinin mevzuat uyumunun sağlanması, ödeme hizmetlerinin lisanslandırılması ve diğer ilgili izin süreçlerinin yönetilmesi gibi hizmetlerde bulunuyor ve tüm hukuki süreçlerin sevk ve idaresini sağlıyoruz.",
+  text2: "",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const blockchainServiceDerails = {
+  text: "Hızla gelişen dijital varlık ekosistemi ve blockchain teknolojisine ayak uyduran ve her türlü gelişmenin takibini yapan dinamik ekibimiz ile kripto para sektöründe yer alan müvekkillerimize dijital varlık ticareti, akıllı sözleşmeler gibi blockchainin hakim olduğu her türlü alanda gereken hukuki desteği en hızlı ve en etkili şekilde, teknolojinin koşullarına uygun olarak sunmaktayız.",
+  text2: "Ayrıca blockchain ve kripto para sektöründe faaliyet göstermek isteyen müvekkillerimize gereken mevzuata uyumluluk ve hukuki temellerin atılmasını sağlamak amacıyla gereken her türlü hukuki danışmanlığı sağlıyor ve kuruluş aşamasında her türlü prosedürü müvekkillerimiz adına işletiyoruz.",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const yabancilarServiceDerails = {
+  text: "Köksal & Partners olarak ikametgah izni, çalışma izni, Türk vatandaşlığının kazanılması, Mavi Kart başvurusu gibi yabancılar ve vatandaşlık hukukuna ilişkin her türlü prosedürün sevk ve idaresini müvekkillerimiz adına gerçekleştiriyor, tüm süreçleri en hızlı ve müvekkilimizin en üst düzey menfaatini koruyacak şekilde yürütüyoruz.",
+  text2: "",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const reklamServiceDerails = {
+  text: "Köksal & Partners olarak müvekkillerimiz nezdinde gerçekleşen reklam, tanıtım gibi içeriklerin ilgili oldukları mevzuatlara uyumluluğunu inceliyor ve bu konuda gereken danışmanlık hizmetini sağlıyoruz. Reklam hukukundan doğan uyuşmazlıkların sonucu olarak başta tüketici uyuşmazlıkları olmak üzere RTÜK ve Reklam Kurulu kararlarına itiraza ilişkin her türlü uyuşmazlığın takibini de gerçekleştirmekteyiz.",
+  text2: "",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+const fikriServiceDerails = {
+  text: "Köksal&Partners, alanında uzman avukatları, marka ve patent vekilleri aracılığıyla müvekkillerine yazılım tescili, patent/faydalı model tescili, tasarım tescili, coğrafi işaret ve geleneksel ürün adı tescili, marka tescili, marka takibi, marka ve fikri hak koruması, sosyal medya takibi ve alan adı (domain name) ile sosyal medya hesabının marka sahibi adına tescili hizmetlerini sunmaktadır.",
+  text2: "Danışmanlık hizmetlerinin yanı sıra, Fikri Mülkiyet Haklarının ihlalinin söz konusu olduğu tüm uyuşmazlıklarda Köksal & Partners ekibi, müvekkillerine dava takibi alanında da destek sağlamaktadır.",
+  text3:
+    "",
+  contents: [
+
+  ],
+  howHelps: [
+
+  ],
+};
+
 
 
 export const consumerProduct = {
@@ -246,3 +400,45 @@ export const marketingRules = {
   title: "İş Hukuku",
   ...isServiceDerails,
 };
+
+export const saglikHukuku = {
+image : image7,
+title : "Sağlık Hukuku",
+...saglikServiceDerails,
+};
+export const girisimcilikHukuku = {
+  image : image8,
+  title : "Girişimcilik ve Start-up Hukuku",
+  ...girisimcilikServiceDerails,
+};
+export const icraVeIflasHukuku = {
+  image : image9,
+  title : "İcra ve İflas Hukuku",
+  ...icraServiceDerails,
+};
+export const eTicaretFintekVeOdemeHizmetleri = {
+  image : image10,
+  title : "E-Ticaret, Fintek ve Ödeme Hizmetleri",
+  ...eticaretServiceDerails,
+};
+export const blockchainVeKriptoPara = {
+  image : image11,
+  title : "Blockchain ve Kripto Para",
+  ...blockchainServiceDerails,
+};
+export const yabancilarVeVatandaslikHukuku = {
+  image : image12,
+  title : "Yabancılar ve Vatandaşlık Hukuku",
+  ...yabancilarServiceDerails,
+};
+export const reklamHukuku = {
+  image : image13,
+  title : "Reklam Hukuku",
+  ...reklamServiceDerails,
+};
+export const fikriVeSinaiMulkiyetHukuku = {
+  image : image14,
+  title : "Fikri ve Sınai Mülkiyet Hukuku",
+  ...fikriServiceDerails,
+};
+

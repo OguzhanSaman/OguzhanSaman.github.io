@@ -12,6 +12,16 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/404": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/404.js"
+    ],
+    "/[slug]": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/[slug].js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,10 +32,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/ekip": [
+    "/girisimcilik-ve-startup-hukuku": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/ekip.js"
+      "static/chunks/pages/girisimcilik-ve-startup-hukuku.js"
+    ],
+    "/kisisel-verilerin-korunmasi": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/kisisel-verilerin-korunmasi.js"
+    ],
+    "/saglik-hukuku": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/saglik-hukuku.js"
     ]
   },
   "ampFirstPages": []
