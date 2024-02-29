@@ -16,25 +16,26 @@ const NewsDetailsLeft = ({ news = {} }) => {
   const renderDynamicContent = () => {
     return dynamicContent.map((item, index, title) => {
       if (item.type === "paragraph") {
-        return <p key={index}>{item.content}</p>;
+        return <p key={index} className="news-p">{item.content}</p>;
       } else if (item.type === "list") {
         return (
-          <ul key={index}>
+          <ul key={index} className="news-ul">
             {item.content.map((listItem, idx) => (
               <li key={idx}>{listItem}</li>
             ))}
           </ul>
         );
       } else if (item.type === "header") {
-        return <h4 key={index}>{item.content}</h4>;
+        return <h4 key={index} className="news-h4">{item.content}</h4>;
       } else if (item.type === "subheader") {
-        return <h5 key={index}>{item.content}</h5>;
+        return <h5 key={index} className="news-h5">{item.content}</h5>;
       } else if (item.type === "image") {
-        return <Image key={index} src={item.content.src} alt={title} />;
+        return <Image key={index} src={item.content.src} alt={title} className="news-img"/>;
       } else {
         // Handle other types if needed
         return null;
       }
+      
     });
   };
 
@@ -64,6 +65,10 @@ const NewsDetailsLeft = ({ news = {} }) => {
               {tag}
             </a>
           ))}
+        </p>
+        <p className="news-details__author">
+          <span>Yazar: </span>
+          <a href="/ekip" style={{color: "black"}}>{author}</a>
         </p>
       </div>
     </div>

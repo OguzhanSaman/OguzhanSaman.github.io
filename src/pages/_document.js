@@ -57,7 +57,7 @@ class MyDocument extends Document {
 
           <meta
             name="description"
-            content="Köksal & Partners Attorney Partnership/ Köksal & Partners Avukatlık Ortaklığı"
+            content="Koksal & Partners Attorney Partnership / Köksal & Partners Avukatlık Ortaklığı"
           />
 
           <link rel="preconnect" href="https://fonts.googleapis.com" />

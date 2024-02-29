@@ -3105,6 +3105,19 @@ input[type="search"]::-webkit-search-results-decoration {
 /*--------------------------------------------------------------
 # News One
 --------------------------------------------------------------*/
+.news-p, .news-ul, .news-img {
+  margin-top: 20px;
+  text-align: justify;
+}
+.news-h4 {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.news-h5 {
+  margin-top: 20px;
+  font-weight: 400;
+}
+
 .news-one {
   position: relative;
   display: block;
