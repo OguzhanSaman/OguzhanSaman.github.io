@@ -623,7 +623,7 @@ export const teamPage = [
     id: 4,
     name: "Şükrü Tarık Kapucu",
     title: "Danışman",
-    image: "sükrükapucu.jpg",
+    image: "sukrukapucu.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "sukru-tarik-kapucu",
     educationAndExpertise: [
@@ -671,7 +671,7 @@ export const teamPage = [
     id: 7,
     name: "Sırma Batuhan Özkan Köksal",
     title: "Kurumsal İletişim Direktörü",
-    image: "sırmabatuhanözkankoksal.jpg",
+    image: "sirmabatuhanozkankoksal.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "sirma-batuhan-ozkan-koksal",
     educationAndExpertise: [

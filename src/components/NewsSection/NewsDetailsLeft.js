@@ -4,25 +4,42 @@ import Link from "../Reuseable/Link";
 
 const NewsDetailsLeft = ({ news = {} }) => {
   const {
-    image,
     subtitle,
     date,
     title,
     text,
-    wholeText1,
-    wholeText2,
-    wholeText3,
-    list,
-    list2,
+    dynamicContent,
     author,
     tags,
   } = news;
 
+  const renderDynamicContent = () => {
+    return dynamicContent.map((item, index, title) => {
+      if (item.type === "paragraph") {
+        return <p key={index}>{item.content}</p>;
+      } else if (item.type === "list") {
+        return (
+          <ul key={index}>
+            {item.content.map((listItem, idx) => (
+              <li key={idx}>{listItem}</li>
+            ))}
+          </ul>
+        );
+      } else if (item.type === "header") {
+        return <h4 key={index}>{item.content}</h4>;
+      } else if (item.type === "subheader") {
+        return <h5 key={index}>{item.content}</h5>;
+      } else if (item.type === "image") {
+        return <Image key={index} src={item.content.src} alt={title} />;
+      } else {
+        // Handle other types if needed
+        return null;
+      }
+    });
+  };
+
   return (
     <div className="news-details__left">
-      <div className="news-details__img">
-        <Image src={image.src} alt="" />
-      </div>
       <div className="news-details__content">
         <p className="news-details__sub-title">{subtitle}</p>
         <ul className="list-unstyled news-details__meta">
@@ -37,23 +54,7 @@ const NewsDetailsLeft = ({ news = {} }) => {
         </ul>
         <h3 className="news-details__title">{title}</h3>
         <p className="news-details__text-1">{text}</p>
-        <p className="news-details__text-2">{wholeText1}</p>
-        {wholeText2 && <p className="news-details__text-3">{wholeText2}</p>}
-        {wholeText3 && <p className="news-details__text-4">{wholeText3}</p>}
-        {list && (
-          <ul>
-            {list.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        )}
-        {list2 && (
-          <ul>
-            {list2.map((item, index) => (
-              <li key={index}>{item}</li>
-            ))}
-          </ul>
-        )}
+        {renderDynamicContent()}
       </div>
       <div className="news-details__bottom">
         <p className="news-details__tags">
