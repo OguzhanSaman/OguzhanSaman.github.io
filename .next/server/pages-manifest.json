@@ -2,5 +2,11 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/hakkimizda": "pages/hakkimizda.js"
+  "/hakkimizda": "pages/hakkimizda.js",
+  "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js",
+  "/iletisim": "pages/iletisim.js",
+  "/hizmetler": "pages/hizmetler.js",
+  "/kariyer": "pages/kariyer.js",
+  "/kvkk": "pages/kvkk.js",
+  "/ekip": "pages/ekip.js"
 }
