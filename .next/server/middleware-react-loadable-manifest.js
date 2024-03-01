@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"../components/OurMission/OurMissionTwo.js -> ../Jarallax/Jarallax\":{\"id\":\"../components/OurMission/OurMissionTwo.js -> ../Jarallax/Jarallax\",\"files\":[\"static/chunks/src_components_Jarallax_Jarallax_js.js\"]}}"

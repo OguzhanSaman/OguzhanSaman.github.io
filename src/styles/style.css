@@ -3105,17 +3105,23 @@ input[type="search"]::-webkit-search-results-decoration {
 /*--------------------------------------------------------------
 # News One
 --------------------------------------------------------------*/
-.news-p, .news-ul, .news-img {
+.news-p, .news-ul {
   margin-top: 20px;
   text-align: justify;
+}
+.news-img {
+  margin-top: 20px;
+  width: 80%;
 }
 .news-h4 {
   margin-top: 20px;
   font-weight: 600;
+  font-size: 20px;
 }
 .news-h5 {
   margin-top: 20px;
   font-weight: 400;
+  font-size: 18px;
 }
 
 .news-one {
@@ -5241,7 +5247,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .welcome-three {
   position: relative;
   display: block;
-  padding: 120px 120px 0;
+  padding: 40px 10px 0;
 }
 
 .welcome-three__left {
@@ -7842,7 +7848,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .work-together-two {
   position: relative;
   display: block;
-  padding: 0 120px;
+  padding: 0 10px;
 }
 
 .work-together-two__left {
@@ -7864,7 +7870,7 @@ input[type="search"]::-webkit-search-results-decoration {
 .work-together-tow__right {
   position: relative;
   display: block;
-  margin-left: 70px;
+  margin-left: 50px;
 }
 
 .work-together-tow__right .section-title {
@@ -7914,6 +7920,8 @@ input[type="search"]::-webkit-search-results-decoration {
   width: 100%;
   max-width: 800px;
 }
+
+
 
 /*--------------------------------------------------------------
 ## Team Page Two
