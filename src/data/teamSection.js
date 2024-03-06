@@ -44,13 +44,16 @@ export const teamOne = {
       image: "mehmetalikoksal.jpg",
       linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
       url: "mehmet-ali-koksal",
-      educationAndExpertise: ["Ankara Üniversitesi Hukuk Fakültesi’nden 1996 yılında mezun oldu.", 
-                              "Bir süre Ankara’nın tanınmış bürolarından birisinde avukat olarak görev yaptıktan sonra 2005 yılı Eylül’ünde Köksal&Partners Avukatlık Bürosu’nu kurdu.", 
-                              "Avukatlık hizmeti dışında aynı zamanda TPE nezdinde kayıtlı marka ve patent vekilliğini yürütmekte olan Köksal, Bilişim Hukuku alanında pek çok konferanslara katılmakta ve eğitimler vermektedir."
+      educationAndExpertise: ["Ankara Üniversitesi Hukuk Fakültesi’nden 1996 yılında mezun olmuştur.", 
+                              "Bir süre Ankara’nın tanınmış bürolarından birisinde avukat olarak görev yaptıktan sonra 2005 yılı Eylül’ünde Köksal & Partners Avukatlık Avukatlık Ortaklığı'nı kurdu.", 
+                              "Avukatlık hizmeti dışında aynı zamanda TPE nezdinde kayıtlı marka ve patent vekillidir.",
+                              "Köksal, Bilişim Hukuku, Fintech, Blockchain, Kişisel Verilerin Korunması Hukuku gibi yeni teknoloji alanlarında eğitimler vermekte ve çalışmalar yürütmektedir.",
+                              "Özellikle teknik bilgi gerektiren hukuk alanlarında uzman olup, Türkiye Bilişim Derneği’nin Hukuk Çalışma Grubu başkanıdır.",
                             ],
-      languagesAndMemberships: ["Köksal, özellikle teknik bilgi gerektiren hukuk alanlarında uzman olup, Türkiye Bilişim Derneği’nin Hukuk Çalışma Grubu başkanıdır.",
-                                "İstanbul Barosu Üyesidir, Türkiye Bilişim Derneği Başkanlığı yapmıştır.",
-                                "ISO 27001 sertifikasına sahiptir."
+      languagesAndMemberships: ["İngilizce",
+                                "İstanbul Barosu",
+                                "Türkiye Bilişim Derneği",
+                                "Veri Koruma Derneği"
                             ]
     },
     {
@@ -94,14 +97,17 @@ export const teamPage = [
     image: "mehmetalikoksal.jpg",
     linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
     url: "mehmet-ali-koksal",
-    educationAndExpertise: ["Ankara Üniversitesi Hukuk Fakültesi’nden 1996 yılında mezun oldu.", 
-                            "Bir süre Ankara’nın tanınmış bürolarından birisinde avukat olarak görev yaptıktan sonra 2005 yılı Eylül’ünde Köksal&Partners Avukatlık Bürosu’nu kurdu.", 
-                            "Avukatlık hizmeti dışında aynı zamanda TPE nezdinde kayıtlı marka ve patent vekilliğini yürütmekte olan Köksal, Bilişim Hukuku alanında pek çok konferanslara katılmakta ve eğitimler vermektedir."
-                          ],
-    languagesAndMemberships: ["Köksal, özellikle teknik bilgi gerektiren hukuk alanlarında uzman olup, Türkiye Bilişim Derneği’nin Hukuk Çalışma Grubu başkanıdır.",
-                              "İstanbul Barosu Üyesidir, Türkiye Bilişim Derneği Başkanlığı yapmıştır.",
-                              "ISO 27001 sertifikasına sahiptir."
-                          ]
+      educationAndExpertise: ["Ankara Üniversitesi Hukuk Fakültesi’nden 1996 yılında mezun olmuştur.", 
+                              "Bir süre Ankara’nın tanınmış bürolarından birisinde avukat olarak görev yaptıktan sonra 2005 yılı Eylül’ünde Köksal & Partners Avukatlık Avukatlık Ortaklığı'nı kurdu.", 
+                              "Avukatlık hizmeti dışında aynı zamanda TPE nezdinde kayıtlı marka ve patent vekillidir.",
+                              "Köksal, Bilişim Hukuku, Fintech, Blockchain, Kişisel Verilerin Korunması Hukuku gibi yeni teknoloji alanlarında eğitimler vermekte ve çalışmalar yürütmektedir.",
+                              "Özellikle teknik bilgi gerektiren hukuk alanlarında uzman olup, Türkiye Bilişim Derneği’nin Hukuk Çalışma Grubu başkanıdır.",
+                            ],
+      languagesAndMemberships: ["İngilizce",
+                                "İstanbul Barosu",
+                                "Türkiye Bilişim Derneği",
+                                "Veri Koruma Derneği"
+                            ]
   },
   {
     id: 2,
