@@ -7,6 +7,7 @@ import { Link as ScrollLink } from "react-scroll";
 import MobileMenu from "../Header/MobileMenu";
 import SearchPopup from "../Header/SearchPopup";
 import SiteFooter from "../SiteFooter/SiteFooter";
+import CookieManager from "../CookieManager/CookieManager";
 
 const Layout = ({
   children,
@@ -34,14 +35,8 @@ const Layout = ({
           Koksal & Partners | {pageTitle} 
         </title>
       </Head>
-      <Script
-        id="Cookiebot"
-        src="https://consent.cookiebot.com/uc.js"
-        data-cbid="2df1113f-45fa-4a29-85ce-96d16a60ebc1"
-        data-blockingmode="auto"
-        strategy="lazyOnload" // Add the lazyOnload strategy
-      />
       <Preloader loading={loading} />
+      <CookieManager />
       <main
         id="wrapper"
         style={{ opacity: loading ? 0 : 1 }}

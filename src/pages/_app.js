@@ -18,7 +18,6 @@ import "tiny-slider/dist/tiny-slider.css";
 import "@/styles/style.css";
 import "@/styles/responsive.css";
 
-ReactGA.initialize('G-7CNE6BFXDV');
 
 const MyApp = ({ Component, pageProps }) => {
   useEffect(() => {
@@ -41,14 +40,6 @@ const MyApp = ({ Component, pageProps }) => {
 
   return (
     <>
-      <Head>
-        <script
-          type="text/javascript"
-          src="//ccdn.mobildev.in/9b00f9bffca44517a5b34d6f0ba641b0.js"
-          data-token="SnR6wvl3KF01Mt60J6cn"
-          charset="UTF-8"
-        />
-      </Head>
       <ContextProvider>
         <Component {...pageProps} />
       </ContextProvider>

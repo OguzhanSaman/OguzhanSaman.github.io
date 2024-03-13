@@ -1,6 +1,7 @@
 import React from "react";
 import { Image } from "react-bootstrap";
-import Link from "../Reuseable/Link";
+
+import Link from "next/link";
 
 const NewsDetailsLeft = ({ news = {} }) => {
   const {
@@ -31,8 +32,9 @@ const NewsDetailsLeft = ({ news = {} }) => {
         return <h5 key={index} className="news-h5">{item.content}</h5>;
       } else if (item.type === "image") {
         return <Image key={index} src={item.content.src} alt={title} className="news-img"/>;
+      } else if (item.type === "link") {
+        return <Link key={index} href={item.href} className="news-link" rel="noopener noreferrer" target="_blank">{item.content}</Link>;
       } else {
-        // Handle other types if needed
         return null;
       }
       

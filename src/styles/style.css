@@ -3123,6 +3123,12 @@ input[type="search"]::-webkit-search-results-decoration {
   font-weight: 400;
   font-size: 18px;
 }
+.news-link {
+  margin-top: 20px;
+  font-weight: 400;
+  font-size: 18px;
+  color: #007bff;
+}
 
 .news-one {
   position: relative;

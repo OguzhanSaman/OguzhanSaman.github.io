@@ -7,8 +7,8 @@ import hash from "@/images/blog/hashdescription.jpg";
 import paracezalari from "@/images/blog/paracezalari.jpg";
 
 
-import { inputs } from "./contact";
-import { socials } from "./teamSection";
+// import { inputs } from "./contact";
+// import { socials } from "./teamSection";
 
 export const newsOne = {
   tagline: "Güncel Yayınlar",
@@ -20,6 +20,104 @@ export const newsOne = {
 // to add HTML tags from the data section. I have defined a dynamicContent array in the newsSidebar object. This array contains different types of content such as paragraphs, lists, headers, and images. I will use this dynamicContent array to render the HTML tags in the NewsDetailsLeft component.
 export const newsSidebar = {
   newses: [
+    {
+      id: 9,
+      subtitle: "GDPR KARARI",
+      date: "13.03.2024",
+      title: "Polonya Veri Koruma Otoritesi, kişisel veri ihlali hakkında Otorite’yi ve tüm ilgili kişileri bilgilendirmediği için bir konut topluluğuna para cezası verdi.",
+      slug: "polonya-veri-koruma-otoritesi-karari-1",
+      text: "Kiralık konutları yöneten ve bu konutların bakımını yapan bir konut topluluğunun (veri sorumlusu) kiracılarının (ilgili kişiler) kişisel verilerini içerir belgelerinin çalınması üzerine veri sorumlusu ilgili kişilerden yalnızca birini bilgilendirmiş ve Polonya Veri Koruma Otoritesi’ne (“Otorite”) de bildirimde bulunmamıştır.",
+      dynamicContent: [
+        {type: "paragraph",content: "Şubat 2020'de, kiralık konutları yöneten ve bu konutların bakımını yapan bir konut topluluğuna ait (veri sorumlusu), kiracıların (ilgili kişiler) kişisel verilerini içeren belgeler çalınmıştır. Çalınan kişisel veriler, “isimler, adresler, banka hesap bilgilerinin yanı sıra, iki ilgili kişinin kişisel kimlik numarasını içeren bir noter senedinden” oluşmaktadır. Ancak, veri sorumlusu ilgili kişilerden yalnızca birini - noter senedinde kişisel verileri bulunan kişiyi - bilgilendirmiştir. Ayrıca, GDPR Madde 33(1)'in gerektirdiği şekilde Polonya Veri Koruma Otoritesi’ne (“Otorite”) bildirimde bulunmamıştır."},
+        {type: "paragraph",content: "Ekim 2020'de, Otorite bu olay hakkında bilgi veren isimsiz bir ihbar almıştır. İhbar üzerine Otorite bir soruşturma başlatmış ve bu doğrultuda ihlalden etkilenen ilgili kişilerin sayısı ve çalınan veri kategorileri de dahil olmak üzere veri sorumlusundan bilgi talep etmiştir. Veri sorumlusu, ilgili kişileri veri ihlali hakkında sözlü olarak bilgilendirdiğini ve Veri Koruma Otoritesi’nin de bilgilendirilmesi gerektiğinin farkında olmadığını iddia etmiştir. Ayrıca veri sorumlusu, senedi hazırlayan noter (veri işleyen) ile bir veri işleme sözleşmesi imzalamadığını bildirmiştir."},
+        {type: "paragraph",content: "İlk olarak Veri Koruma Otoritesi GDPR Madde 33(1)'in, ilgili kişilerin hak ve özgürlüklerine yönelik riskin küçük olduğu veya hiç risk olmadığı haller haricinde, veri sorumlusunun herhangi bir kişisel veri ihlalini 72 saat içinde Veri Koruma Otoritesi’ne bildirmesini zorunlu kıldığını hatırlatmıştır. Bu olayda Otorite, çalınan kişisel verilerin yetkisiz bir üçüncü tarafça kimlik dolandırıcılığı yapmak için kullanılabileceğini belirtmiştir. Dolayısıyla, Veri Koruma Otoritesi ilgili kişilerin haklarına yönelik yüksek bir risk olduğunu değerlendirmiş ve veri sorumlusunun veri ihlalini Veri Koruma Otoritesi’ne bildirmeyerek GDPR Madde 33(1)'i ihlal ettiğine karar vermiştir."},
+        {type: "paragraph",content: "İkinci olarak, Veri Koruma Otoritesi veri sorumlusunun kişisel verilerin adil ve şeffaf bir şekilde işlenmesini (GDPR Madde 5(1)(a)) ve uygun teknik ve organizasyonel önlemlerin alınmasını sağlamak için veri işleyen ile yazılı bir veri işleme protokolü imzalamayarak GDPR Madde 28(1), (3) ve (9)'u ihlal ettiğine karar vermiştir."},
+        {type: "paragraph",content: "Üçüncü olarak Veri Koruma Otoritesi, veri sorumlusunun GDPR Madde 34(1)'i ihlal ederek etkilenen ilgili kişilerden yalnızca birini bilgilendirdiğine dikkat çekmiştir."},
+        {type: "paragraph",content: "Yukarıda belirtilen ihlaller nedeniyle, Veri Koruma Otoritesi veri sorumlusuna 1.556,28 PLN (yaklaşık 340 €) para cezası vermiştir."},
+        {type: "paragraph",content: ""},
+        {type: "link", content: "İlgili karara buradan ulaşabilirsiniz.", href: "https://gdprhub.eu/index.php?title=UODO_(Poland)_-_DKN.5131.31.2021&mtc=today"},
+      ],
+      tags: ["GDPR", "KVKK","polanddpa", "databreach", "housing",  "personaldata" ],
+
+
+    },
+    {
+      id: 8,
+      subtitle: "Haftalık IAPP Haberleri",
+      date: "12.03.2024",
+      slug: "haftalik-iapp-haberleri-1",
+      title: "Haftalık IAPP Haberleri 5 - 12 Mart 2024",
+      text: "Dünya Genelinde Kişisel Verilere İlişkin Güncel Gelişmeler",
+      dynamicContent: [
+        {type: "header", content: "1.	Fransa Veri Koruma Otoritesi (“CNIL”) tarafından, veri simsarı ihlalleri nedeniyle bir telefon araştırması şirketine para cezası verildi."},
+        {type: "paragraph", content: "CNIL tarafından; telefon araştırması şirketi olan FORIOU'ya, simsarlardan veri satın aldığı ve bunları ilgili kişilerin rızası olmaksızın kullandığı iddiasıyla 310.000 euro para cezası verildi. Yetkililer tarafından, şirketin iddia edilen veri alımları için AB Genel Veri Koruma Tüzüğü (“GDPR”) kapsamında geçerli bir yasal dayanağı olmadığı belirtildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/cnil-hits-commercial-prospector-for-data-broker-violations/"},
+        {type: "header", content: "2.	Avrupa Birliği Adalet Divanı ('ABAD') tarafından, cezai mahkumiyete ilişkin bilgilerin gizlilik yasaları kapsamında olduğu belirtildi."},
+        {type: "paragraph", content: "ABAD tarafından, bir kişinin cezai mahkumiyetinin sözlü olarak bildirilmesinin AB gizlilik hukuku kapsamında olduğuna ve talep sahibinin özel bir menfaati olmadığı sürece bu işlemin gerçekleştirilmemesi gerektiğine hükmedildi. Bahse konu kararın, Doğu Finlandiya Temyiz Mahkemesi'nde görülen ve mahkemenin eğlence şirketi Endemol Shine Finland Oy'a bir kişinin sabıka kaydına ilişkin verileri vermeyi reddettiği bir davadan çıktığı ifade edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/european-court-of-justice-says-criminal-convictions-fall-under-privacy-laws/"},
+        {type: "header", content: "3.	Katalonya Veri Koruma Otoritesi ('Otorite') tarafından, kripto para karşılığında takas edilen biyometrik verilere ilişkin kılavuz yayımlandı."},
+        {type: "paragraph", content: "Katalonya Veri Koruma Otoritesi tarafından kripto para transferlerinde kullanılan göz taramaları da dahil olmak üzere biyometrik verilerin kullanımına ilişkin bir kılavuz yayımlandı. Otorite tarafından, vatandaşların 'kişisel verilerin değerinin, kontrolsüz olarak paylaşılması ve aktarılmasıyla ilgili risklerin farkında olmalarını' sağlamak için biyometrik veriler toplanmadan önce vatandaşlara aydınlatılmış onam alınması  gerektiği belirtildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/catalonia-dpa-issues-guidance-on-biometric-data-exchanged-for-cryptocurrency/"},
+        {type: "header", content: "4.	İngiltere Veri Koruma Otoritesi ('ICO') tarafından, bir hayat sigortası şirketine istenmeyen aramalar nedeniyle 80.000 GBP ceza verildi."},
+        {type: "paragraph", content: "ICO tarafından hayat sigortası şirketi olan Pinnacle Life'a tüketicilere 'agresif' ve 'yanıltıcı' aramalar yaptığı için 80.000 GBP para cezası verildi. Otorite tarafından, Pinnacle'ın 47.998 istenmeyen arama yaptığı ve yaptırım kararlarından kaçınmak için başka bir isim altında faaliyet göstermeye çalıştığı belirtildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/pinnacle-life-hit-with-gbp80000-fine-for-spam-calls/"},
+        {type: "header", content: "5.	Hollanda vatandaşlarının hassas verilerinin çalındığı ve Dark Web'de yayınlandığı belirtildi."},
+        {type: "paragraph", content: "RTL Nieuws'un haberine göre, geçtiğimiz yıl Hollanda merkezli işletmelere yapılan fidye yazılımı saldırıları sonucu çalınan Hollanda pasaportlarının binlerce kopyasının Dark Web'de erişime açıldığı ifade edildi. Hollanda vatandaşlarına ait diğer hassas veriler arasında hesap özetleri, maaş bordroları ve boşanma belgelerinin yer aldığı ifade edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/thousands-of-dutch-citizens-sensitive-documents-stolen-and-posted-on-dark-web/"},
+        {type: "header", content: "6.	İsrail Veri Koruma Otoritesi (“PPA”) tarafından çalışanların biyometrik verilerinin işlenmesine ilişkin rehber yayımlandı."},
+        {type: "paragraph", content: "PPA tarafından, işyerinde biyometrik teknoloji kullanmayı düşünen kamu kuruluşları ve özel kuruluşlar için bir politika rehberi yayımlandı. Bu rehberde verilerin nasıl toplanabileceği ve nasıl kullanılması gerektiğinin açıklandığı ifade edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/israel-publishes-employee-biometrics-guidelines/"},
+        {type: "header", content: "7.	Avrupa Komisyonu tarafından, Meta'ya 'Pay or Okay' hizmeti hakkında “resmi bilgi talebi” gönderildi."},
+        {type: "paragraph", content: "Avrupa Komisyonu tarafından, Dijital Hizmetler Yasası kapsamında Meta'ya resmi bir bilgi talebi gönderildiği açıklandı. Komisyon tarafından, Meta'nın aboneliğe dayalı reklamsız hizmeti, özellikle Facebook ve Instagram'ın reklam uygulamaları, tavsiye sistemleri ve abonelik modeline yönelik risk değerlendirmeleri hakkında bilgi istendiği belirtildi. Buna ek olarak The New York Times'ın haberinde, Dijital Hizmetler Yasası gibi küresel düzenlemelerin, Büyük Teknoloji şirketlerinin ürünlerini tüketicilere nasıl uyarladıkları konusunda büyük bir değişime neden olduğu ifade edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/european-commission-issues-rfi-to-meta/"},
+        {type: "header", content: "8.	Kanada Yüksek Mahkemesi tarafından, polisin IP adreslerini kullanabilmek için arama iznine sahip olması gerektiğine hükmedildi."},
+        {type: "paragraph", content: "CBC News'in haberinde Kanada Yüksek Mahkemesi tarafından, IP adreslerine ilişkin vatandaşların  ‘makul bir gizlilik  beklentisi’ olduğu belirtilerek kolluk kuvvetlerinin IP adresi elde etmek için bir arama izni olması gerektiğine hükmedildi. British Columbia Temel Özgürlükler Derneği Dava Direktörü Vibert Jack tarafından, ‘Kanadalıların IP adreslerini kullanırken mahremiyet beklentisi olmayacağı fikrinin çok korkutucu’ olduğu ifade edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/canadas-supreme-court-says-police-must-have-a-warrant-to-obtain-an-ip-address/"},
+        {type: "header", content: "9.	ABD’de casus yazılım teknoloji şirketine yönelik yaptırım kararı alındı."},
+        {type: "paragraph", content: "GovInfoSecurity'nin haberinde, ABD Hazine Bakanlığı’nın, casus yazılım şirketi Intellexa Consortium'a karşı, şirketin kullandığı casus yazılım teknolojisinin hükümet yetkililerini izlemek için kullanıldığı iddiası üzerine yaptırım kararı alındığı ifade edildi. Hazine Bakanlığı tarafından yapılan açıklamada, şirketin teknolojisinin 'yabancı aktörler tarafından insan hakları ihlallerini mümkün kılmak ve dünyanın dört bir yanındaki muhalifleri baskı ve misilleme için hedef almak amacıyla kötüye kullanıldığı' iddia edildi."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/us-issues-sanctions-against-spyware-technology-company/"},
+        {type: "header", content: "10. Yeni Zelanda Veri Koruma Otoritesi (“OPC”) tarafından daha ağır veri gizliliği cezaları talep edildi."},
+        {type: "paragraph", content: "Scoop News'in haberinde, OPC Başkanı Michael Webster tarafından, veri ihlalleri için daha ağır cezalar istendiği ifade edildi. Ulusal Siber Güvenlik Zirvesi'nde yapılan bu açıklamalar, önceki haftalarda halka yönelik yapılan iki anketin de kuruluşların veri ihlalleri için daha güçlü cezalarla karşı karşıya kalması gerektiğine inandığını göstermesinin ardından yapıldı."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://iapp.org/news/a/new-zealand-privacy-commissioner-calls-for-heavier-data-privacy-fines/"},
+      ],
+      tags: ["IAPP", "KVKK"],
+
+    },
+    {
+      id: 7,
+      subtitle: "GDPR KARARI",
+      date: "08.03.2024",
+      slug: "ispanya-veri-koruma-otoritesi-karari-1",
+      title: "İspanya Veri Koruma Otoritesi, bir ticari kuruluşun güvenlik kamerası aracılığıyla çalışanların seslerini kaydederek GDPR Madde 6'yı ihlal ettiği gerekçesiyle veri sorumlusuna 5.000 € para cezası verdi.",
+      text: "İspanya Veri Koruma Otoritesi, ticari kuruluşlarına mikrofonlu bir güvenlik kamerası yerleştirerek GDPR Madde 6'yı ihlal ederek bir çalışanın sesini topladığı için veri sorumlusuna 5.000 € para cezası vermiştir.",
+      dynamicContent: [
+        {type: "paragraph", content: "İlgili kişi ticari bir işletmede çalışmaktadır ve işletmenin güvenlik kameraları tarafından izlendiğinin farkındadır. Bir iş gününde, ilgili kişi, patronu ve işletmenin sahibi olan veri sorumlusundan bir telefon almış ve veri sorumlusu arka plan müziği yerine haberlerin sesinin gelmesi konusunda şikayet etmiştir."},
+        {type: "paragraph", content: "İlgili kişi, konuşmalarının izlendiğinin farkında olmadığını iddia ederek İspanya Veri Koruma Otoritesi’ne şikayette bulunmuştur. Veri Koruma Otoritesi bir soruşturma başlatmış ve veri sorumlusuna bildirimde bulunmuştur."},
+        {type: "paragraph", content: "Buna cevaben, veri sorumlusu alarm sisteminin kurulumu, bakımı ve yönetiminden sorumlu güvenlik hizmeti şirketi ile imzalanan bir sözleşmeyi sunmuştur. Sözleşmede taraflar, sahadaki sesi dinlemek için bir mikrofon kurulacağı, ancak kayıt yapılmayacağı konusunda anlaşmışlardır. Bu nedenle, veri sorumlusu herhangi bir gizlilik ihlali olmadığını savunmuştur."},
+        {type: "paragraph", content: "Veri Koruma Otoritesi Koruma Otoritesi, soyunma odalarına, tuvaletlere, yemek odalarına veya benzer yerlere kamera yerleştirilmesine karşı yasağın altını çizmiştir.analizine, bir kişinin hem görüntüsünün hem de sesinin GDPR tarafından tanımlanan şartlar altında kişisel veri teşkil ettiğini ve bu nedenle davaya uygulanabilir olduğunu belirterek başlamıştır. Ardından, bir kayıt olup olmadığına bakılmaksızın, yalnızca sesin yakalanmasının kişisel verilerin işlenmesini teşkil ettiğini vurgulamıştır."},
+        {type: "paragraph", content: "Veri Koruma Otoritesi, LOPDGDD Madde 22'nin, aşağıdaki koşulların sağlanması halinde kişilerin ve malların güvenliğini sağlamak için video kameraların kurulumuna izin verdiğini hatırlattı: a) verilerin toplanmasından itibaren en fazla bir ay içinde imha edileceği; ve b) izlenen alana görünür bir bildirim yerleştirilir."},
+        {type: "paragraph", content: "Ayrıca, LOPDGDD Madde 89'un orantılılık ilkesine uyulmasını zorunlu kıldığına ve işyerine kurulacak kameralar için bazı koşullar belirlediğine dikkat çekmiştir. Bu koşullar arasında,Veri Koruma Otoritesi, soyunma odalarına, tuvaletlere, yemek odalarına veya benzer yerlere kamera yerleştirilmesine karşı yasağın altını çizmiştir."},
+        {type: "paragraph", content: "Ayrıca, işyerinde ses kaydına yalnızca burada yürütülen faaliyetlerin tesislerin, malların ve kişilerin güvenliği için ilgili riskler oluşturması durumunda izin verildiğini açıkça belirtmektedir."},
+        {type: "paragraph", content: "Somut olayda, Veri Koruma Otoritesi, denetleyicinin ticari kuruluşundaki ses kaydının, çalışanlarının ve müşterilerinin mahremiyetine ciddi bir müdahale teşkil ettiğini ve bu müdahalenin amaçlanan güvenlik amaçlarına göre orantısız olduğunu tespit etmiştir."},
+        {type: "paragraph", content: "Bu nedenlerle, Veri Koruma Otoritesi 6. Maddenin ihlal edildiğine karar vermiş ve veri sorumlusuna 5.000 Euro para cezası vermiştir."},
+      ],
+      tags: ["GDPR", "KVKK"],
+
+    },
+    {
+      id: 6,
+      subtitle: "GDPR KARARI",
+      date: "07.03.2024",
+      slug: "avrupa-birligi-adalet-divani-karari-1",
+      title: "Avrupa Birliği Adalet Divanı, ilgili kişinin GDPR Madde 15(1)’deki haklarını kullanırken veri sorumlusu bünyesindeki çalışanların kişisel verilerinin talep edilmesi halinde, bu talebin yalnızca ilgili kişinin haklarını etkili bir şekilde kullanmasını sağlamak için zorunlu olması ve çalışanların hak ve özgürlüklerine zarar verilmemesi koşuluyla karşılanabileceğine karar verdi.",
+      text: "Finlandiya'daki veri sorumlusu bir bankanın eski bir çalışanı ve müşterisi olan ilgili kişi, müşteri verilerine banka personeli tarafından 2013 yılında birkaç kez hukuka uygun olmadan erişildiği şüphesiyle 2018 yılında veri sorumlusundan; müşteri verilerine erişen kişilerin kimliği, kesin tarihleri, ve bu erişimlerin amaçları hakkında kendisini bilgilendirmesini talep eden bir erişim talebinde bulunmuştur. Veri sorumlusu, söz konusu bilgilerin çalışanlarının kişisel verilerini teşkil ettiği gerekçesiyle, çalışanlarının kimliğini açıklamayı reddetmiştir.",
+      dynamicContent: [
+        {type: "paragraph", content: "Bunun üzerine ilgili kişi, veri sorumlusunun talep edilen bilgileri kendisine sağlaması için Finlandiya Veri Koruma Otoritesi’ne (“Otorite”) başvurmuştur. Otorite, veri sorumlusunu haklı bularak ilgili kişinin başvurusunu reddetmiştir. Daha sonra, ilgili kişi bu karara karşı Doğu Finlandiya İdare Mahkemesi nezdinde dava açmıştır. Mahkeme ön karar için Avrupa Birliği Adalet Divanı’na (“ABAD”) başvurmuş ve esasen işleme faaliyetleri sırasında oluşturulan log verilerinin, özellikle de veri sorumlusunun çalışanlarının kimliğinin, GDPR Madde 15 kapsamında olup olmadığını sormuştur, zira bu log kayıtlarının ilgili kişinin verilerinin işlenmesinin hukuka uygunluğunu değerlendirmesi için gerekli olabileceğini belirtmiştir. "},
+        {type: "paragraph", content: "ABAD, ilk olarak, bir ilgili kişinin GDPR Madde 15(1) kapsamında, kişisel veriler üzerinde gerçekleştirilen erişim işlemlerinin tarihleri ve amaçları ile ilgili olarak veri sorumlusundan bilgi alma hakkına sahip olduğunu ve ilgili kişinin log kayıtlarında yer alan kişisel verilerine başvuran kişilere ilişkin bilgilerin GDPR Madde 4(1) kapsamında kişisel veri teşkil edebileceğini belirtmiştir. Ancak erişim hakkının başkalarının hak ve özgürlüklerini olumsuz yönde etkilememesi gerektiğini hatırlatarak veri işleme faaliyetinin hukuka uygunluğunun sağlanması amacıyla veri sorumlusu çalışanlarının kimliklerinin ilgili kişiye açıklanması gerekli olduğunda;  erişim hakkının kullanılması ile başkalarının hakları veya özgürlükleri arasında bir denge kurulması gerekeceği vurgulanmıştır."},
+        {type: "paragraph", content: "Sonuç olarak, ABAD, GDPR Madde 15(1)'in, ilgili kişinin GDPR kapsamındaki haklarını etkili bir şekilde kullanmasını sağlamak için  zorunlu olmadıkça ve çalışanların hak ve özgürlüklerinin dikkate alınması koşuluyla, ilgili kişiye veri sorumlusunun yetkisi altında ve talimatlarına uygun olarak erişim işlemlerini gerçekleştiren çalışanların kimliklerini elde etme hakkı vermediğine karar vermiştir."},
+      ],
+      tags: ["GDPR", "KVKK"],
+    },
     {
       id: 1,
       subtitle: "Makale",

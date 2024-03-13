@@ -50,7 +50,7 @@ const KVKK = () => {
                      <iframe src="https://docs.google.com/document/d/e/2PACX-1vRdsvN9hsaSHV-_S_TSV9d-BUzLyFdj9FgZw2sQKDqtrPKKgrsBWBG8ghrM-WxV1mg8nJLqoDM5gwWo/pub?embedded=true" width="70%" height="490"></iframe>
                     )}
                     {buttonClicked === 3 && (
-                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vRdsvN9hsaSHV-_S_TSV9d-BUzLyFdj9FgZw2sQKDqtrPKKgrsBWBG8ghrM-WxV1mg8nJLqoDM5gwWo/pub?embedded=true" width="70%" height="490"></iframe>
+                     <iframe src="https://docs.google.com/document/d/e/2PACX-1vRWxHn2jofkkMtjffNqld7C5CncA1px_EOqOlnmABH-dFJiC30R9uFTw-D48X3XW98e9hFX9fwG14BD/pub?embedded=true" width="70%" height="490"></iframe>
                     )}
                   </div>
               </div>
