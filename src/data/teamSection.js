@@ -427,27 +427,6 @@ export const teamPage = [
       "İleri derecede İngilizce ve Fransızca, orta düzeyde İspanyolca ve başlangıç düzeyinde İtalyanca bilmektedir."
     ]
   },
-  {
-    id: 15,
-    name: "Miray Erdemir",
-    title: "Avukat",
-    image: "mirayerdemir.jpg",
-    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
-    url: "miray-erdemir",
-    educationAndExpertise: [
-      "Koç Üniversitesi Hukuk Fakültesi’ nden 2019 yılında mezun oldu.",
-      "2023 yılında Bilgi Üniversitesi Bilişim ve Teknoloji Hukuku Yüksek Lisans -Tezsiz (Projeli) olarak tamamladı.",
-      "2019-2020 yılları arasında Jones Lang Lasalle Gayrimenkul Hizmetleri A.Ş.’de yasal stajyerliğini tamamladı.",
-      "2021-2022 yılları arasında Lengerli Legal Consultancy Hukuk Bürosu’nda sözleşmeler hukuk,kişisel verilerin korunması hukuku,elektronik ticaret  alanlarında çalıştı.",
-      "2022-2023 yılları arasında blokzincir temelli hizmetler sunan Fexobit Kripto Varlık Platformu’nda hukuk müşaviri olarak çalıştı.",
-      "2023 Nisan-Eylül ayını kapsayan dönemde Setur Servis Turistik Anonim Şirketi’ nde avukat olarak çalıştı",
-      "Çalışma hayatına Köksal & Partners bünyesinde devam etmektedir."
-    ],
-    languagesAndMemberships: [
-      "İyi derecede ingilizce bilmektedir."
-    ]
-  },
-  
  ];
  export const teamPage4 = [
   {
