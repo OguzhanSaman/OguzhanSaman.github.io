@@ -21,6 +21,22 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
     {
+      id: 12,
+      subtitle: "GDPR KARARI",
+      date: "20.03.2024",
+      slug: "yerinde-incelemelerde-vucut-kamerasi-kullanilarak-veri-islenmesi",
+      title: "Romanya Veri Koruma Otoritesi, Ulusal Tüketiciyi Koruma Kurumu'nun şirketlere yönelik soruşturmalarında vücut kameraları kullanmasını durdurmasını emretti.",
+      text: "Romanya Veri Koruma Otoritesi (“Otorite”)’nin, Ulusal Tüketiciyi Koruma Kurumu’nun işletmelerde yaptığı yerinde incelemeler sırasında vücut kameraları kullanması ile ilgili başlattığı soruşturmada; kameraların çalışanların yanı sıra mağazalar gibi alanlardaki diğer kişilerin de görüntülerini kaydettiği ve 6 aydan fazla süre sakladığı tespit edilmiştir.",
+      dynamicContent: [
+        {type: "paragraph", content: "Mayıs 2023'ten itibaren veri sorumlusu Ulusal Tüketiciyi Koruma Kurumu (“ANPC”), işletmelerle yapılan yerinde incelemeler sırasında giysiye takılı vücut kamerası cihazları kullanmıştır. Cihazlar, ANPC tarafından delil olarak kullanılmak üzere ilgili kontrol eylemlerini kaydetmiştir."},
+        {type: "paragraph", content: "ANPC'nin giysiye takılı vücut kamera cihazları kullanarak veri koruma mevzuatını ihlal ettiğine dair şikayetler üzerine Romanya Veri Koruma Otoritesi (“Otorite”) bir soruşturma açmıştır. Soruşturma; kayıtların meslektaşların, çalışanların veya ticari işletmelerin temsilcilerinin yanı sıra mağazalar, yüzme havuzları, restoranlar, barlar veya salonlardaki çocuklar veya yetişkinler de dahil olmak üzere diğer özel kişilerin de görüntülerini yakaladığını göstermiştir. Ayrıca vücut kamerası cihazları aracılığıyla işlenen kişisel verilerin herhangi bir anlaşma olmaksızın ve herhangi bir denetim olmaksızın 6 aydan fazla bir süre boyunca saklandığı ortaya çıkmıştır."},
+        {type: "paragraph", content: "Otorite, veri işleme faaliyetlerinin yasal dayanağını değerlendirmiş ve veri sorumlusunun, kontrol faaliyetleri bağlamında bu tür cihazların kullanılmasını mümkün kılan açık yasal hükümler olduğunu kanıtlayamadığına karar vermiştir. Veri işleme faaliyetinin ayrıca kamu yararına yürütülen bir görevin yerine getirilmesi veya veri sorumlusuna verilen resmi yetkinin kullanılması için de gerekli olmadığı tespit edilmiştir."},
+        {type: "paragraph", content: "Bu kapsamda Otorite, veri sorumlusunun GDPR Madde 5(1)(a) ve 6(a)'yı ihlal ettiğini belirtmiş ve vücut kamerası cihazları aracılığıyla gerçekleştirilen kişisel veri işleme faaliyetlerinin durdurulması ve bu tür cihazların kullanımı sonucunda daha önce kaydedilen kişisel verilerin silinmesi emriyle birlikte veri sorumlusuna bir uyarı vermiştir."},
+        {type: "link", content: "İlgili karara buradan ulaşabilirsiniz.", href: "https://gdprhub.eu/index.php?title=ANSPDCP_(Romania)_-_Fine_to_ANPC_(National_Authority_for_Consumer_Protection)&mtc=today"},
+      ],
+      tags: ["GDPR", "KVKK", "romaniadpa", "bodycamera", "databreach"],
+    },
+    {
       id: 11,
       subtitle: "Haftalık IAPP Haberleri",
       date: "19.03.2024",
