@@ -12,10 +12,10 @@
   ],
   "rootMainFiles": [],
   "pages": {
-    "/": [
+    "/[slug]": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/index.js"
+      "static/chunks/pages/[slug].js"
     ],
     "/_app": [
       "static/chunks/webpack.js",
@@ -27,10 +27,10 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/kariyer": [
+    "/haberler-ve-yayinlar": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/kariyer.js"
+      "static/chunks/pages/haberler-ve-yayinlar.js"
     ]
   },
   "ampFirstPages": []

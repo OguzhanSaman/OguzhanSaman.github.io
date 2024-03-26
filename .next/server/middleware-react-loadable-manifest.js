@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{\"../components/OurMission/OurMissionTwo.js -> ../Jarallax/Jarallax\":{\"id\":\"../components/OurMission/OurMissionTwo.js -> ../Jarallax/Jarallax\",\"files\":[\"static/chunks/src_components_Jarallax_Jarallax_js.js\"]},\"../components/TestimonialSection/TestimonialThree.js -> ../TinySlider/TinySlider\":{\"id\":\"../components/TestimonialSection/TestimonialThree.js -> ../TinySlider/TinySlider\",\"files\":[\"static/chunks/src_components_TinySlider_TinySlider_js.js\"]}}"
+self.__REACT_LOADABLE_MANIFEST="{}"
