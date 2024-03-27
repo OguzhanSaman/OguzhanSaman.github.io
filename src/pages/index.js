@@ -1,16 +1,11 @@
-import BrandOne from "@/components/BrandSection/BrandOne";
-import CaseOne from "@/components/CaseSection/CaseOne";
-
 import FindSolution from "@/components/FindSolution/FindSolution";
-
 import MainHeader from "@/components/Header/MainHeader";
-
 import Layout from "@/components/Layout/Layout";
 import MainSliderThree from "@/components/MainSlider/MainSliderThree";
-import OurMissionTwo from "@/components/OurMission/OurMissionTwo";
 import ServicesTwo from "@/components/ServicesSection/ServicesTwo";
-import TestimonialThree from "@/components/TestimonialSection/TestimonialThree";
 import React from "react";
+import Image from "next/image";
+import l500award from "../assets/images/l500award.png";
 
 
 const Home3 = () => {
@@ -22,6 +17,10 @@ const Home3 = () => {
       </div>
       <FindSolution />
       <ServicesTwo />
+      <div className="award-wrapper">
+        <Image src = {l500award.src} alt="Legal 500" width={200} height={225}/>
+        <p className="award-text">KÖKSAL & PARTNERS, Legal 500 EMEA - 2024 yılı sonuçlarında IT & Telekom uygulama alanında tavsiye edilmiştir.</p>
+      </div>
       {/* <TestimonialThree /> */}
       {/* <BrandOne
         className="brand-two"

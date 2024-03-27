@@ -21,6 +21,28 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
     {
+      id: 15,
+      subtitle: "GDPR KARARI",
+      date: "27.03.2024",
+      slug: "isten-ayrilan-iscinin-kurumsal-eposta-hesabinin-kapatilmamasi",
+      title: "Belçika Veri Koruma Otoritesi, bir işverene işten ayrılan işçisinin kurumsal e-posta hesabını kapatması talimatını verdi.",
+      text: "Belçika Veri Koruma Otoritesi (“Otorite”) tarafından, işten ayrılan işçisinin kurumsal e-posta hesabını zamanında kapatmayan veri sorumlusu hakkında başlatılan soruşturmada; ayrılan işçinin önceden konu hakkında bilgilendirilmiş olması şartıyla e-posta hesabının prensip olarak 1 ay boyunca otomatik yanıt sistemi kullanılarak açık kalabileceği, ayrılan işçinin şirketteki pozisyonuna göre sürenin 3 aya kadar uzatılabileceği belirtilmiştir.",
+      dynamicContent: [
+        {type: "paragraph", content: "Belçika Veri Koruma Otoritesi, bir veri sorumlusunun eski bir çalışanın kurumsal e-posta hesabını zamanında silmediği için GDPR Madde 5(1)'i ihlal ettiğine karar verdi. Otorite, e-posta hesabının son iş gününde ve ilgili e-postaya tanımlanan otomatik yanıtın bir ay veya bazı istisnalarda 3 ay içinde devre dışı bırakılması gerektiğini belirtmiştir."},
+        {type: "paragraph", content: "Bir ilgili kişi, 6 Haziran 2023 tarihine kadar yaklaşık on ay boyunca veri sorumlusuna ait işyerinde çalışmıştır. İş faaliyetleri kapsamında ilgili kişi adına bir Microsoft hesabı oluşturulmuştur."},
+        {type: "paragraph", content: "İlgili kişinin iş sözleşmesinin feshedilmesinin ardından, ilgili kişi tarafından veri sorumlusuna bir erişim talebinde bulunularak veri sorumlusunun hangi verileri işlemeye devam ettiğine dair bilgi talep edilmiş ancak bir yanıt alınamamıştır."},
+        {type: "paragraph", content: "İlgili kişi, profesyonel (iş) posta kutusunun hala aktif olduğunu anladığını, bunun sebebinin ise bu adrese bir e-posta gönderdiğinde bir ileti onayı alması olduğunu iddia etmiştir. Bu nedenle, 24 Ekim 2023 tarihinde, ilgili kişi Belçika Veri Koruma Otoritesi’ne şikayette bulunmuştur."},
+        {type: "paragraph", content: "Belçika Veri Koruma Otoritesi, veri minimizasyonu (GDPR Madde 5(1)(c)) ve saklama sınırı (GDPR Madde 5(1)(e)) ilkeleriyle birlikte amaç sınırlaması ilkesine (GDPR Madde 5(1)(b)) uymak için, veri sorumlusunun, ilgili kişinin posta kutusuna en geç son gününe kadar otomatik bir bildirim göndermesi ve bu konuda önceden bilgilendirilmesi gerektiğine karar vermiştir."},
+        {type: "paragraph", content: "Otorite, bahse konu otomatik mesajın sonraki tüm muhatapları ilgili kişinin artık veri sorumlusu bünyesinde faaliyet göstermediği konusunda uyardığını ve ilke olarak 1 ay olmak üzere makul bir süre boyunca yürürlükte olması gerektiğini belirtmiştir. Yine Otorite, somut olaya ve çalışanın iş tanımı kapsamındaki sorumluluğunun derecesine bağlı olarak, 3 ayı geçmemek üzere daha uzun bir süreye izin verilebileceğini eklemiştir."},
+        {type: "paragraph", content: "Bu örnekte, Otorite sürenin 1 ila 3 ay arasında olabileceğini ve yalnızca ilgili kişinin açık rızasını aldıktan sonra sürenin uzatılması gerektiğini doğrulamıştır. Otorite’nin açıklamaları doğrultusunda ilgili kişi 6 Haziran 2023 tarihinde işine son verdiğinden, e-posta adresinin 6 Temmuz 2023 veya 6 Eylül 2023 tarihinde kapatılması gerektiği sonucu ortaya çıkmıştır. Bununla birlikte, ilgili kişi 13 Kasım 2023 tarihinde e-postanın hala aktif olduğunu kanıtlamıştır. Bu nedenle Otorite, GDPR Madde 5(1)(b), GDPR Madde 5(1)(c) ve GDPR Madde 5(1)(e)'nin ihlal edildiğini tespit etmiştir."},
+        {type: "paragraph", content: "Yasal dayanak açısından Otorite, bahse konu işleme faaliyetinin yasal dayanağının GDPR Madde 6(1)(f) kapsamında şirketin düzgün işleyişini sağlamak için veri sorumlusunun meşru menfaati olabileceğini kabul etmiştir. Bununla birlikte, Otorite, veri sorumlusunun ilgili kişiyi geçerli yasal dayanak hakkında bilgilendirdiğini kanıtlayan herhangi bir kanıt bulunmadığını kaydetmiştir. Dolayısıyla Otorite, ilgili kişi ile veri sorumlusu arasındaki sözleşmenin sona ermesinin ardından e-posta adresinin işlenmesi için geçerli bir yasal dayanak bulunmadığına karar vermiştir. Dolayısıyla, veri sorumlusu tarafından GDPR Madde 6(1) ihlal edilmiştir."},
+        {type: "paragraph", content: "Otorite profesyonel e-posta hesabını zamanında kapatmadığı için veri sorumlusuna bir uyarıda bulunmuştur."},
+        {type: "paragraph", content: "Erişim talebiyle ilgili olarak, Otorite veri sorumlusunun, GDPR Madde 12(3) ve (4) ile bağlantılı olarak GDPR Madde 15(1)'i ihlal ederek yanıt verdiğine dair hiçbir kanıt bulunmadığından, ilgili kişinin erişim hakkını ihlal ettiğine karar vermiştir. Bu nedenle Otorite, veri sorumlusunun karardan sonraki 30 gün içinde karara uyması noktasında veri sorumlusunu talimatlandırmıştır."},
+        {type: "link", content: "Haberin tamamı için linke tıklayınız.", href: "https://gdprhub.eu/index.php?title=APD/GBA_(Belgium)_-_01/2024&mtc=today"},
+      ],
+      tags: ["GDPR", "KVKK", "corporate", "email", "personaldata"],
+    },
+    {
       id: 14,
       subtitle: "IAPP HABERLERİ",
       date: "26.03.2024",
