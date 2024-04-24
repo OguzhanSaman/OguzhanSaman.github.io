@@ -24,6 +24,24 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
         {
+          id: 28,
+          subtitle: "GDPR Kararı",
+          date: "24.04.2024",
+          title: "Yunanistan Veri Koruma Otoritesi, üçüncü bir kişinin çağrı merkezi görüşmelerinin bir kopyasını ilgili kişiye gönderen Vodafone'a 40.000 Euro tutarında para cezası verdi.",
+          slug: "ilgili-kisi-ile-baskasinin-verilerini-paylasan-veri-sorumlusuna-ceza",
+          text: "Veri sorumlusu Vodafone, çağrı merkeziyle yaptığı görüşmelerin kayıtlarının bir kopyasını isteyerek erişim talebinde bulunan bir ilgili kişiye, başka bir kişinin görüşme kayıtlarını iletmiştir. Bu durum kendisine bildirilmesine rağmen Vodafone herhangi bir aksiyon almamış, bunun üzerine ilgili kişi Yunanistan Veri Koruma Otoritesi’ne şikayette bulunmuştur. Otorite erişim talebi kapsamında başka bir kişinin verilerinin bir kopyasını göndermesi ve bu nedenle meydana gelen ihlali bildirmemesi gerekçeleriyle GDPR madde 15(3) ve madde 33 uyarınca veri sorumlusuna  40.000 Euro para cezası vermiştir.",
+          dynamicContent: [
+            {type: "paragraph", content: "Bir ilgili kişi, veri sorumlusu Vodafone’a veri erişim talebinde bulunarak şirketin çağrı merkeziyle yaptığı görüşmelerin kayıtlarının bir kopyasını istemiş ancak ilgili kişiye başka bir kişinin konuşmalarının yer aldığı bir kayıt gönderilmiştir. Kendi görüşmelerinin de yanlışlıkla başka birisine iletildiğinden endişe duyan ilgili kişi, olup biteni bildirmek için veri sorumlusu ile temasa geçmiştir."},
+            {type: "paragraph", content: "Veri sorumlusuna derhal haber verilmesine rağmen olayın araştırılması için veri sorumlusu tarafından herhangi bir işlem yapılmamış, aksine veri sorumlusu, kendi sorumluluğunu veri işleyen üzerine bırakmaya çalışmış ve ilgili kişinin söz konusu kayıtları iade etmek için kendisiyle iletişime geçmesini önermiştir."},
+            {type: "paragraph", content: "Bu çözümden memnun olmayan ilgili kişi, Yunanistan Veri Koruma Otoritesi’ne (“Otorite”) şikayette bulunmuştur."},
+            {type: "paragraph", content: "Otorite, GDPR madde 15(3) hükmü doğrultusunda kişisel verilere erişim hakkının aynı zamanda işlenmekte olan verilerin bir kopyasını edinme hakkını da içerdiğinin altını çizmiş, ayrıca şeffaflığın kişisel verilerin etkili bir şekilde korunmasının bir koşulu olması nedeniyle bu hakkın kullanılmasının meşru bir menfaatle gerekçelendirilmesine ihtiyaç duyulmadığını da vurgulamıştır."},
+            {type: "paragraph", content: "Otorite ayrıca, GDPR madde 4(12) uyarınca 'kişisel veri ihlalinin', kişisel verilerin kazara veya yetkisiz olarak ifşa edilmesine yol açan bir güvenlik ihlali anlamına geldiğini hatırlatmıştır. Bir güvenlik ihlali gerçekleştiğinde ilgili kişinin fiziki, maddi veya manevi zarara uğrayabileceğini belirtmiş ve bu nedenle veri sorumlusunun, öğrenme tarihinden itibaren gecikmeksizin en geç 72 saat içinde, kişisel veri ihlalini yetkili denetim makamına bildirmesi gerektiğinin altını çizmiştir (GDPR Madde 33)."},
+            {type: "paragraph", content: "Bu kapsamda Otorite, veri sorumlusunun her iki yükümlülüğe de uymadığına karar vermiş ve veri sorumlusunu 40.000 Euro tutarında para cezasına çarptırmıştır."},
+            {type: "link", content: "Karar detayları", href: "https://gdprhub.eu/index.php?title=HDPA_%28Greece%29_-_7%2F2023&mtc=today"},
+          ],
+          tags: ["GDPR", "veri koruma", "veri ihlali"],
+        },
+        {
           id: 27,
           subtitle:"Makale",
           date:"2023",
