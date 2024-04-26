@@ -9,9 +9,6 @@ const ServiceDetailsRight = ({ service = {} }) => {
 
   return (
     <div className="service-details__right">
-      <div className="service-details__img">
-        <Image src={image.src} alt="" />
-      </div>
       <div className="service-details__content">
         <div className="service-details__title-box">
           <div className="service-details__title-icon">
@@ -19,20 +16,49 @@ const ServiceDetailsRight = ({ service = {} }) => {
           </div>
           <h3 className="service-details__title">{title}</h3>
         </div>
-        <p className="service-details__text-1">{text}</p>
-        <p className="service-details__text-2">{text2}</p>
+        {/* Render old version of text */}
+        {text && <p className="service-details__text">{text}</p>}
+        {text2 && <p className="service-details__text">{text2}</p>}
+        {text3 && <p className="service-details__text">{text3}</p>}
+        {/* Render new flexible content blocks */}
+        {contents.map((content, index) => {
+          if (content.type === "text") {
+            return <p key={index} className="service-details__text">{content.value}</p>;
+          } else if (content.type === "header") {
+            return <h4 key={index} className="service-details__header">{content.value}</h4>;
+          } 
+            else if (content.type === "subheader") {
+            return <h5 key={index} className="service-details__subheader">{content.value}</h5>;
+          }
+            else if (content.type === "blist") {
+              return (
+                <ul key={index} className="service-details__blist">
+                  {content.value.map((item, itemIndex) => {
+                    const colonIndex = item.indexOf(":");
+                    const boldText = item.slice(0, colonIndex + 1);
+                    const remainingText = item.slice(colonIndex + 1);
+                    return (
+                      <li key={itemIndex}>
+                        <span className="bold-text">{boldText}</span>{" "}
+                        {remainingText}
+                      </li>
+                    );
+                  })}
+                </ul>
+              );
+          }
+            else if (content.type === "list") {
+              return (
+                <ul key={index} className="service-details__list">
+                  {content.value.map((item, itemIndex) => (
+                    <li key={itemIndex}>{item}</li>
+                  ))}
+                </ul>
+              );
+            }
+          return null;
+        })}
       </div>
-      <ul className="service-details__two-icons list-unstyled">
-        {contents.map((text, i) => (
-          <li key={i} className="service-details__two-icon-single">
-            <div className="service-details__two-icon">
-              <span className="icon-right-arrow"></span>
-            </div>
-            <p className="service-details__two-icon-content">{text}</p>
-          </li>
-        ))}
-      </ul>
-      <p className="service-details__text-3">{text3}</p>
       <div className="service-details__how-help">
         <Row>
           {howHelps.map((howHelp) => (

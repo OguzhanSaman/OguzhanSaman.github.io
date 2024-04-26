@@ -3364,7 +3364,12 @@ input[type="search"]::-webkit-search-results-decoration {
 .news-one__meta li a i {
   color: var(--oslim-base);
 }
-
+.bold-text {
+  font-weight: bold;
+}
+.service-details__header{
+  margin: 10px;
+}
 /*--------------------------------------------------------------
 # CTA One
 --------------------------------------------------------------*/
