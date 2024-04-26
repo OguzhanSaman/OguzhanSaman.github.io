@@ -24,6 +24,27 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
         {
+          id: 30,
+          subtitle:"GDPR Kararı",
+          date:"26.04.2024",
+          title: "İsveç Veri Koruma Otoritesi, müşterilerinin mali durumuna ilişkin kişisel veri içeren bir dosyayı diğer müşterilerine gönderdiği gerekçesiyle veri sorumlusuna 43.700 Euro para cezası verdi.",
+          slug: "kisisel-veri-iceren-dosyanin-yanlislikla-e-posta-ile-gonderilmesi",
+          text: "Bir menkul kıymetler şirketinin bir çalışanı tarafından müşterilerinin mali durumunu gösteren ve kişisel veri içeren bir dosya diğer müşterilere sehven gönderilmiştir. İsveç Veri Koruma Otoritesi tarafından veri sorumlusunun her ne kadar ihlalin çalışanın kusuru ile ortaya çıktığı belirtmişse de bu durumun veri sorumlusunun ihlal bakımından sorumluluğunu ortadan kaldırmadığı değerlendirilmiştir.",
+          dynamicContent: [
+            {type:"paragraph", content:"İsveç Veri Koruma Otoritesi bir menkul kıymetler şirketine, kişisel veriler içeren bir dosyayı yanlışlıkla e-posta ile göndererek GDPR Madde 32(1)'i ihlal ettiği gerekçesiyle 500.000 SEK (yaklaşık 43.700 Euro) para cezası vermiştir."},
+            {type:"paragraph", content:"İsveç Veri Koruma Otoritesi, 20 Ocak 2021 tarihinde Indecap'in (veri sorumlusu) diğer müşterilerin yanı sıra müşterilerin mali durumları hakkında kişisel veriler içeren bir dosyayı diğer müşterilere e-posta ile gönderdiğini iddia eden şikayetler almıştır."},
+            {type:"paragraph", content:"Veri sorumlusu hatayı kabul etmiş ve ihlalin insan hatasından kaynaklandığını ve bir çalışanın, doğru dosyaya benzer şekilde adlandırıldığı için yanlışlıkla yanlış Excel sayfasını mail olarak gönderdiği ifade edilmiştir. Yanlış dosyada müşterilerin adı, sosyal güvenlik numarası, bankası, banka danışmanının adı, e-posta adresi, seçilen risk seviyesi, fonlara tahsisat (bireysel fon seçimi ile sınırlı) ve müşterilerin bu fonlardaki varlıklarının son yüklenen değeri hakkında bilgilerin yer aldığı belirtilmiştir. Hatalı gönderiler 52.364 ilgili kişinin kişisel verilerini içerdiği ve gönderilerin en fazla 2.813 kişiye iletildiği tespit edilmiştir. Indecap'in kendi araştırmaları, e-postanın birçok müşterinin posta filtresine takıldığını gösterdiğinden, alıcıların tam sayısı belirlenememiştir."},
+            {type:"paragraph", content:"Indecap, ihlalin zararını azaltmak için çeşitli adımlar atmıştır. Dahili riskleri belirlemek ve dahili bir eylem planı oluşturmak için harici uzmanlarla birlikte büyük bir olay incelemesi başlatmıştır. İlgili kişilere olay hakkında bilgi göndermiş, ek teknik güvenlik önlemleri almış ve çalışanlar için ekstra eğitim oturumları düzenlemiştir. Ayrıca, kişisel veriler içeren e-postayı alan alıcılarla iletişime geçerek mesajı silmelerini ve mesajın silindiğini teyit etmelerini istemiştir. Son olarak Indecap, İsveç Veri Koruma Otoritesine bir kişisel veri ihlali bildiriminde bulunmuş ve İsveç Mali Denetim Otoritesine de bir rapor sunmuştur."},
+            {type:"paragraph", content:"Indecap, dosyanın bir çalışan tarafından yapılan bir hata sonucu e-postaya eklendiğini belirtmiştir. Ancak, veri sorumlusu olarak Indecap, kendi yönetimi altında veya kendi adına gerçekleşen tüm kişisel veri işleme faaliyetlerinden sorumludur. Dolayısıyla, İsveç Veri Koruma Otoritesi çalışana değil Indecap'e ceza vermeyi tercih etmiştir."},
+            {type:"paragraph", content:"Indecap bir menkul kıymetler şirketidir, yani yaptığı işin doğası, diğer şeylerin yanı sıra finansal bilgileri ve ulusal güvenlik numaralarını işlediği için yüksek koruma standartları getirmiştir. Bu yüksek standartlar ulusal yasalara da yansımıştır. Menkul Kıymetler Piyasası Kanunu'nun (2007:528) 1. Bölüm, 11. Kısım, birinci paragrafı, bir menkul kıymetler şirketine bağlı olan veya olmuş olan bir kişinin, işi veya görevi sırasında bir başkasının işi veya kişisel durumu hakkında öğrendiklerini yetkisiz bir şekilde ifşa edemeyeceğini veya kullanamayacağını belirtmektedir. Bu nedenle söz konusu işlemin yüksek risk içerdiği açıktır."},
+            {type:"paragraph", content:"GDPR'nin 32. Maddesi uyarınca Indecap, uygun teknik ve idari tedbirleri alarak şirketin işlediği kişisel verileri koruma yükümlülüğüne sahiptir. Kişisel verilerin işlenmesi Indecap'in ana faaliyeti çerçevesinde gerçekleştiği ve şirketin uygun bir güvenlik seviyesi sağlama konusunda iyi bir kabiliyete sahip olması gerektiği belirtilmiştir. Indecap'in kendi bilgilerine göre, hatalı olarak eklenen dosyanın nedeni, fonların performansı hakkında genel bilgiler içeren başka bir dosyaya benzer bir isim verilmiş olmasıdır. Bu durum, Indecap'in müşteri verilerini içeren belgelerin diğer kamuya açık belgelerle karıştırılmasını önlemek için yeterince açık talimatlara sahip olmadığını göstermektedir. Ayrıca, ihlal çok sayıda ilgili kişiyi (yaklaşık 52.000 kişi) kapsamaktadır."},
+            {type:"paragraph", content:"Bu nedenlerle İsveç Veri Koruma Otoritesi tarafından Indecap'in GDPR Madde 32(1)'i ihlal ettiğine hükmedilmiş ve Indecap'e yaklaşık 43.700 Euro para cezası verilmiştir."},
+            {type:"link", content:"Karar detayları", href:"https://gdprhub.eu/index.php?title=IMY_%28Sweden%29_-_DI-2021-3422&mtc=today"},
+
+          ],
+          tags: ["GDPR", "İsveç Veri Koruma Otoritesi", "müşteri", "finans", "kişisel veri"],
+        },
+        {
           id: 29,
           subtitile:"Makale",
           date: "2023",

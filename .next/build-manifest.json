@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,15 +27,20 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bilisim-hukuku": [
+    "/fikri-ve-sinai-mulkiyet-hukuku": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bilisim-hukuku.js"
+      "static/chunks/pages/fikri-ve-sinai-mulkiyet-hukuku.js"
     ],
-    "/yabancilar-ve-vatandaslik-hukuku": [
+    "/hizmetler": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/yabancilar-ve-vatandaslik-hukuku.js"
+      "static/chunks/pages/hizmetler.js"
+    ],
+    "/yapay-zeka-hukuku": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/yapay-zeka-hukuku.js"
     ]
   },
   "ampFirstPages": []

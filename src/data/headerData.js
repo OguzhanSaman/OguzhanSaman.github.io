@@ -24,7 +24,8 @@ export const servicesSubNavItems = [
   { id: 14, name: "Blockchain ve Kripto Para", href: "/blockchain-ve-kripto-para" },
   { id: 15, name: "Yabancılar ve Vatandaşlık Hukuku", href: "/yabancilar-ve-vatandaslik-hukuku" },
   { id: 16, name: "Reklam Hukuku", href: "/reklam-hukuku" },
-  { id: 14, name: "Fikri ve Sınai Mülkiyet Hukuku", href: "/fikri-ve-sinai-mulkiyet-hukuku" }
+  { id: 14, name: "Fikri ve Sınai Mülkiyet Hukuku", href: "/fikri-ve-sinai-mulkiyet-hukuku" },
+  { id: 15, name: "Yapay Zeka Hukuku", href: "/yapay-zeka-hukuku" },
 ];
 
 export const navItems = [

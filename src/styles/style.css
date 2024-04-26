@@ -3366,6 +3366,7 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 .bold-text {
   font-weight: bold;
+  color:rgb(18, 18, 18);
 }
 .service-details__header{
   margin: 10px;
