@@ -2,9 +2,8 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
+  "/is-hukuku": "pages/is-hukuku.js",
   "/hizmetler": "pages/hizmetler.js",
-  "/sirketler-ve-sozlesmeler-hukuku": "pages/sirketler-ve-sozlesmeler-hukuku.js",
-  "/": "pages/index.js",
-  "/yapay-zeka-hukuku": "pages/yapay-zeka-hukuku.js",
-  "/fikri-ve-sinai-mulkiyet-hukuku": "pages/fikri-ve-sinai-mulkiyet-hukuku.js"
+  "/bilisim-hukuku": "pages/bilisim-hukuku.js",
+  "/icra-ve-iflas-hukuku": "pages/icra-ve-iflas-hukuku.js"
 }

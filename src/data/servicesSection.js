@@ -183,7 +183,7 @@ const kvkkServiceDerails = {
   faqs: [],
 };
 const insaatServiceDerails = {
-  title: "Gayrimenkul ve İnşaat Hukuku",
+  title: "GAYRİMENKUL VE İNŞAAT HUKUKU",
   contents: [
     { type: "header", value: "Gayrimenkul ve İnşaat Hukuku Nedir?" },
     { type: "text", value: "Gayrimenkul ve İnşaat Hukuku, gayrimenkul (taşınmaz mal) ve inşaat sektöründe faaliyet gösterenler için önemli yasal düzenlemeleri ve kuralları içeren bir hukuk dalıdır. Bu hukuk alanı, gayrimenkul edinimi, kullanımı, işletilmesi ve devri gibi çeşitli konuları düzenleyen kapsamlı bir yasal çerçeve sunar. İnşaat hukuku ise, inşaat projeleri ve yapıların planlanması, tasarımı, yapımı, işletilmesi ve denetlenmesi ile ilgili yasal düzenlemeleri kapsar." },
@@ -204,7 +204,7 @@ const insaatServiceDerails = {
   faqs: [],
 };
 const bilisimServiceDerails = {
-  title: "Bilişim Hukuku",
+  title: "BİLİŞİM HUKUKU",
   contents: [
     { type: "header", value: "Bilişim Hukuku Nedir?" },
     { type: "text", value: "İletişim ve bilişim alanındaki teknolojilerin her geçen gün artması ile birlikte artık bilgi toplumunda gelişen ve değişen dünyada “bilişim” kavramının ortaya çıktığı günden bu yana kendi ekonomik, sosyal ve kültürel dinamiklerini yaratmış, buna bağlı olarak da bilişim hukuku doğmuştur." },
@@ -347,7 +347,7 @@ const icraServiceDerails = {
   faqs: [],
 };
 const eticaretServiceDerails = {
-  title: "E-TİCARET, FİNTEK ve ÖDEME HİZMETLERİ HUKUKU",
+  title: "E-TİCARET, FİNTEK VE ÖDEME HİZMETLERİ HUKUKU",
   contents: [
     { type: "header", value: "E-Ticaret, Fintek ve Ödeme Hizmetleri Hukuku Nedir?" },
     { type: "text", value: "Bu hukuk dalı, e-ticaret platformlarının kurulması ve işletilmesi, online ödeme sistemleri, elektronik sözleşmeler, tüketici hakları, finansal teknolojiler ve kripto paralar gibi birçok konuyu kapsamaktadır. Bu alanlardaki yasal düzenlemeler; tüketicilerin haklarını korumalarını, ticari işlemlerin güvenli ve adil bir şekilde yapılmasını sağlamayı, para aklama ve terörizmin finansmanı gibi suçlarla mücadele etmeyi ve finansal sistemin bütünlüğünü korumayı amaçlar. İşletmelerin ve tüketicilerin haklarını korurken, piyasanın rekabetçi ve yenilikçi bir yapıda gelişmesini destekler." },
@@ -366,7 +366,7 @@ const eticaretServiceDerails = {
   faqs: [],
 };
 const blockchainServiceDerails = {
-  title: "Blockchain ve Kripto Para Hukuku",
+  title: "BLOCKCHAIN VE KRİPTO PARA HUKUKU",
   contents: [
     { type: "header", value: "Blockchain ve Kripto Para Hukuku Nedir?" },
     { type: "text", value: "Blockchain ve Kripto Para Hukuku, dijital varlıkların (kripto paralar) ve blockchain teknolojisinin yasal düzenlemelerini ve kurallarını içeren bir hukuk dalıdır. Bu hukuk alanı, kripto para birimlerinin kullanımı, ticareti, saklanması ve diğer ilgili konuları düzenleyen kapsamlı bir yasal çerçeve sunar. Blockchain teknolojisi, merkezi olmayan ve güvenli bir şekilde kayıt yapılmasını sağlayan bir veri tabanı teknolojisidir. Kripto paralar ise, bu teknoloji üzerinde işlem gören dijital varlıklardır." },

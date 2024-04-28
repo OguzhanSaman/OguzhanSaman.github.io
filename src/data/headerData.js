@@ -19,7 +19,7 @@ export const servicesSubNavItems = [
   { id: 9, name: "Telekomünikasyon, Medya ve Eğlence Hukuku", href: "/telekominikasyon-hukuku" },
   { id: 10, name: "Sağlık Hukuku", href: "/saglik-hukuku" },
   { id: 11, name: "Girişimcilik ve Start-up Hukuku", href: "/girisimcilik-ve-startup-hukuku" },
-  { id: 12, name: "İcra ve İflas hukuku", href: "/icra-ve-iflas-hukuku" },
+  { id: 12, name: "İcra ve İflas Hukuku", href: "/icra-ve-iflas-hukuku" },
   { id: 13, name: "E-Ticaret, Fintek ve Ödeme Hizmetleri", href: "/e-ticaret-fintek-ve-odeme-hizmetleri" },
   { id: 14, name: "Blockchain ve Kripto Para", href: "/blockchain-ve-kripto-para" },
   { id: 15, name: "Yabancılar ve Vatandaşlık Hukuku", href: "/yabancilar-ve-vatandaslik-hukuku" },
