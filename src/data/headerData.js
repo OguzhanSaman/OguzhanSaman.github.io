@@ -46,7 +46,7 @@ export const navItems = [
   {
     id: 2,
     name: "Çalışma Alanlarımız",
-    href: "/hizmetler",
+    href: "/calisma-alanlarimiz",
   },
 
   {

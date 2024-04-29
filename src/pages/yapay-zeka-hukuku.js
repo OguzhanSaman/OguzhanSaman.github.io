@@ -16,7 +16,7 @@ const YapayZeka = () => {
         page="Detaylar"
         title={title}
         parent="Çalışma Alanları"
-        parentHref="/hizmetler"
+        parentHref="/calisma-alanlarimiz"
       />
       <ServiceDetails service={yapayZekaHukuku} />
     </Layout>

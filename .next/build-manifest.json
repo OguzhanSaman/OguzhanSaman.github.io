@@ -12,6 +12,11 @@
   ],
   "rootMainFiles": [],
   "pages": {
+    "/": [
+      "static/chunks/webpack.js",
+      "static/chunks/main.js",
+      "static/chunks/pages/index.js"
+    ],
     "/_app": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
@@ -22,20 +27,15 @@
       "static/chunks/main.js",
       "static/chunks/pages/_error.js"
     ],
-    "/bilisim-hukuku": [
+    "/calisma-alanlarimiz": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/bilisim-hukuku.js"
+      "static/chunks/pages/calisma-alanlarimiz.js"
     ],
-    "/icra-ve-iflas-hukuku": [
+    "/kisisel-verilerin-korunmasi": [
       "static/chunks/webpack.js",
       "static/chunks/main.js",
-      "static/chunks/pages/icra-ve-iflas-hukuku.js"
-    ],
-    "/is-hukuku": [
-      "static/chunks/webpack.js",
-      "static/chunks/main.js",
-      "static/chunks/pages/is-hukuku.js"
+      "static/chunks/pages/kisisel-verilerin-korunmasi.js"
     ]
   },
   "ampFirstPages": []

@@ -16,7 +16,7 @@ const BankingAdvising = () => {
         page="Detaylar"
         title={title}
         parent="Çalışma Alanları"
-        parentHref="/hizmetler"
+        parentHref="/calisma-alanlarimiz"
       />
       <ServiceDetails service={bankingAdvising} />
     </Layout>

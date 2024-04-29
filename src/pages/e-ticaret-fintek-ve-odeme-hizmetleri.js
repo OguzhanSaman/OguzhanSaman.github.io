@@ -15,7 +15,7 @@ const eTicaretFintekVeOdemeHizmetleriPage = () => { // Rename the function
         page="Detaylar"
         title={title}
         parent="Çalışma Alanları"
-        parentHref="/hizmetler"
+        parentHref="/calisma-alanlarimiz"
       />
       <ServiceDetails service={eTicaretFintekVeOdemeHizmetleri} />
     </Layout>

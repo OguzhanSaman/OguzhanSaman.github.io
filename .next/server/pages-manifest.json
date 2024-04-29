@@ -2,8 +2,7 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/is-hukuku": "pages/is-hukuku.js",
-  "/hizmetler": "pages/hizmetler.js",
-  "/bilisim-hukuku": "pages/bilisim-hukuku.js",
-  "/icra-ve-iflas-hukuku": "pages/icra-ve-iflas-hukuku.js"
+  "/": "pages/index.js",
+  "/kisisel-verilerin-korunmasi": "pages/kisisel-verilerin-korunmasi.js",
+  "/calisma-alanlarimiz": "pages/calisma-alanlarimiz.js"
 }
