@@ -2,7 +2,6 @@
   "/_app": "pages/_app.js",
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
-  "/": "pages/index.js",
-  "/kisisel-verilerin-korunmasi": "pages/kisisel-verilerin-korunmasi.js",
-  "/calisma-alanlarimiz": "pages/calisma-alanlarimiz.js"
+  "/[slug]": "pages/[slug].js",
+  "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js"
 }
