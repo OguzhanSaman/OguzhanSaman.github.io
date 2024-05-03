@@ -24,6 +24,26 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
         {
+          id: 38,
+          subtitle:"GDPR Kararı",
+          date: "03.05.2024",
+          title: "Belçika Veri Koruma Otoritesi, bir online itibar danışmanlık şirketinin ilgili kişi adına yaptığı şikayetin GDPR Madde 80(1) kapsamında kabul edilemez olduğuna karar verdi.",
+          slug: "ilgili-kisi-adina-yapilacak-sikayetin-kosullari",
+          text: "2007 yılında, bir gazete tarafından bir işçinin ölümü sonrasında ilgili şirketin genel müdürü hakkında çeşitli suçlamalar içeren bir makale yayınlamıştır. Şirketin genel müdürü, makalenin internet sitesinden kaldırılması için üç kez talepte bulunmuştur. Gerçekleştirilen ikinci ve üçüncü talepler, ilgili kişi adına bir Fransız online itibar danışmanlık şirketi tarafından yapılmış ancak tüm bu talepler veri sorumlusu tarafından reddedilmiştir. Bunun üzerine online itibar danışmanlık şirketi, ilgili kişi adına Belçika Veri Koruma Otoritesi’ne ('APD') bir şikâyette bulunmuştur. ",
+          dynamicContent: [
+            {type: "paragraph", content: "2007 yılında, 'La Dernière Heure Les Sports' gazetesi ('veri sorumlusu'), çalışanlarından birinin ölümünün ardından bir şirketin genel müdürü ('ilgili kişi') hakkında internet sitesinde bir makale yayınlamıştır. Bu makalede, ilgili kişinin adam öldürme suçunun yanı sıra iş ekipmanlarının kullanımı ve iş sağlığı ve güvenliği ile ilgili mevzuata aykırı davranmaktan suçlu bulunduğu bildirilmiştir. Kazadan bu yana gerekli düzeltmeler yapıldığından, mahkeme ilgili kişinin cezai hükmünün ertelenmesine karar vermiştir. Bununla birlikte, ilgili kişi hukuki olarak sorumlu ilan edilmiş ve ölen işçinin ailesine tazminat ödemesine hükmedilmiştir."},
+            {type: "paragraph", content: "2018 ve 2019'da, ilgili kişi, sonuçların kaldırılması için veri sorumlusu tarafından çevrimiçi olarak sunulan standart formu kullanarak makalenin URL'sinin kaldırılmasını 3 kez talep etmiştir. İkinci ve üçüncü talepler, ilgili kişi adına bir Fransız online itibar danışmanlık şirketi tarafından yapılmıştır. Bir online itibar danışmanlık şirketi, özellikle kendileriyle bağlantılı URL'lerin kaldırılmasını isteyerek insanların çevrimiçi itibarlarıyla ilgilenmektedir."},
+            {type: "paragraph", content: "Veri sorumlusu, menfaatler ve haklar dengesini göz önünde bulundurduktan sonra URL'yi engellememeye karar verdiklerini belirtmiştir."},
+            {type: "paragraph", content: "18 Haziran 2020 tarihinde, online itibar danışmanlık şirketi, ilgili kişi  adına Belçika Veri Koruma Otoritesi’ne  ('APD') bir şikâyette bulunmuştur. Şirket ayrıca, ilgili kişiden alınan ve  içerisinde 'Ben, aşağıda imzası bulunan X [ilgili kişiyi okuyun] (...), X1 şirketinin [e-danışmanlık şirketini okuyun] (...) kendisine verilen görevi yerine getirmek amacıyla internet sitelerinin yayıncıları ve barındırıcıları ile ilgili olarak beni münhasıran temsil etmeye yetkili olduğunu beyan ve tasdik ederim' ifadesinin yer aldığı bir vekaletnameyi de eklemiştir."},
+            {type: "paragraph", content: "Veri sorumlusu, APD'den şikayetin Fransız yasalarına göre kurulmuş bir şirket tarafından yapıldığı ve dolayısıyla GDPR Madde 80(1)'i ihlal ettiği için kabul edilemez olarak değerlendirilmesini talep etmiştir."},
+            {type: "paragraph", content: "GDPR Madde 80(1), ilgili kişininin (i) bir Üye devletin yasalarına uygun şekilde oluşturulmuş, (ii) kamu yararına olan yasal hedefleri olan ve veri koruma alanında aktif olan (iii) kar amacı gütmeyen bir organ, kuruluş veya derneği kendi adına şikayette bulunmak üzere yetkilendirme hakkına sahip olduğunu belirtmektedir."},
+            {type: "paragraph", content: "APD yapmış olduğu incelemede; online danışmanlık şirketinin, kar amacı gütmeyen bir kurum, kuruluş veya dernek olmadığını ve şirketin web sitesinde farklı fiyatlardan oluşan ' online itibar temizliği (URL'lerin silinmesi talebi) ve arama motoru sonuç sayfası şekillendirme (Serp-Sculpting) gibi hizmetlerin satışı' ile ilgili hüküm ve koşulların yer alması sebebiyle  kamu yararına olan yasal hedeflere sahip olmadığını değerlendirmiştir."},
+            {type: "paragraph", content: "APD, Şirketin GDPR Madde 80(1)'in gerekliliklerini yerine getirmediği ve bu nedenle bir ilgili kişiyi temsil edemeyeceği sonucuna varmıştır. Dolayısıyla, Şirketin şikâyetini kabul edilemez olarak değerlendirmiştir."},
+            {type: "link", content: "Karar Detayları",href:"https://gdprhub.eu/index.php?title=APD/GBA_(Belgium)_-_39/2024&mtc=today"},
+          ],
+          tags: ["belgiandpa", "gpdr", "onlinereputation", "dataprotection", "complaint", "GDPRArticle80(1)", "datarights", "representation"],
+        },
+        {
           id: 37,
           subtitle:"GDPR Kararı",
           date: "01.05.2024",

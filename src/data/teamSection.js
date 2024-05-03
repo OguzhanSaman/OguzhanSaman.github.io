@@ -293,23 +293,6 @@ export const teamPage = [
     languagesAndMemberships: ["İyi derecede İngilizce bilmektedir.",
                               "Büyük Kulüp üyesidir."]
   },
-  {
-    id: 7,
-    name: "Selen Boyar",
-    title: "Avukat",
-    image: "selenboyar.jpg",
-    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
-    url: "selen-boyar",
-    educationAndExpertise: ["Bahçeşehir Üniversitesinden 2018 yılında mezun oldu.",
-                            "Lisans eğitimindeki hazırlık senesini, Washington DC. Mentora College’da tamamladı.",
-                            "Çalıştığı yerlerde, başta bilişim hukuku olmak üzere, kişisel verilerin korunması hukuku, iş hukuku, ticaret hukuku, spor hukuku gibi alanlarda deneyim edinmiştir.",
-                            "Şu anda, Köksal & Partners hukuk bürosunda avukat olarak çalışmaktadır."
-                            ],
-    languagesAndMemberships: [
-                              "İleri derecede İngilizce ve başlangıç seviyesinde Rusça bilmektedir.",
-                              "İstanbul Barosu Bilişim Hukuku Komisyonu ve İstanbul Barosu Kişisel Verilerin Korunması Hukuku Komisyonuna üyedir."
-    ]
-  },
   
   {
     id: 8,
