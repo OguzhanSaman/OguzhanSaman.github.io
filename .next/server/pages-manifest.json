@@ -3,5 +3,6 @@
   "/_error": "pages/_error.js",
   "/_document": "pages/_document.js",
   "/haberler-ve-yayinlar": "pages/haberler-ve-yayinlar.js",
-  "/[slug]": "pages/[slug].js"
+  "/[slug]": "pages/[slug].js",
+  "/": "pages/index.js"
 }
