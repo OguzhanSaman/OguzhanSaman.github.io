@@ -23,6 +23,28 @@ export const newsOne = {
 // to add HTML tags from the data section. I have defined a dynamicContent array in the newsSidebar object. This array contains different types of content such as paragraphs, lists, headers, and images. I will use this dynamicContent array to render the HTML tags in the NewsDetailsLeft component.
 export const newsSidebar = {
   newses: [
+        {
+          id: 41,
+          subtitle: "GDPR Kararı",
+          date: "10.05.2024",
+          title: "Finlandiya tarihinde en çok sayıda mağdurun yer aldığı, psikoterapi merkezinin hasta veri tabanının hacklenmesi konulu davada Mahkeme 6 yıl hapis cezasına hükmetti.",
+          slug: "hasta-veri-tabaninin-hacklenmesi-ile-saglik-verilerinin-ihlal-edilmesi",
+          text: "Mahkeme, Aleksanteri Kivimäki'yi psikoterapi merkezinin hasta veri tabanının hacklenmesi ve bilgilerin yayılması nedeniyle suçlu bularak 6 yıl 3 ay hapis cezasına çarptırmıştır. Kivimäki, ağırlaştırılmış veri ihlali, bilgilerin yayılması, mahremiyet ihlali, gaspa teşebbüs ve şantaj nedeniyle suçlanmıştır. Kivimäki veri tabanını hackledikten yaklaşık iki yıl sonra hem şirketten hem de müşterilerinden para sızdırmaya çalışmış, şirketin 370.000 Euro tutarında Bitcoin'i kendisine ödemeyi reddetmesi üzerine hasta kayıtlarını Tor ağında yayınlamaya başlamıştır.",
+          dynamicContent: [
+            {type: "paragraph", content: "Batı Uusimaa Bölge Mahkemesi, Aleksanteri Kivimäki'yi psikoterapi merkezi Vastaamo'nun hasta veri tabanının hacklenmesiyle ilgili tüm suçlamalardan suçlu bularak 6 yıl 3 ay hapis cezasına çarptırmıştır."},
+            {type: "paragraph", content: "Kivimäki, ağırlaştırılmış veri ihlali, bilgilerin yayılmasıyla ilgili yaklaşık 9.600 ağırlaştırılmış mahremiyet ihlali, 21.300'den fazla ağırlaştırılmış gasp girişimi ve 20 ağırlaştırılmış şantaj suçlamasıyla karşı karşıya kalmıştır."},
+            {type: "paragraph", content: "Bu davada Finlandiya ceza tarihindeki diğer tüm davalardan daha fazla mağdur bulunmaktadır."},
+            {type: "paragraph", content: "Davada savcılık, mahkemeye 26 yaşındaki Kivimäki'nin 2018 sonbaharında firmanın tahmini 33.000 kişinin kişisel bilgilerini içeren veri tabanına girdiğini söylemiştir. Kivimäki yaklaşık iki yıl sonra hem şirketten hem de müşterilerinden para sızdırmaya çalışmış ve ödeme yapmadıkları takdirde özel nitelikli verilerini dark web'de yaymakla tehdit etmiştir."},
+            {type: "paragraph", content: "Mahkeme, Kivimäki'nin başlangıçta Vastaamo'dan 370.000 Euro tutarında Bitcoin talep ettiğini ve şirketin ödeme yapmayı reddetmesi üzerine hasta kayıtlarını Tor ağında yayınlamaya başladığını bildirmiştir."},
+            {type: "paragraph", content: "Savcılık, mahkemeden Kivimäki'ye mümkün olan en yüksek ceza olan yedi yıl hapis cezası verilmesini talep etmiştir. Mahkeme cezaya karar verirken suçların ciddiyetini, işleniş biçimini ve Kivimäki'nin pervasız tutumunu dikkate aldığını belirtmiştir. Bununla birlikte, hafifletici bir faktör olarak, sanığın davadaki binlerce davacıyla tazminat talepleri konusunda şartlı uzlaşmayı kabul ettiğini de kaydedilmiştir."},
+            {type: "paragraph", content: "Kivimäki'nin avukatı Peter Jaari gazetecilere yaptığı açıklamada müvekkilinin mahkeme kararından dolayı hayal kırıklığına uğradığını ve büyük olasılıkla kararı temyize götüreceğini ifade etmiştir. Jaari, Kivimäki'nin hala herhangi bir suç işlediğini reddettiğini de sözlerine eklemiştir."},
+            {type: "paragraph", content: "Kivimäki daha önce dolandırıcılıktan hüküm giymiş olsa da, Vastaamo'nun veri tabanının hacklenmesinden önceki beş yıl içinde herhangi bir hapis cezasına çarptırılmadığı için Finlandiya yasalarına göre ilk kez suç işlemiş sayılmaktadır."},
+            {type: "paragraph", content: "Daha önce American Airlines ve ABD makamlarına karşı dolandırıcılık yapmaktan suçlu bulunan Kivimäki, ABD polis departmanlarının insanların evlerine özel kuvvetler göndermesine ve havayolu şirketinin bir uçuşu iptal etmesine neden olan sahte imdat çağrıları yapmıştır. Kivimäki söz konusu aramaları 2014 yılında, 16-17 yaşlarındayken gerçekleştirmiştir. Helsinki Temyiz Mahkemesi 2022 yılında Kivimäki'ye para cezasıyla birlikte 10 ay ertelenmiş hapis cezası vermiştir. Helsinki Bölge Mahkemesi geçen yıl Nisan ayında Vastaamo'nun eski CEO'su Ville Tapio'ya Genel Veri Koruma Yönetmeliği (GDPR) gerekliliklerini yerine getirmediği gerekçesiyle veri koruma suçundan üç ay ertelenmiş hapis cezası vermiştir. Bu karar hem Tapio hem de savcı tarafından temyiz edilmiş olup temyiz duruşması Mayıs 2025'te başlayacaktır."},
+            {type: "link", content: "Karar detayları", href:"https://yle.fi/a/74-20086499?mkt_tok=MTM4LUVaTS0wNDIAAAGSzvGFlCpKBPLmvS4DGgp1tcceVm2E5wDbYebM6RT7tZXUiBYG4NHtMcI8zJZ3LowxAoodByxqDn-00CdUofY190njaWR7Bta0ARJnNOx6KlyT"},
+          ],
+          tags: ["GDPR", "verikoruma", "kişiselveri", "veri", "GDPR", "data"],
+          
+        },
         { id: 40,
           subtitle: "GDPR Kararı",
           date: "08.05.2024",
