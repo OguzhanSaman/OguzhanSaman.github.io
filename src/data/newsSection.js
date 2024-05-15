@@ -24,6 +24,27 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
         {
+          id: 44,
+          subtitle: "GDPR Kararı",
+          date: "15.05.2024",
+          title: "Finlandiya Veri Koruma Otoritesi, erişim talebinde bulunan ilgili kişiden imzalı bir form ve kimliğinin bir kopyasını göndermesini talep eden veri sorumlusunun ilgili kişi haklarının kullanılmasını kolaylaştırmadığına karar verdi.",
+          slug: "saklama-surelerine-uyulmasi",
+          text: "Bir ilgili kişinin veri sorumlusuna yaptığı erişim talebi başvuru koşullarına uyulmaması sebebiyle veri sorumlusu tarafından reddedilmiştir. Bunun üzerine yapılan inceleme kapsamında Otorite veri sorumlusundan, ilgili kişi haklarının kullanılmasını nasıl kolaylaştırdığına ve saklama sürelerine ilişkin bilgi talebinde bulunmuştur. Talebe verilen yanıt sonucunda Otorite, ilgili kişilerin erişim talebi için imzalı bir form ve kimliklerinin bir kopyasını sunmasının makul olmayan bir çaba gerektirdiğini değerlendirerek, veri sorumlusunun ilgili kişi haklarının kullanılmasını kolaylaştırmadığına karar vermiştir.",
+          dynamicContent: [
+            {type: "paragraph",content: "Finlandiya Veri Koruma Otoritesi’ne (“Finlandiya DPA” veya “Otorite”), bir ilk yardım eğitimi sağlayıcısının (''Veri Sorumlusu''), ilgili kişinin erişim hakkını kullanabilmesi için e-posta yoluyla imzalı bir form ve kimliğinin bir kopyasını göndermesini talep ettiği bildirilmiştir. İlgili kişi bir erişim talebinde bulunmuş ancak doldurulmuş bir form ve kimlik fotokopisi sunmamıştır. Bu nedenle, veri sorumlusu tarafından ilgili kişinin kişisel verilerine erişim imkanı sağlanmamıştır."},
+            {type: "paragraph",content: "Otorite, veri sorumlusundan ilgili kişi haklarının kullanılmasını nasıl kolaylaştırdığını ve kişisel verileri ne kadar süreyle sakladığını açıklamasını istemiştir."},
+            {type: "paragraph",content: "Talebe cevaben veri sorumlusu; ilgili kişinin kimliğini teyit edemediğini çünkü erişim talebinin yalnızca ilgili kişinin adını ve e-posta adresini içeren bir e-posta ile gönderildiğini açıklamıştır. Bu e-posta ile  veri sorumlusu tarafından talebin yerine getirilemediği çünkü ilgili kişinin imzalı bilgi talep formunu göndermediği veya veri sorumlusu tarafından talep edildiği şekilde kimliğini belirtmeyi kabul etmediği iddia edilmiştir."},
+            {type: "paragraph",content: "Veri sorumlusu saklama süreleri ile ilgili olarak, tamamlanan eğitimin üç yıl boyunca geçerli olduğunu ve kişisel verilerin geçerlilik süresinin bitiminden iki yıl sonra silineceğini belirtmiştir."},
+            {type: "paragraph",content: "Otorite, veri sorumlusu tarafından sağlanan bilgilere dayanarak;"},
+            {type: "list",content: ["veri sorumlusunun ilgili kişinin kimliğini belirleme yönteminin vaka/durum bazında bir değerlendirmeye dayanmadığını ve kimlik belgesinin bir kopyasının talep edilmesinin standart bir kimlik belirleme yöntemi olduğunu değerlendirmiştir.","veri sorumlusunun GDPR Madde 12(6) uyarınca ilgili kişinin kimliğini teyit etmek için ek bilgi talep etme imkanının makul olmayan gerekliliklere ve ilgili kişi ile talep edilen kişisel veriler arasındaki bağlantıyı doğrulamak için gerekli olmayan kişisel verilerin toplanmasına yol açmaması gerektiğini vurgulamıştır.","ilgili kişinin imzalı bir form ve kimliğinin bir kopyasını gönderirken makul olmayan bir çaba sarf etmesi nedeniyle, veri sorumlusunun GDPR Madde 12(2) uyarınca ilgili kişi haklarının kullanılmasını kolaylaştırmadığını tespit etmiştir.","ayrıca, veri sorumlusu tarafından belirlenen saklama süresine dayanarak, ilgili kişinin erişim talebinden önce bile ilgili kişinin kişisel verilerini silmiş olması gerektiğini belirtmiştir."]},
+            {type: "paragraph",content: "Toplanan bilgilere dayanarak Otorite, veri sorumlusunun GDPR Madde 5(1)(c), GDPR Madde 5(1)(e), GDPR Madde 12(2), GDPR Madde 12(6) ve GDPR Madde 25(2)'yi ihlal ettiğine karar vermiştir.GDPR Madde 58(2)(c) uyarınca Otorite, veri sorumlusunun ilgili kişinin erişim talebini yerine getirmesini emretmiştir."},
+            {type: "paragraph",content: "Son olarak Otorite, GDPR Madde 58(2)(d) uyarınca veri sorumlusunun kimlik doğrulama politikasını GDPR'ın yukarıda belirtilen hükümlerine uyacak şekilde değiştirmesini ve belirtilen saklama süresinden daha eski kişisel verileri gereksiz gecikme olmaksızın silmesini emretmiştir."},
+            {type: "link",content: "Kaynak", href: "https://gdprhub.eu/index.php?title=Tietosuojavaltuutetun_toimisto_(Finland)_-_TSV/224/2023&mtc=today"},
+          ],
+          tags: ["GDPR", "verikoruma", "kişiselveri", "veri", "data"],
+
+        },
+        {
           id: 43,
           subtitle: "IAPP Haberleri",
           date: "14.05.2024",
