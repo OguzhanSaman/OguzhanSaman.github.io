@@ -24,6 +24,27 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
       {
+        id: 49,
+        subtitle: "GDPR Kararı",
+        date: "22.05.2024",
+        title: "Danimarka Veri Koruma Otoritesi, İnsan Kaynakları departmanı verilerine erişim nedeniyle meydana gelen veri ihlalinde gerekli önlemlerin alınmadığına karar verdi.",
+        slug: "erisim-yetkilendirme-yapilmamasi-nedeniyle-veri-ihlali-meydana-gelmesi",
+        text: "Veri sorumlusu kullandığı sistemde erişim yetkilendirme yapılmadığını ve çalışan ile eski çalışanlarının verilerine yetkili olmayan kişilerin eriştiğini tespit etmesi üzerine Danimarka Veri Koruma Otoritesi (“Otorite”)’ne veri ihlal bildiriminde bulunmuştur. Otorite, yaptığı incelemede veri sorumlusunun GDPR Madde 32 kapsamında teknik ve idari tedbirleri almayarak erişim yetkilendirme yapmadığına ve sadece İnsan Kaynakları departmanındaki çalışanların söz konusu bilgilere erişmesi gerektiğine karar vermiştir.",
+        dynamicContent: [
+          {type: "paragraph", content: "GDPR Madde 32, İnsan Kaynakları departmanı verilerinin bilinmesi gerekenler temelinde ve genel olarak yalnızca İnsan Kaynakları departmanı tarafından erişilebilir olmasını ve başka hiçbir meslektaş tarafından erişilememesini gerektirmektedir."},
+          {type: "paragraph", content: "Danimarka'daki Başkent Acil Servisi (Hovedstadens Beredskab I/S) (veri sorumlusu), İnsan Kaynakları departmanı verilerine geniş erişimin farkına vardıktan sonra Danimarka Veri Koruma Otoritesi’ne bir veri ihlali bildirmiştir."},
+          {type: "paragraph", content: "Veri ihlali, veri sorumlusunun yeni elektronik vaka ve belge yönetimi (ESDH) sisteminin tüm mevcut ve eski çalışanların kişisel verilerine erişmesine izin verdiğinin farkına varmasının ardından bildirilmiştir. Veriler 2000'den fazla kişinin tam isimlerini, sosyal güvenlik numaralarını ve korumalı adresler de dahil olmak üzere adreslerini içeriyordu. Daha yakından yapılan bir araştırmanın ardından veri sorumlusu, mevcut veya eski çalışanlarla ilgili bilgilere erişen 6 kullanıcının bu bilgilere erişmek için işle ilgili bir ihtiyacı olmadığını belirtmiştir."},
+          {type: "paragraph", content: "Veri sorumlusunun ifadesinden, veri sorumlusunun ve ESDH sisteminin tedarikçisinin her ikisinin de, bu bilgilerin tüm çalışanlar tarafından erişilebilir olduğu gerçeğinden habersiz oldukları anlaşılmaktadır."},
+          {type: "paragraph", content: "Bildirilen veri ihlalinin ardından tedarikçi, ESDH sistemindeki kişisel verilere yalnızca yetkili kullanıcıların erişebilmesini sağlamak için mümkün olan yerlerde bir çözüm planlamaya başlamıştır. Ayrıca, veri sorumlusu kaç ve hangi tür kullanıcıların mevcut ve eski çalışanlarla ilgili bilgilere işle ilgili erişim ihtiyacı olduğuna dair bir analiz yürütmeye başlamıştır."},
+          {type: "paragraph", content: "Madde 32(1) uyarınca, veri sorumlusunun veri işleme faaliyetinin ilgili kişilere yönelik riskleri belirleme ve ilgili kişileri bu risklere karşı korumak için uygun güvenlik tedbirlerinin alınmasını sağlama görevi bulunmaktadır."},
+          {type: "paragraph", content: "Veri Koruma Otoritesi (“Otorite”), GDPR Madde 32'nin normalde sistemlere kullanıcı erişiminin söz konusu kullanıcıların işle ilgili ihtiyaçları için gerekli olan kişisel verilerle sınırlı olması gerektiği anlamına geleceğini belirtmiştir. Bu özel durumda, Otorite, yalnızca veri sorumlusunun İnsan Kaynakları departmanındaki çalışanların söz konusu bilgilere erişmesi gerektiğine karar vermiştir."},
+          {type: "paragraph", content: "Sonunda Otorite, veri sorumlusunun GDPR Madde 32(1) uyarınca teknik ve idari tedbirlerin uygulanmasını sağlamadaki başarısızlığına yönelik eleştirilerini ifade ederek veri sorumlusuna yaptırım uygulanmasını önermiştir."},
+          {type: "paragraph", content: "Otorite, veri sorumlusunun ESDH sisteminde, yalnızca yetkili kullanıcıların mevcut ve eski çalışanlara ilişkin kişisel verileri arayabilmesini sağlamak üzere kullanıcıların erişim haklarını sınırlandıracak bir değişiklik yapılmasını beklediğini dikkate almıştır. Ayrıca Otorite sistem değişiklikleri uygulanmadan önce, veri sorumlusunun sisteminin log kayıtlarını sürekli olarak kontrol ettiğini ve bilgilerine erişilmesi halinde etkilenen ilgili kişilerin sürekli olarak bilgilendirileceğini belirtmiştir."},
+          {type: "link", content: "Kaynak", href: "https://gdprhub.eu/index.php?title=Datatilsynet_(Denmark)_-_2022-442-21566&mtc=today"},
+        ],
+        tags: ["veriihlali", "erişim", "tedbirler", "GDPR", "Danimarka"] 
+      },
+      {
         id: 48,
         subtitle: "IAPP Haberleri",
         date: "21.05.2024",
