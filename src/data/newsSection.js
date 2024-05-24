@@ -24,6 +24,25 @@ export const newsOne = {
 export const newsSidebar = {
   newses: [
       {
+        id: 51,
+        subtitle: "GDPR Kararı",
+        date: "24.05.2024",
+        title: "İspanya Veri Koruma Otoritesi, ilgili kişinin erişim talebini yanıtlarken başka bir müşterisinin kişisel verilerini paylaştığı için Vodafone’a 56.000 Euro para cezası verdi.",
+        slug: "ilgili-kisinin-erisim-talebine-baskasinin-kisisel-verilerinin-iletmesi",
+        text: "İlgili kişi yapmış olduğu başvuruda, Vodafone’un sözleşmedeki tarifeyi uygulamadığını iddia ederek aralarındaki sözleşmenin bir kopyasını sağlamasını talep etmiştir. Veri sorumlusu ilgili kişinin erişim talebine yanıt verme amacıyla başka bir müşterinin sözleşmesini ve ses kaydı verilerini içeren bir e-postayı ilgili kişiye göndermiştir. Otorite yapmış olduğu değerlendirmede, ilgili kişinin erişim talebini yanıtlarken başka bir müşterinin kişisel verilerini paylaştığı ve bu tür bir ihlali önlemek adına uygun teknik ve idari önlemleri almadığı için Vodafone'a 56.000 € para cezası vermiştir.",
+        dynamicContent: [
+          {type: "paragraph", content: "İspanya Veri Koruma Otoritesi (“Otorite”), farklı bir müşterinin erişim hakkını yerine getirirken başka bir müşterinin kişisel verilerini paylaştığı için Vodafone España, S.A.U’ya (“Vodafone”) 56.000 € para cezası vermiştir. Veri sorumlusu, yaptırıma karşı herhangi bir temyiz başvurusunda bulunmaktan vazgeçtiği için Otorite’nin vermiş olduğu ilk para cezasında 14.000 Euro indirimden yararlanmıştır."},
+          {type: "paragraph", content: "21 Ağustos 2021 tarihinde ilgili kişi, erişim hakkını ihlal ettiği gerekçesiyle veri sorumlusu Vodafone aleyhine şikayette bulunmuştur."},
+          {type: "paragraph", content: "İlgili kişi, Vodafone'dan aralarındaki sözleşmedeki tarifeyi uygulamadığını iddia ederek ticari telefon sözleşmesinin bir kopyasını sağlamasını talep etmiştir. İlgili kişi tarafından sözleşmesini almak için yapılan birkaç başarısız girişimden sonra, veri sorumlusu başka bir müşterinin sözleşmesini ve bu müşterinin ses kaydı verilerini de içeren bir e-posta göndermiştir."},
+          {type: "paragraph", content: "Otorite, Vodafone'un GDPR Madde 5(1)(f)'yi ihlal ederek başka bir bireyin ticari sözleşmesini ilgili kişi ile paylaşması nedeniyle gizlilik ve güvenliğin ihlal edildiğini vurgulamıştır. Sunulan kanıtlara göre, ilgili kişi, verilerinin üçüncü taraflara ifşa edilmesi yetkisi olmaksızın bilinmeyen bir kişinin adı, kimlik numarası ve telefon numarasına erişim sağlamıştır."},
+          {type: "paragraph", content: "Bu nedenle Otorite, bu tür bir olayı önlemek için uygun teknik ve idari önlemleri uygulamadığı için GDPR Madde 32'nin ihlal edildiğini tespit etmiştir."},
+          {type: "paragraph", content: "Otorite, Vodafone’a GDPR Madde 5(1)(f)'yi ihlal ettiği için 50.000 Euro ve GDPR Madde 32'yi ihlal ettiği için 20.000 Euro para cezası vermiştir. Ancak bu durumda Otorite, Vodafone’a sorumluluğu kabul ederek nihai tutarda toplam 42.000 Euro ödenmesine denk gelecek şekilde daha büyük bir indirime gitmesi ya da 56.000 Euro tutarında bir ceza ödemesi ve yaptırıma karşı her türlü itirazdan vazgeçmesi için iki seçenek sunmuştur."},
+          {type: "paragraph", content: "Vodafone gönüllü ödeme seçeneğini tercih ederek 56.000 Euro ceza ödemiştir. Bu ödeme ile ilk anlaşmada erken ödeme için teklif edilen indirimin kullanıldığını ve yaptırıma karşı her türlü idari itirazdan feragat edildiğini göstermiştir."},
+          {type: "link", content: "", href: "https://gdprhub.eu/index.php?title=AEPD_(Spain)_-_EXP202104006&mtc=today"},
+        ],
+        tags: ["GDPR", "Veri Koruma", "Para Cezası", "Vodafone", "İspanya", "Erişim Talebi"],
+      },
+      {
         id: 50,
         subtitle: "Bilgi Notu",
         date: "23.05.2024",
