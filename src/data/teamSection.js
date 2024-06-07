@@ -215,27 +215,6 @@ export const teamPage = [
   },
   {
     id: 2,
-    name: "Işılay Akdeniz",
-    title: "Avukat",
-    image: "isilayakdeniz.jpg",
-    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
-    url: "isilay-akdeniz",
-    educationAndExpertise: ["2019 yılında Lefke Avrupa Üniversitesi’nden mezun oldu.",
-                            "İstanbul Üniversitesi Siyasal Bilimler ve Kamu Yönetimi okumaktadır.",
-                            "Türkiye Barolar Birliği Kurgusal Duruşma Yarışmasında  Doğu Anadolu Bölge İkincisi olmuştur.",
-                            "Malatya Stajyer Avukatlar Arası Kurgusal Duruşma Yarışmasında İl Birincisi olmuştur.",
-                            "Lefke Avrupa Üniversitesi Sanal Duruşma yarışmasında üniversite ikincisi olmuştur.",
-                            "Genç Avukatlar Meclisinde yönetim ve yürütme kurulu üyesi olarak görev almaktadır.",
-                            "Oryantiring Fedarasyonu’nda Hukuk danışmanıdır.",
-                            "Yasal stajının yanı sıra yaz dönemlerinde staj yapmıştır",
-                            "2019 yılından beri aktif avukatlık yapmaktadır."],
-    languagesAndMemberships: ["Avukat Hakları Komisyonu Başkan Yardımcısı",
-                              "Çocuk Hakları Komisyonu Üyesi",
-                              "MBTT üyesi",
-                              "İngilizce bilmektedir."]
-  },
-  {
-    id: 3,
     name: "Halil Şahna",
     title: "Avukat",
     image: "halilsahna.jpg",
@@ -249,7 +228,7 @@ export const teamPage = [
     languagesAndMemberships: ["İleri düzeyde İngilizce ve orta düzeyde Arapça bilmektedir. "]
   },
   {
-    id: 4,
+    id: 3,
     name: "Ender Demirel",
     title: "Avukat",
     image: "enderdemirel.jpg",
@@ -265,7 +244,7 @@ export const teamPage = [
                             ]
   },
   {
-    id: 5,
+    id: 4,
     name: "Arda Bilgiç",
     title: "Avukat",
     image: "ardabilgic.jpg",
@@ -279,7 +258,7 @@ export const teamPage = [
     languagesAndMemberships: ["İyi derecede ingilizce bilmektedir."]
   },
   {
-    id: 6,
+    id: 5,
     name: "Yağmur Erdem",
     title: "Avukat",
     image: "yagmurerdem.jpg",
@@ -295,7 +274,7 @@ export const teamPage = [
   },
   
   {
-    id: 8,
+    id: 6,
     name: "Sıla Evrim atar",
     title: "Avukat",
     image: "silaevrimatar.jpg",
@@ -307,6 +286,26 @@ export const teamPage = [
                             ],
     languagesAndMemberships: [
                               "İngilizce bilmektedir."
+    ]
+  },
+  {
+    id: 7,
+    name: "Tutku Özkan",
+    title: "Avukat",
+    image: "tutkuozkan.jpg",
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+    url: "tutku-ozkan",
+    educationAndExpertise: [
+      "İhsan Doğramacı Bilkent Üniversitesi Hukuk Fakültesinden 2017 yılında mezun oldu.",
+      "Hacettepe Üniversitesi Bilişim Hukuku Tezsiz Yüksek Lisans Programını 2023 yılında başarıyla tamamladı.",
+      "Yasal stajını ağırlıklı olarak idare hukuku ve vergi hukuku alanında faaliyet gösteren bir hukuk bürosunda tamamladı.",
+      "Avukatlık mesleğine 2018 yılında,  staj yaptığı hukuk bürosunda başlamıştır. Özellikle İdare Hukuku, Vergi Hukuku, Sözleşmeler Hukuku, Kişisel Verilerin Korunması Hukuku, Marka Hukuku alanlarında çalışmıştır.",
+      "Kariyerine Köksal & Partners Avukatlık Ortaklığı bünyesinde Avukat olarak devam etmektedir."
+
+    ],
+    languagesAndMemberships: [
+      "Ankara Barosu üyesidir.",
+      "İyi derecede İngilizce ve başlangıç seviyesinde İtalyanca bilmektedir."
     ]
   },
   {
@@ -410,6 +409,7 @@ export const teamPage = [
       "İleri derecede İngilizce ve Fransızca, orta düzeyde İspanyolca ve başlangıç düzeyinde İtalyanca bilmektedir."
     ]
   },
+
  ];
  export const teamPage4 = [
   {
@@ -723,6 +723,21 @@ export const teamPage = [
     ],
     languagesAndMemberships: [
       "İngilizce bilmektedir."
+    ]
+  },
+  {
+    id: 4,
+    name: "Gamze Şen",
+    title: "Sekreter",
+    image: "gamzesen.jpg",
+    linkedin: "https://www.linkedin.com/in/mehmet-ali-koksal-1b3a3b1b/",
+    url: "gamze-sen",
+    educationAndExpertise: [
+      "İstanbul Aydın Üniversitesi Fen Edebiyat Fakültesi Türk Dili ve Edebiyatı Bölümünden 2023 yılında mezun oldu.",
+      "Köksal & Partners bünyesinde sekreter olarak çalışmaktadır."
+    ],
+    languagesAndMemberships: [
+      "Başlangıç seviyesinde ingilizce bilmektedir."
     ]
   },
  ];
